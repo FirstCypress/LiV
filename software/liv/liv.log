@@ -1,0 +1,624 @@
+Wed, 12 Nov 2014 11:57:52 - __main__ - INFO - --------------------------------------------
+Wed, 12 Nov 2014 11:57:52 - __main__ - INFO - LIV STARTED
+Wed, 12 Nov 2014 11:57:53 - __main__ - INFO - LCD initialized
+Wed, 12 Nov 2014 11:57:53 - __main__ - INFO - air pressure sensor initialized
+Wed, 12 Nov 2014 11:57:53 - __main__ - INFO - CO2 sensor serial port connected
+Wed, 12 Nov 2014 11:57:54 - __main__ - INFO - sqlite DB Connection initialized
+Wed, 12 Nov 2014 11:57:54 - __main__ - INFO - temperature sensor initialized
+Wed, 12 Nov 2014 11:57:54 - __main__ - INFO - timer started in livDemo process
+Wed, 12 Nov 2014 11:57:54 - __main__ - INFO - start Adafruit process
+Wed, 12 Nov 2014 11:57:55 - __main__ - INFO - temp NOT MATCH Using pin #17
+Data (5): 0x0 0x0 0x0 0x0 0x0
+
+Wed, 12 Nov 2014 11:58:00 - __main__ - INFO - timer started in livDemo process
+Wed, 12 Nov 2014 11:58:00 - __main__ - INFO - start Adafruit process
+Wed, 12 Nov 2014 11:58:01 - __main__ - INFO - temp NOT MATCH Using pin #17
+Data (9): 0x4 0x0 0x0 0x0 0x0
+
+Wed, 12 Nov 2014 11:58:06 - __main__ - INFO - timer started in livDemo process
+Wed, 12 Nov 2014 11:58:06 - __main__ - INFO - start Adafruit process
+Wed, 12 Nov 2014 11:58:13 - __main__ - INFO - Unexpected error! <class 'subprocess.CalledProcessError'>
+Wed, 12 Nov 2014 11:58:13 - __main__ - INFO - temp NOT MATCH EMPTY STRING
+Wed, 12 Nov 2014 11:58:18 - __main__ - INFO - timer started in livDemo process
+Wed, 12 Nov 2014 11:58:18 - __main__ - INFO - start Adafruit process
+Wed, 12 Nov 2014 11:58:29 - __main__ - INFO - Unexpected error! <class 'subprocess.CalledProcessError'>
+Wed, 12 Nov 2014 11:58:29 - __main__ - INFO - temp NOT MATCH EMPTY STRING
+Wed, 12 Nov 2014 11:58:34 - __main__ - INFO - timer started in livDemo process
+Wed, 12 Nov 2014 11:58:34 - __main__ - INFO - start Adafruit process
+Wed, 12 Nov 2014 11:58:34 - __main__ - DEBUG - Temp and Humidity sensor read after  5 tries
+Wed, 12 Nov 2014 11:58:35 - __main__ - DEBUG - AirPressure:  1010.32
+Wed, 12 Nov 2014 11:58:35 - __main__ - DEBUG - Temperature:  28.6
+Wed, 12 Nov 2014 11:58:35 - __main__ - DEBUG - Humidity:     55.6
+Wed, 12 Nov 2014 11:58:35 - __main__ - DEBUG - CO2 = 641
+Wed, 12 Nov 2014 11:58:35 - __main__ - INFO - Inserting record into firstCypress Measurements table:
+Wed, 12 Nov 2014 11:58:35 - __main__ - INFO - INSERT INTO Measurements VALUES (null, '2014-11-12 11:58:35', 28.6, 55.6, 1010.32, 641)
+Wed, 12 Nov 2014 11:59:09 - __main__ - INFO - Finished display cycle 0
+Wed, 12 Nov 2014 11:59:43 - __main__ - INFO - Finished display cycle 1
+Wed, 12 Nov 2014 12:00:17 - __main__ - INFO - Finished display cycle 2
+Wed, 12 Nov 2014 12:00:17 - __main__ - INFO - timer started in livDemo process
+Wed, 12 Nov 2014 12:00:17 - __main__ - INFO - start Adafruit process
+Wed, 12 Nov 2014 12:00:18 - __main__ - DEBUG - Temp and Humidity sensor read after  1 tries
+Wed, 12 Nov 2014 12:00:18 - __main__ - DEBUG - AirPressure:  1010.28
+Wed, 12 Nov 2014 12:00:18 - __main__ - DEBUG - Temperature:  28.5
+Wed, 12 Nov 2014 12:00:18 - __main__ - DEBUG - Humidity:     55.7
+Wed, 12 Nov 2014 12:00:18 - __main__ - DEBUG - CO2 = 612
+Wed, 12 Nov 2014 12:00:18 - __main__ - INFO - Inserting record into firstCypress Measurements table:
+Wed, 12 Nov 2014 12:00:18 - __main__ - INFO - INSERT INTO Measurements VALUES (null, '2014-11-12 12:00:18', 28.5, 55.7, 1010.28, 612)
+Wed, 12 Nov 2014 12:00:52 - __main__ - INFO - Finished display cycle 0
+Wed, 12 Nov 2014 12:01:26 - __main__ - INFO - Finished display cycle 1
+Wed, 12 Nov 2014 12:02:00 - __main__ - INFO - Finished display cycle 2
+Wed, 12 Nov 2014 12:02:00 - __main__ - INFO - timer started in livDemo process
+Wed, 12 Nov 2014 12:02:00 - __main__ - INFO - start Adafruit process
+Wed, 12 Nov 2014 12:02:01 - __main__ - DEBUG - Temp and Humidity sensor read after  1 tries
+Wed, 12 Nov 2014 12:02:01 - __main__ - DEBUG - AirPressure:  1010.28
+Wed, 12 Nov 2014 12:02:01 - __main__ - DEBUG - Temperature:  28.4
+Wed, 12 Nov 2014 12:02:01 - __main__ - DEBUG - Humidity:     56.4
+Wed, 12 Nov 2014 12:02:01 - __main__ - DEBUG - CO2 = 615
+Wed, 12 Nov 2014 12:02:01 - __main__ - INFO - Inserting record into firstCypress Measurements table:
+Wed, 12 Nov 2014 12:02:01 - __main__ - INFO - INSERT INTO Measurements VALUES (null, '2014-11-12 12:02:01', 28.4, 56.4, 1010.28, 615)
+Wed, 12 Nov 2014 12:02:35 - __main__ - INFO - Finished display cycle 0
+Wed, 12 Nov 2014 12:03:09 - __main__ - INFO - Finished display cycle 1
+Wed, 12 Nov 2014 12:03:43 - __main__ - INFO - Finished display cycle 2
+Wed, 12 Nov 2014 12:03:43 - __main__ - INFO - timer started in livDemo process
+Wed, 12 Nov 2014 12:03:43 - __main__ - INFO - start Adafruit process
+Wed, 12 Nov 2014 12:03:44 - __main__ - INFO - temp NOT MATCH Using pin #17
+Data (37): 0x2 0x30 0x8 0xda 0x14
+
+Wed, 12 Nov 2014 12:03:49 - __main__ - INFO - timer started in livDemo process
+Wed, 12 Nov 2014 12:03:49 - __main__ - INFO - start Adafruit process
+Wed, 12 Nov 2014 12:03:49 - __main__ - DEBUG - Temp and Humidity sensor read after  2 tries
+Wed, 12 Nov 2014 12:03:49 - __main__ - DEBUG - AirPressure:  1010.28
+Wed, 12 Nov 2014 12:03:49 - __main__ - DEBUG - Temperature:  28.3
+Wed, 12 Nov 2014 12:03:49 - __main__ - DEBUG - Humidity:     56.5
+Wed, 12 Nov 2014 12:03:49 - __main__ - DEBUG - CO2 = 609
+Wed, 12 Nov 2014 12:03:49 - __main__ - INFO - Inserting record into firstCypress Measurements table:
+Wed, 12 Nov 2014 12:03:49 - __main__ - INFO - INSERT INTO Measurements VALUES (null, '2014-11-12 12:03:49', 28.3, 56.5, 1010.28, 609)
+Wed, 12 Nov 2014 12:04:23 - __main__ - INFO - Finished display cycle 0
+Wed, 12 Nov 2014 12:04:58 - __main__ - INFO - Finished display cycle 1
+Wed, 12 Nov 2014 12:05:32 - __main__ - INFO - Finished display cycle 2
+Wed, 12 Nov 2014 12:05:32 - __main__ - INFO - timer started in livDemo process
+Wed, 12 Nov 2014 12:05:32 - __main__ - INFO - start Adafruit process
+Wed, 12 Nov 2014 12:05:32 - __main__ - DEBUG - Temp and Humidity sensor read after  1 tries
+Wed, 12 Nov 2014 12:05:32 - __main__ - DEBUG - AirPressure:  1010.29
+Wed, 12 Nov 2014 12:05:32 - __main__ - DEBUG - Temperature:  28.3
+Wed, 12 Nov 2014 12:05:32 - __main__ - DEBUG - Humidity:     56.6
+Wed, 12 Nov 2014 12:05:32 - __main__ - DEBUG - CO2 = 604
+Wed, 12 Nov 2014 12:05:32 - __main__ - INFO - Inserting record into firstCypress Measurements table:
+Wed, 12 Nov 2014 12:05:32 - __main__ - INFO - INSERT INTO Measurements VALUES (null, '2014-11-12 12:05:32', 28.3, 56.6, 1010.29, 604)
+Wed, 12 Nov 2014 12:06:06 - __main__ - INFO - Finished display cycle 0
+Wed, 12 Nov 2014 12:06:41 - __main__ - INFO - Finished display cycle 1
+Wed, 12 Nov 2014 12:07:15 - __main__ - INFO - Finished display cycle 2
+Wed, 12 Nov 2014 12:07:15 - __main__ - INFO - timer started in livDemo process
+Wed, 12 Nov 2014 12:07:15 - __main__ - INFO - start Adafruit process
+Wed, 12 Nov 2014 12:07:15 - __main__ - DEBUG - Temp and Humidity sensor read after  1 tries
+Wed, 12 Nov 2014 12:07:15 - __main__ - DEBUG - AirPressure:  1010.29
+Wed, 12 Nov 2014 12:07:15 - __main__ - DEBUG - Temperature:  28.6
+Wed, 12 Nov 2014 12:07:15 - __main__ - DEBUG - Humidity:     55.3
+Wed, 12 Nov 2014 12:07:15 - __main__ - DEBUG - CO2 = 573
+Wed, 12 Nov 2014 12:07:15 - __main__ - INFO - Inserting record into firstCypress Measurements table:
+Wed, 12 Nov 2014 12:07:15 - __main__ - INFO - INSERT INTO Measurements VALUES (null, '2014-11-12 12:07:15', 28.6, 55.3, 1010.29, 573)
+Wed, 12 Nov 2014 12:07:50 - __main__ - INFO - Finished display cycle 0
+Wed, 12 Nov 2014 12:08:24 - __main__ - INFO - Finished display cycle 1
+Wed, 12 Nov 2014 12:08:58 - __main__ - INFO - Finished display cycle 2
+Wed, 12 Nov 2014 12:08:58 - __main__ - INFO - timer started in livDemo process
+Wed, 12 Nov 2014 12:08:58 - __main__ - INFO - start Adafruit process
+Wed, 12 Nov 2014 12:08:58 - __main__ - INFO - temp NOT MATCH Using pin #17
+Data (36): 0x22 0x10 0x12 0x4 0x4
+
+Wed, 12 Nov 2014 12:09:03 - __main__ - INFO - timer started in livDemo process
+Wed, 12 Nov 2014 12:09:03 - __main__ - INFO - start Adafruit process
+Wed, 12 Nov 2014 12:09:04 - __main__ - INFO - temp NOT MATCH Using pin #17
+Data (39): 0x2 0x44 0x2 0x40 0x45
+
+Wed, 12 Nov 2014 12:09:09 - __main__ - INFO - timer started in livDemo process
+Wed, 12 Nov 2014 12:09:09 - __main__ - INFO - start Adafruit process
+Wed, 12 Nov 2014 12:09:10 - __main__ - DEBUG - Temp and Humidity sensor read after  3 tries
+Wed, 12 Nov 2014 12:09:10 - __main__ - DEBUG - AirPressure:  1010.23
+Wed, 12 Nov 2014 12:09:10 - __main__ - DEBUG - Temperature:  28.8
+Wed, 12 Nov 2014 12:09:10 - __main__ - DEBUG - Humidity:     54.8
+Wed, 12 Nov 2014 12:09:10 - __main__ - DEBUG - CO2 = 558
+Wed, 12 Nov 2014 12:09:10 - __main__ - INFO - Inserting record into firstCypress Measurements table:
+Wed, 12 Nov 2014 12:09:10 - __main__ - INFO - INSERT INTO Measurements VALUES (null, '2014-11-12 12:09:10', 28.8, 54.8, 1010.23, 558)
+Wed, 12 Nov 2014 12:09:44 - __main__ - INFO - Finished display cycle 0
+Wed, 12 Nov 2014 12:10:18 - __main__ - INFO - Finished display cycle 1
+Wed, 12 Nov 2014 12:10:52 - __main__ - INFO - Finished display cycle 2
+Wed, 12 Nov 2014 12:10:52 - __main__ - INFO - timer started in livDemo process
+Wed, 12 Nov 2014 12:10:52 - __main__ - INFO - start Adafruit process
+Wed, 12 Nov 2014 12:10:53 - __main__ - DEBUG - Temp and Humidity sensor read after  1 tries
+Wed, 12 Nov 2014 12:10:53 - __main__ - DEBUG - AirPressure:  1010.26
+Wed, 12 Nov 2014 12:10:53 - __main__ - DEBUG - Temperature:  28.7
+Wed, 12 Nov 2014 12:10:53 - __main__ - DEBUG - Humidity:     54.9
+Wed, 12 Nov 2014 12:10:53 - __main__ - DEBUG - CO2 = 568
+Wed, 12 Nov 2014 12:10:53 - __main__ - INFO - Inserting record into firstCypress Measurements table:
+Wed, 12 Nov 2014 12:10:53 - __main__ - INFO - INSERT INTO Measurements VALUES (null, '2014-11-12 12:10:53', 28.7, 54.9, 1010.26, 568)
+Wed, 12 Nov 2014 12:11:27 - __main__ - INFO - Finished display cycle 0
+Wed, 12 Nov 2014 12:12:01 - __main__ - INFO - Finished display cycle 1
+Wed, 12 Nov 2014 12:12:35 - __main__ - INFO - Finished display cycle 2
+Wed, 12 Nov 2014 12:12:35 - __main__ - INFO - timer started in livDemo process
+Wed, 12 Nov 2014 12:12:35 - __main__ - INFO - start Adafruit process
+Wed, 12 Nov 2014 12:12:36 - __main__ - DEBUG - Temp and Humidity sensor read after  1 tries
+Wed, 12 Nov 2014 12:12:36 - __main__ - DEBUG - AirPressure:  1010.14
+Wed, 12 Nov 2014 12:12:36 - __main__ - DEBUG - Temperature:  28.6
+Wed, 12 Nov 2014 12:12:36 - __main__ - DEBUG - Humidity:     55.3
+Wed, 12 Nov 2014 12:12:36 - __main__ - DEBUG - CO2 = 569
+Wed, 12 Nov 2014 12:12:36 - __main__ - INFO - Inserting record into firstCypress Measurements table:
+Wed, 12 Nov 2014 12:12:36 - __main__ - INFO - INSERT INTO Measurements VALUES (null, '2014-11-12 12:12:36', 28.6, 55.3, 1010.14, 569)
+Wed, 12 Nov 2014 12:13:10 - __main__ - INFO - Finished display cycle 0
+Wed, 12 Nov 2014 12:13:44 - __main__ - INFO - Finished display cycle 1
+Wed, 12 Nov 2014 12:14:18 - __main__ - INFO - Finished display cycle 2
+Wed, 12 Nov 2014 12:14:18 - __main__ - INFO - timer started in livDemo process
+Wed, 12 Nov 2014 12:14:18 - __main__ - INFO - start Adafruit process
+Wed, 12 Nov 2014 12:14:19 - __main__ - DEBUG - Temp and Humidity sensor read after  1 tries
+Wed, 12 Nov 2014 12:14:19 - __main__ - DEBUG - AirPressure:  1010.27
+Wed, 12 Nov 2014 12:14:19 - __main__ - DEBUG - Temperature:  28.7
+Wed, 12 Nov 2014 12:14:19 - __main__ - DEBUG - Humidity:     54.8
+Wed, 12 Nov 2014 12:14:19 - __main__ - DEBUG - CO2 = 542
+Wed, 12 Nov 2014 12:14:19 - __main__ - INFO - Inserting record into firstCypress Measurements table:
+Wed, 12 Nov 2014 12:14:19 - __main__ - INFO - INSERT INTO Measurements VALUES (null, '2014-11-12 12:14:19', 28.7, 54.8, 1010.27, 542)
+Wed, 12 Nov 2014 12:14:53 - __main__ - INFO - Finished display cycle 0
+Wed, 12 Nov 2014 12:15:27 - __main__ - INFO - Finished display cycle 1
+Wed, 12 Nov 2014 12:16:01 - __main__ - INFO - Finished display cycle 2
+Wed, 12 Nov 2014 12:16:01 - __main__ - INFO - timer started in livDemo process
+Wed, 12 Nov 2014 12:16:01 - __main__ - INFO - start Adafruit process
+Wed, 12 Nov 2014 12:16:02 - __main__ - DEBUG - Temp and Humidity sensor read after  1 tries
+Wed, 12 Nov 2014 12:16:02 - __main__ - DEBUG - AirPressure:  1010.26
+Wed, 12 Nov 2014 12:16:02 - __main__ - DEBUG - Temperature:  28.9
+Wed, 12 Nov 2014 12:16:02 - __main__ - DEBUG - Humidity:     54.9
+Wed, 12 Nov 2014 12:16:02 - __main__ - DEBUG - CO2 = 578
+Wed, 12 Nov 2014 12:16:02 - __main__ - INFO - Inserting record into firstCypress Measurements table:
+Wed, 12 Nov 2014 12:16:02 - __main__ - INFO - INSERT INTO Measurements VALUES (null, '2014-11-12 12:16:02', 28.9, 54.9, 1010.26, 578)
+Wed, 12 Nov 2014 12:16:36 - __main__ - INFO - Finished display cycle 0
+Wed, 12 Nov 2014 12:17:10 - __main__ - INFO - Finished display cycle 1
+Wed, 12 Nov 2014 12:17:44 - __main__ - INFO - Finished display cycle 2
+Wed, 12 Nov 2014 12:17:44 - __main__ - INFO - timer started in livDemo process
+Wed, 12 Nov 2014 12:17:44 - __main__ - INFO - start Adafruit process
+Wed, 12 Nov 2014 12:17:45 - __main__ - DEBUG - Temp and Humidity sensor read after  1 tries
+Wed, 12 Nov 2014 12:17:45 - __main__ - DEBUG - AirPressure:  1010.18
+Wed, 12 Nov 2014 12:17:45 - __main__ - DEBUG - Temperature:  28.6
+Wed, 12 Nov 2014 12:17:45 - __main__ - DEBUG - Humidity:     55.5
+Wed, 12 Nov 2014 12:17:45 - __main__ - DEBUG - CO2 = 592
+Wed, 12 Nov 2014 12:17:45 - __main__ - INFO - Inserting record into firstCypress Measurements table:
+Wed, 12 Nov 2014 12:17:45 - __main__ - INFO - INSERT INTO Measurements VALUES (null, '2014-11-12 12:17:45', 28.6, 55.5, 1010.18, 592)
+Wed, 12 Nov 2014 12:18:19 - __main__ - INFO - Finished display cycle 0
+Wed, 12 Nov 2014 12:18:53 - __main__ - INFO - Finished display cycle 1
+Wed, 12 Nov 2014 12:19:27 - __main__ - INFO - Finished display cycle 2
+Wed, 12 Nov 2014 12:19:27 - __main__ - INFO - timer started in livDemo process
+Wed, 12 Nov 2014 12:19:27 - __main__ - INFO - start Adafruit process
+Wed, 12 Nov 2014 12:19:27 - __main__ - DEBUG - Temp and Humidity sensor read after  1 tries
+Wed, 12 Nov 2014 12:19:28 - __main__ - DEBUG - AirPressure:  1010.16
+Wed, 12 Nov 2014 12:19:28 - __main__ - DEBUG - Temperature:  28.6
+Wed, 12 Nov 2014 12:19:28 - __main__ - DEBUG - Humidity:     55.3
+Wed, 12 Nov 2014 12:19:28 - __main__ - DEBUG - CO2 = 573
+Wed, 12 Nov 2014 12:19:28 - __main__ - INFO - Inserting record into firstCypress Measurements table:
+Wed, 12 Nov 2014 12:19:28 - __main__ - INFO - INSERT INTO Measurements VALUES (null, '2014-11-12 12:19:28', 28.6, 55.3, 1010.16, 573)
+Wed, 12 Nov 2014 12:20:02 - __main__ - INFO - Finished display cycle 0
+Wed, 12 Nov 2014 12:20:36 - __main__ - INFO - Finished display cycle 1
+Wed, 12 Nov 2014 12:21:10 - __main__ - INFO - Finished display cycle 2
+Wed, 12 Nov 2014 12:21:10 - __main__ - INFO - timer started in livDemo process
+Wed, 12 Nov 2014 12:21:10 - __main__ - INFO - start Adafruit process
+Wed, 12 Nov 2014 12:21:11 - __main__ - DEBUG - Temp and Humidity sensor read after  1 tries
+Wed, 12 Nov 2014 12:21:11 - __main__ - DEBUG - AirPressure:  1010.1
+Wed, 12 Nov 2014 12:21:11 - __main__ - DEBUG - Temperature:  28.7
+Wed, 12 Nov 2014 12:21:11 - __main__ - DEBUG - Humidity:     54.7
+Wed, 12 Nov 2014 12:21:11 - __main__ - DEBUG - CO2 = 544
+Wed, 12 Nov 2014 12:21:11 - __main__ - INFO - Inserting record into firstCypress Measurements table:
+Wed, 12 Nov 2014 12:21:11 - __main__ - INFO - INSERT INTO Measurements VALUES (null, '2014-11-12 12:21:11', 28.7, 54.7, 1010.1, 544)
+Wed, 12 Nov 2014 12:21:45 - __main__ - INFO - Finished display cycle 0
+Wed, 12 Nov 2014 12:22:19 - __main__ - INFO - Finished display cycle 1
+Wed, 12 Nov 2014 12:22:53 - __main__ - INFO - Finished display cycle 2
+Wed, 12 Nov 2014 12:22:53 - __main__ - INFO - timer started in livDemo process
+Wed, 12 Nov 2014 12:22:53 - __main__ - INFO - start Adafruit process
+Wed, 12 Nov 2014 12:22:54 - __main__ - DEBUG - Temp and Humidity sensor read after  1 tries
+Wed, 12 Nov 2014 12:22:54 - __main__ - DEBUG - AirPressure:  1010.13
+Wed, 12 Nov 2014 12:22:54 - __main__ - DEBUG - Temperature:  29.0
+Wed, 12 Nov 2014 12:22:54 - __main__ - DEBUG - Humidity:     54.5
+Wed, 12 Nov 2014 12:22:54 - __main__ - DEBUG - CO2 = 558
+Wed, 12 Nov 2014 12:22:54 - __main__ - INFO - Inserting record into firstCypress Measurements table:
+Wed, 12 Nov 2014 12:22:54 - __main__ - INFO - INSERT INTO Measurements VALUES (null, '2014-11-12 12:22:54', 29.0, 54.5, 1010.13, 558)
+Wed, 12 Nov 2014 12:23:28 - __main__ - INFO - Finished display cycle 0
+Wed, 12 Nov 2014 12:24:02 - __main__ - INFO - Finished display cycle 1
+Wed, 12 Nov 2014 12:24:36 - __main__ - INFO - Finished display cycle 2
+Wed, 12 Nov 2014 12:24:36 - __main__ - INFO - timer started in livDemo process
+Wed, 12 Nov 2014 12:24:36 - __main__ - INFO - start Adafruit process
+Wed, 12 Nov 2014 12:24:37 - __main__ - DEBUG - Temp and Humidity sensor read after  1 tries
+Wed, 12 Nov 2014 12:24:37 - __main__ - DEBUG - AirPressure:  1010.06
+Wed, 12 Nov 2014 12:24:37 - __main__ - DEBUG - Temperature:  28.9
+Wed, 12 Nov 2014 12:24:37 - __main__ - DEBUG - Humidity:     54.8
+Wed, 12 Nov 2014 12:24:37 - __main__ - DEBUG - CO2 = 555
+Wed, 12 Nov 2014 12:24:37 - __main__ - INFO - Inserting record into firstCypress Measurements table:
+Wed, 12 Nov 2014 12:24:37 - __main__ - INFO - INSERT INTO Measurements VALUES (null, '2014-11-12 12:24:37', 28.9, 54.8, 1010.06, 555)
+Wed, 12 Nov 2014 12:25:11 - __main__ - INFO - Finished display cycle 0
+Wed, 12 Nov 2014 12:25:45 - __main__ - INFO - Finished display cycle 1
+Wed, 12 Nov 2014 12:26:20 - __main__ - INFO - Finished display cycle 2
+Wed, 12 Nov 2014 12:26:20 - __main__ - INFO - timer started in livDemo process
+Wed, 12 Nov 2014 12:26:20 - __main__ - INFO - start Adafruit process
+Wed, 12 Nov 2014 12:26:20 - __main__ - INFO - temp NOT MATCH Using pin #17
+Data (40): 0x2 0x20 0x1 0x22 0x41
+
+Wed, 12 Nov 2014 12:26:25 - __main__ - INFO - timer started in livDemo process
+Wed, 12 Nov 2014 12:26:25 - __main__ - INFO - start Adafruit process
+Wed, 12 Nov 2014 12:26:26 - __main__ - INFO - temp NOT MATCH Using pin #17
+Data (39): 0x4 0x3e 0x2 0x44 0x44
+
+Wed, 12 Nov 2014 12:26:31 - __main__ - INFO - timer started in livDemo process
+Wed, 12 Nov 2014 12:26:31 - __main__ - INFO - start Adafruit process
+Wed, 12 Nov 2014 12:26:31 - __main__ - DEBUG - Temp and Humidity sensor read after  3 tries
+Wed, 12 Nov 2014 12:26:31 - __main__ - DEBUG - AirPressure:  1010.05
+Wed, 12 Nov 2014 12:26:31 - __main__ - DEBUG - Temperature:  29.0
+Wed, 12 Nov 2014 12:26:31 - __main__ - DEBUG - Humidity:     54.2
+Wed, 12 Nov 2014 12:26:31 - __main__ - DEBUG - CO2 = 550
+Wed, 12 Nov 2014 12:26:31 - __main__ - INFO - Inserting record into firstCypress Measurements table:
+Wed, 12 Nov 2014 12:26:31 - __main__ - INFO - INSERT INTO Measurements VALUES (null, '2014-11-12 12:26:31', 29.0, 54.2, 1010.05, 550)
+Wed, 12 Nov 2014 12:27:06 - __main__ - INFO - Finished display cycle 0
+Wed, 12 Nov 2014 12:27:40 - __main__ - INFO - Finished display cycle 1
+Wed, 12 Nov 2014 12:28:14 - __main__ - INFO - Finished display cycle 2
+Wed, 12 Nov 2014 12:28:14 - __main__ - INFO - timer started in livDemo process
+Wed, 12 Nov 2014 12:28:14 - __main__ - INFO - start Adafruit process
+Wed, 12 Nov 2014 12:28:14 - __main__ - INFO - temp NOT MATCH Using pin #17
+Data (38): 0x2 0x20 0x1 0x22 0x25
+
+Wed, 12 Nov 2014 12:28:19 - __main__ - INFO - timer started in livDemo process
+Wed, 12 Nov 2014 12:28:19 - __main__ - INFO - start Adafruit process
+Wed, 12 Nov 2014 12:28:20 - __main__ - INFO - temp NOT MATCH Using pin #17
+Data (39): 0x2 0x20 0x1 0x23 0x23
+
+Wed, 12 Nov 2014 12:28:25 - __main__ - INFO - timer started in livDemo process
+Wed, 12 Nov 2014 12:28:25 - __main__ - INFO - start Adafruit process
+Wed, 12 Nov 2014 12:28:26 - __main__ - INFO - temp NOT MATCH Using pin #17
+Data (38): 0x2 0x20 0x4 0x8d 0x0
+
+Wed, 12 Nov 2014 12:28:31 - __main__ - INFO - timer started in livDemo process
+Wed, 12 Nov 2014 12:28:31 - __main__ - INFO - start Adafruit process
+Wed, 12 Nov 2014 12:28:31 - __main__ - INFO - temp NOT MATCH Using pin #17
+Data (40): 0x0 0x20 0x1 0x23 0x46
+
+Wed, 12 Nov 2014 12:28:36 - __main__ - INFO - timer started in livDemo process
+Wed, 12 Nov 2014 12:28:36 - __main__ - INFO - start Adafruit process
+Wed, 12 Nov 2014 12:28:37 - __main__ - DEBUG - Temp and Humidity sensor read after  5 tries
+Wed, 12 Nov 2014 12:28:37 - __main__ - DEBUG - AirPressure:  1010.05
+Wed, 12 Nov 2014 12:28:37 - __main__ - DEBUG - Temperature:  29.1
+Wed, 12 Nov 2014 12:28:37 - __main__ - DEBUG - Humidity:     54.3
+Wed, 12 Nov 2014 12:28:37 - __main__ - DEBUG - CO2 = 554
+Wed, 12 Nov 2014 12:28:37 - __main__ - INFO - Inserting record into firstCypress Measurements table:
+Wed, 12 Nov 2014 12:28:37 - __main__ - INFO - INSERT INTO Measurements VALUES (null, '2014-11-12 12:28:37', 29.1, 54.3, 1010.05, 554)
+Wed, 12 Nov 2014 12:29:11 - __main__ - INFO - Finished display cycle 0
+Wed, 12 Nov 2014 12:29:45 - __main__ - INFO - Finished display cycle 1
+Wed, 12 Nov 2014 12:30:19 - __main__ - INFO - Finished display cycle 2
+Wed, 12 Nov 2014 12:30:19 - __main__ - INFO - timer started in livDemo process
+Wed, 12 Nov 2014 12:30:19 - __main__ - INFO - start Adafruit process
+Wed, 12 Nov 2014 12:30:20 - __main__ - INFO - temp NOT MATCH Using pin #17
+Data (39): 0x2 0x48 0x2 0x42 0x48
+
+Wed, 12 Nov 2014 12:30:25 - __main__ - INFO - timer started in livDemo process
+Wed, 12 Nov 2014 12:30:25 - __main__ - INFO - start Adafruit process
+Wed, 12 Nov 2014 12:30:25 - __main__ - INFO - temp NOT MATCH Using pin #17
+Data (35): 0x2 0x24 0x0 0x80 0x7
+
+Wed, 12 Nov 2014 12:30:30 - __main__ - INFO - timer started in livDemo process
+Wed, 12 Nov 2014 12:30:30 - __main__ - INFO - start Adafruit process
+Wed, 12 Nov 2014 12:30:31 - __main__ - DEBUG - Temp and Humidity sensor read after  3 tries
+Wed, 12 Nov 2014 12:30:31 - __main__ - DEBUG - AirPressure:  1010.04
+Wed, 12 Nov 2014 12:30:31 - __main__ - DEBUG - Temperature:  28.8
+Wed, 12 Nov 2014 12:30:31 - __main__ - DEBUG - Humidity:     54.7
+Wed, 12 Nov 2014 12:30:31 - __main__ - DEBUG - CO2 = 589
+Wed, 12 Nov 2014 12:30:31 - __main__ - INFO - Inserting record into firstCypress Measurements table:
+Wed, 12 Nov 2014 12:30:31 - __main__ - INFO - INSERT INTO Measurements VALUES (null, '2014-11-12 12:30:31', 28.8, 54.7, 1010.04, 589)
+Wed, 12 Nov 2014 12:31:05 - __main__ - INFO - Finished display cycle 0
+Wed, 12 Nov 2014 12:31:39 - __main__ - INFO - Finished display cycle 1
+Wed, 12 Nov 2014 12:32:14 - __main__ - INFO - Finished display cycle 2
+Wed, 12 Nov 2014 12:32:14 - __main__ - INFO - timer started in livDemo process
+Wed, 12 Nov 2014 12:32:14 - __main__ - INFO - start Adafruit process
+Wed, 12 Nov 2014 12:32:14 - __main__ - DEBUG - Temp and Humidity sensor read after  1 tries
+Wed, 12 Nov 2014 12:32:14 - __main__ - DEBUG - AirPressure:  1010.16
+Wed, 12 Nov 2014 12:32:14 - __main__ - DEBUG - Temperature:  28.7
+Wed, 12 Nov 2014 12:32:14 - __main__ - DEBUG - Humidity:     55.3
+Wed, 12 Nov 2014 12:32:14 - __main__ - DEBUG - CO2 = 582
+Wed, 12 Nov 2014 12:32:14 - __main__ - INFO - Inserting record into firstCypress Measurements table:
+Wed, 12 Nov 2014 12:32:14 - __main__ - INFO - INSERT INTO Measurements VALUES (null, '2014-11-12 12:32:14', 28.7, 55.3, 1010.16, 582)
+Wed, 12 Nov 2014 12:32:48 - __main__ - INFO - Finished display cycle 0
+Wed, 12 Nov 2014 12:33:22 - __main__ - INFO - Finished display cycle 1
+Wed, 12 Nov 2014 12:33:57 - __main__ - INFO - Finished display cycle 2
+Wed, 12 Nov 2014 12:33:57 - __main__ - INFO - timer started in livDemo process
+Wed, 12 Nov 2014 12:33:57 - __main__ - INFO - start Adafruit process
+Wed, 12 Nov 2014 12:33:57 - __main__ - INFO - temp NOT MATCH Using pin #17
+Data (40): 0x0 0x2e 0x1 0x1d 0x4e
+
+Wed, 12 Nov 2014 12:34:02 - __main__ - INFO - timer started in livDemo process
+Wed, 12 Nov 2014 12:34:02 - __main__ - INFO - start Adafruit process
+Wed, 12 Nov 2014 12:34:03 - __main__ - DEBUG - Temp and Humidity sensor read after  2 tries
+Wed, 12 Nov 2014 12:34:03 - __main__ - DEBUG - AirPressure:  1009.98
+Wed, 12 Nov 2014 12:34:03 - __main__ - DEBUG - Temperature:  28.5
+Wed, 12 Nov 2014 12:34:03 - __main__ - DEBUG - Humidity:     55.7
+Wed, 12 Nov 2014 12:34:03 - __main__ - DEBUG - CO2 = 592
+Wed, 12 Nov 2014 12:34:03 - __main__ - INFO - Inserting record into firstCypress Measurements table:
+Wed, 12 Nov 2014 12:34:03 - __main__ - INFO - INSERT INTO Measurements VALUES (null, '2014-11-12 12:34:03', 28.5, 55.7, 1009.98, 592)
+Wed, 12 Nov 2014 12:34:37 - __main__ - INFO - Finished display cycle 0
+Wed, 12 Nov 2014 12:35:11 - __main__ - INFO - Finished display cycle 1
+Wed, 12 Nov 2014 12:35:45 - __main__ - INFO - Finished display cycle 2
+Wed, 12 Nov 2014 12:35:45 - __main__ - INFO - timer started in livDemo process
+Wed, 12 Nov 2014 12:35:45 - __main__ - INFO - start Adafruit process
+Wed, 12 Nov 2014 12:35:46 - __main__ - DEBUG - Temp and Humidity sensor read after  1 tries
+Wed, 12 Nov 2014 12:35:46 - __main__ - DEBUG - AirPressure:  1009.96
+Wed, 12 Nov 2014 12:35:46 - __main__ - DEBUG - Temperature:  28.4
+Wed, 12 Nov 2014 12:35:46 - __main__ - DEBUG - Humidity:     55.9
+Wed, 12 Nov 2014 12:35:46 - __main__ - DEBUG - CO2 = 581
+Wed, 12 Nov 2014 12:35:46 - __main__ - INFO - Inserting record into firstCypress Measurements table:
+Wed, 12 Nov 2014 12:35:46 - __main__ - INFO - INSERT INTO Measurements VALUES (null, '2014-11-12 12:35:46', 28.4, 55.9, 1009.96, 581)
+Wed, 12 Nov 2014 12:36:20 - __main__ - INFO - Finished display cycle 0
+Wed, 12 Nov 2014 12:36:54 - __main__ - INFO - Finished display cycle 1
+Wed, 12 Nov 2014 12:37:28 - __main__ - INFO - Finished display cycle 2
+Wed, 12 Nov 2014 12:37:28 - __main__ - INFO - timer started in livDemo process
+Wed, 12 Nov 2014 12:37:28 - __main__ - INFO - start Adafruit process
+Wed, 12 Nov 2014 12:37:29 - __main__ - DEBUG - Temp and Humidity sensor read after  1 tries
+Wed, 12 Nov 2014 12:37:29 - __main__ - DEBUG - AirPressure:  1009.94
+Wed, 12 Nov 2014 12:37:29 - __main__ - DEBUG - Temperature:  28.4
+Wed, 12 Nov 2014 12:37:29 - __main__ - DEBUG - Humidity:     55.9
+Wed, 12 Nov 2014 12:37:29 - __main__ - DEBUG - CO2 = 587
+Wed, 12 Nov 2014 12:37:29 - __main__ - INFO - Inserting record into firstCypress Measurements table:
+Wed, 12 Nov 2014 12:37:29 - __main__ - INFO - INSERT INTO Measurements VALUES (null, '2014-11-12 12:37:29', 28.4, 55.9, 1009.94, 587)
+Wed, 12 Nov 2014 12:38:03 - __main__ - INFO - Finished display cycle 0
+Wed, 12 Nov 2014 12:38:37 - __main__ - INFO - Finished display cycle 1
+Wed, 12 Nov 2014 12:39:11 - __main__ - INFO - Finished display cycle 2
+Wed, 12 Nov 2014 12:39:11 - __main__ - INFO - timer started in livDemo process
+Wed, 12 Nov 2014 12:39:11 - __main__ - INFO - start Adafruit process
+Wed, 12 Nov 2014 12:39:12 - __main__ - DEBUG - Temp and Humidity sensor read after  1 tries
+Wed, 12 Nov 2014 12:39:12 - __main__ - DEBUG - AirPressure:  1009.88
+Wed, 12 Nov 2014 12:39:12 - __main__ - DEBUG - Temperature:  28.4
+Wed, 12 Nov 2014 12:39:12 - __main__ - DEBUG - Humidity:     55.9
+Wed, 12 Nov 2014 12:39:12 - __main__ - DEBUG - CO2 = 588
+Wed, 12 Nov 2014 12:39:12 - __main__ - INFO - Inserting record into firstCypress Measurements table:
+Wed, 12 Nov 2014 12:39:12 - __main__ - INFO - INSERT INTO Measurements VALUES (null, '2014-11-12 12:39:12', 28.4, 55.9, 1009.88, 588)
+Wed, 12 Nov 2014 12:39:46 - __main__ - INFO - Finished display cycle 0
+Wed, 12 Nov 2014 12:40:20 - __main__ - INFO - Finished display cycle 1
+Wed, 12 Nov 2014 12:40:54 - __main__ - INFO - Finished display cycle 2
+Wed, 12 Nov 2014 12:40:54 - __main__ - INFO - timer started in livDemo process
+Wed, 12 Nov 2014 12:40:54 - __main__ - INFO - start Adafruit process
+Wed, 12 Nov 2014 12:40:55 - __main__ - DEBUG - Temp and Humidity sensor read after  1 tries
+Wed, 12 Nov 2014 12:40:55 - __main__ - DEBUG - AirPressure:  1009.91
+Wed, 12 Nov 2014 12:40:55 - __main__ - DEBUG - Temperature:  28.4
+Wed, 12 Nov 2014 12:40:55 - __main__ - DEBUG - Humidity:     55.9
+Wed, 12 Nov 2014 12:40:55 - __main__ - DEBUG - CO2 = 584
+Wed, 12 Nov 2014 12:40:55 - __main__ - INFO - Inserting record into firstCypress Measurements table:
+Wed, 12 Nov 2014 12:40:55 - __main__ - INFO - INSERT INTO Measurements VALUES (null, '2014-11-12 12:40:55', 28.4, 55.9, 1009.91, 584)
+Wed, 12 Nov 2014 12:41:29 - __main__ - INFO - Finished display cycle 0
+Wed, 12 Nov 2014 12:42:03 - __main__ - INFO - Finished display cycle 1
+Wed, 12 Nov 2014 12:42:37 - __main__ - INFO - Finished display cycle 2
+Wed, 12 Nov 2014 12:42:37 - __main__ - INFO - timer started in livDemo process
+Wed, 12 Nov 2014 12:42:37 - __main__ - INFO - start Adafruit process
+Wed, 12 Nov 2014 12:42:38 - __main__ - DEBUG - Temp and Humidity sensor read after  1 tries
+Wed, 12 Nov 2014 12:42:38 - __main__ - DEBUG - AirPressure:  1009.96
+Wed, 12 Nov 2014 12:42:38 - __main__ - DEBUG - Temperature:  28.4
+Wed, 12 Nov 2014 12:42:38 - __main__ - DEBUG - Humidity:     56.2
+Wed, 12 Nov 2014 12:42:38 - __main__ - DEBUG - CO2 = 599
+Wed, 12 Nov 2014 12:42:38 - __main__ - INFO - Inserting record into firstCypress Measurements table:
+Wed, 12 Nov 2014 12:42:38 - __main__ - INFO - INSERT INTO Measurements VALUES (null, '2014-11-12 12:42:38', 28.4, 56.2, 1009.96, 599)
+Wed, 12 Nov 2014 12:43:12 - __main__ - INFO - Finished display cycle 0
+Wed, 12 Nov 2014 12:43:46 - __main__ - INFO - Finished display cycle 1
+Wed, 12 Nov 2014 12:44:20 - __main__ - INFO - Finished display cycle 2
+Wed, 12 Nov 2014 12:44:20 - __main__ - INFO - timer started in livDemo process
+Wed, 12 Nov 2014 12:44:20 - __main__ - INFO - start Adafruit process
+Wed, 12 Nov 2014 12:44:21 - __main__ - INFO - temp NOT MATCH Using pin #17
+Data (39): 0x4 0x68 0x2 0x16 0x52
+
+Wed, 12 Nov 2014 12:44:26 - __main__ - INFO - timer started in livDemo process
+Wed, 12 Nov 2014 12:44:26 - __main__ - INFO - start Adafruit process
+Wed, 12 Nov 2014 12:44:27 - __main__ - INFO - temp NOT MATCH Using pin #17
+Data (40): 0x0 0x33 0x1 0x1b 0x51
+
+Wed, 12 Nov 2014 12:44:32 - __main__ - INFO - timer started in livDemo process
+Wed, 12 Nov 2014 12:44:32 - __main__ - INFO - start Adafruit process
+Wed, 12 Nov 2014 12:44:32 - __main__ - DEBUG - Temp and Humidity sensor read after  3 tries
+Wed, 12 Nov 2014 12:44:32 - __main__ - DEBUG - AirPressure:  1009.88
+Wed, 12 Nov 2014 12:44:32 - __main__ - DEBUG - Temperature:  28.3
+Wed, 12 Nov 2014 12:44:32 - __main__ - DEBUG - Humidity:     56.4
+Wed, 12 Nov 2014 12:44:32 - __main__ - DEBUG - CO2 = 596
+Wed, 12 Nov 2014 12:44:32 - __main__ - INFO - Inserting record into firstCypress Measurements table:
+Wed, 12 Nov 2014 12:44:32 - __main__ - INFO - INSERT INTO Measurements VALUES (null, '2014-11-12 12:44:32', 28.3, 56.4, 1009.88, 596)
+Wed, 12 Nov 2014 12:45:07 - __main__ - INFO - Finished display cycle 0
+Wed, 12 Nov 2014 12:45:41 - __main__ - INFO - Finished display cycle 1
+Wed, 12 Nov 2014 12:46:15 - __main__ - INFO - Finished display cycle 2
+Wed, 12 Nov 2014 12:46:15 - __main__ - INFO - timer started in livDemo process
+Wed, 12 Nov 2014 12:46:15 - __main__ - INFO - start Adafruit process
+Wed, 12 Nov 2014 12:46:15 - __main__ - INFO - temp NOT MATCH Using pin #17
+Data (39): 0x2 0x2e 0x0 0x38 0x4d
+
+Wed, 12 Nov 2014 12:46:20 - __main__ - INFO - timer started in livDemo process
+Wed, 12 Nov 2014 12:46:20 - __main__ - INFO - start Adafruit process
+Wed, 12 Nov 2014 12:46:21 - __main__ - DEBUG - Temp and Humidity sensor read after  2 tries
+Wed, 12 Nov 2014 12:46:21 - __main__ - DEBUG - AirPressure:  1009.8
+Wed, 12 Nov 2014 12:46:21 - __main__ - DEBUG - Temperature:  28.4
+Wed, 12 Nov 2014 12:46:21 - __main__ - DEBUG - Humidity:     55.8
+Wed, 12 Nov 2014 12:46:21 - __main__ - DEBUG - CO2 = 576
+Wed, 12 Nov 2014 12:46:21 - __main__ - INFO - Inserting record into firstCypress Measurements table:
+Wed, 12 Nov 2014 12:46:21 - __main__ - INFO - INSERT INTO Measurements VALUES (null, '2014-11-12 12:46:21', 28.4, 55.8, 1009.8, 576)
+Wed, 12 Nov 2014 12:46:55 - __main__ - INFO - Finished display cycle 0
+Wed, 12 Nov 2014 12:47:29 - __main__ - INFO - Finished display cycle 1
+Wed, 12 Nov 2014 12:48:03 - __main__ - INFO - Finished display cycle 2
+Wed, 12 Nov 2014 12:48:03 - __main__ - INFO - timer started in livDemo process
+Wed, 12 Nov 2014 12:48:03 - __main__ - INFO - start Adafruit process
+Wed, 12 Nov 2014 12:48:04 - __main__ - DEBUG - Temp and Humidity sensor read after  1 tries
+Wed, 12 Nov 2014 12:48:04 - __main__ - DEBUG - AirPressure:  1009.82
+Wed, 12 Nov 2014 12:48:04 - __main__ - DEBUG - Temperature:  28.6
+Wed, 12 Nov 2014 12:48:04 - __main__ - DEBUG - Humidity:     55.1
+Wed, 12 Nov 2014 12:48:04 - __main__ - DEBUG - CO2 = 576
+Wed, 12 Nov 2014 12:48:04 - __main__ - INFO - Inserting record into firstCypress Measurements table:
+Wed, 12 Nov 2014 12:48:04 - __main__ - INFO - INSERT INTO Measurements VALUES (null, '2014-11-12 12:48:04', 28.6, 55.1, 1009.82, 576)
+Wed, 12 Nov 2014 12:48:38 - __main__ - INFO - Finished display cycle 0
+Wed, 12 Nov 2014 12:49:12 - __main__ - INFO - Finished display cycle 1
+Wed, 12 Nov 2014 12:49:46 - __main__ - INFO - Finished display cycle 2
+Wed, 12 Nov 2014 12:49:46 - __main__ - INFO - timer started in livDemo process
+Wed, 12 Nov 2014 12:49:46 - __main__ - INFO - start Adafruit process
+Wed, 12 Nov 2014 12:49:47 - __main__ - DEBUG - Temp and Humidity sensor read after  1 tries
+Wed, 12 Nov 2014 12:49:47 - __main__ - DEBUG - AirPressure:  1009.77
+Wed, 12 Nov 2014 12:49:47 - __main__ - DEBUG - Temperature:  28.6
+Wed, 12 Nov 2014 12:49:47 - __main__ - DEBUG - Humidity:     55.3
+Wed, 12 Nov 2014 12:49:47 - __main__ - DEBUG - CO2 = 563
+Wed, 12 Nov 2014 12:49:47 - __main__ - INFO - Inserting record into firstCypress Measurements table:
+Wed, 12 Nov 2014 12:49:47 - __main__ - INFO - INSERT INTO Measurements VALUES (null, '2014-11-12 12:49:47', 28.6, 55.3, 1009.77, 563)
+Wed, 12 Nov 2014 12:50:21 - __main__ - INFO - Finished display cycle 0
+Wed, 12 Nov 2014 12:50:55 - __main__ - INFO - Finished display cycle 1
+Wed, 12 Nov 2014 12:51:29 - __main__ - INFO - Finished display cycle 2
+Wed, 12 Nov 2014 12:51:29 - __main__ - INFO - timer started in livDemo process
+Wed, 12 Nov 2014 12:51:29 - __main__ - INFO - start Adafruit process
+Wed, 12 Nov 2014 12:51:30 - __main__ - INFO - temp NOT MATCH Using pin #17
+Data (40): 0x2 0x25 0x1 0x1f 0x43
+
+Wed, 12 Nov 2014 12:51:35 - __main__ - INFO - timer started in livDemo process
+Wed, 12 Nov 2014 12:51:35 - __main__ - INFO - start Adafruit process
+Wed, 12 Nov 2014 12:51:36 - __main__ - DEBUG - Temp and Humidity sensor read after  2 tries
+Wed, 12 Nov 2014 12:51:36 - __main__ - DEBUG - AirPressure:  1009.77
+Wed, 12 Nov 2014 12:51:36 - __main__ - DEBUG - Temperature:  28.7
+Wed, 12 Nov 2014 12:51:36 - __main__ - DEBUG - Humidity:     54.9
+Wed, 12 Nov 2014 12:51:36 - __main__ - DEBUG - CO2 = 562
+Wed, 12 Nov 2014 12:51:36 - __main__ - INFO - Inserting record into firstCypress Measurements table:
+Wed, 12 Nov 2014 12:51:36 - __main__ - INFO - INSERT INTO Measurements VALUES (null, '2014-11-12 12:51:36', 28.7, 54.9, 1009.77, 562)
+Wed, 12 Nov 2014 12:52:10 - __main__ - INFO - Finished display cycle 0
+Wed, 12 Nov 2014 12:52:44 - __main__ - INFO - Finished display cycle 1
+Wed, 12 Nov 2014 12:53:18 - __main__ - INFO - Finished display cycle 2
+Wed, 12 Nov 2014 12:53:18 - __main__ - INFO - timer started in livDemo process
+Wed, 12 Nov 2014 12:53:18 - __main__ - INFO - start Adafruit process
+Wed, 12 Nov 2014 12:53:19 - __main__ - DEBUG - Temp and Humidity sensor read after  1 tries
+Wed, 12 Nov 2014 12:53:19 - __main__ - DEBUG - AirPressure:  1009.71
+Wed, 12 Nov 2014 12:53:19 - __main__ - DEBUG - Temperature:  28.7
+Wed, 12 Nov 2014 12:53:19 - __main__ - DEBUG - Humidity:     54.6
+Wed, 12 Nov 2014 12:53:19 - __main__ - DEBUG - CO2 = 562
+Wed, 12 Nov 2014 12:53:19 - __main__ - INFO - Inserting record into firstCypress Measurements table:
+Wed, 12 Nov 2014 12:53:19 - __main__ - INFO - INSERT INTO Measurements VALUES (null, '2014-11-12 12:53:19', 28.7, 54.6, 1009.71, 562)
+Wed, 12 Nov 2014 12:53:53 - __main__ - INFO - Finished display cycle 0
+Wed, 12 Nov 2014 12:54:27 - __main__ - INFO - Finished display cycle 1
+Wed, 12 Nov 2014 12:55:01 - __main__ - INFO - Finished display cycle 2
+Wed, 12 Nov 2014 12:55:01 - __main__ - INFO - timer started in livDemo process
+Wed, 12 Nov 2014 12:55:01 - __main__ - INFO - start Adafruit process
+Wed, 12 Nov 2014 12:55:02 - __main__ - DEBUG - Temp and Humidity sensor read after  1 tries
+Wed, 12 Nov 2014 12:55:02 - __main__ - DEBUG - AirPressure:  1009.7
+Wed, 12 Nov 2014 12:55:02 - __main__ - DEBUG - Temperature:  28.7
+Wed, 12 Nov 2014 12:55:02 - __main__ - DEBUG - Humidity:     54.9
+Wed, 12 Nov 2014 12:55:02 - __main__ - DEBUG - CO2 = 558
+Wed, 12 Nov 2014 12:55:02 - __main__ - INFO - Inserting record into firstCypress Measurements table:
+Wed, 12 Nov 2014 12:55:02 - __main__ - INFO - INSERT INTO Measurements VALUES (null, '2014-11-12 12:55:02', 28.7, 54.9, 1009.7, 558)
+Wed, 12 Nov 2014 12:55:36 - __main__ - INFO - Finished display cycle 0
+Wed, 12 Nov 2014 12:56:10 - __main__ - INFO - Finished display cycle 1
+Wed, 12 Nov 2014 12:56:44 - __main__ - INFO - Finished display cycle 2
+Wed, 12 Nov 2014 12:56:44 - __main__ - INFO - timer started in livDemo process
+Wed, 12 Nov 2014 12:56:44 - __main__ - INFO - start Adafruit process
+Wed, 12 Nov 2014 12:56:45 - __main__ - DEBUG - Temp and Humidity sensor read after  1 tries
+Wed, 12 Nov 2014 12:56:45 - __main__ - DEBUG - AirPressure:  1009.69
+Wed, 12 Nov 2014 12:56:45 - __main__ - DEBUG - Temperature:  28.8
+Wed, 12 Nov 2014 12:56:45 - __main__ - DEBUG - Humidity:     53.9
+Wed, 12 Nov 2014 12:56:45 - __main__ - DEBUG - CO2 = 563
+Wed, 12 Nov 2014 12:56:45 - __main__ - INFO - Inserting record into firstCypress Measurements table:
+Wed, 12 Nov 2014 12:56:45 - __main__ - INFO - INSERT INTO Measurements VALUES (null, '2014-11-12 12:56:45', 28.8, 53.9, 1009.69, 563)
+Wed, 12 Nov 2014 12:57:19 - __main__ - INFO - Finished display cycle 0
+Wed, 12 Nov 2014 12:57:53 - __main__ - INFO - Finished display cycle 1
+Wed, 12 Nov 2014 12:58:27 - __main__ - INFO - Finished display cycle 2
+Wed, 12 Nov 2014 12:58:27 - __main__ - INFO - timer started in livDemo process
+Wed, 12 Nov 2014 12:58:27 - __main__ - INFO - start Adafruit process
+Wed, 12 Nov 2014 12:58:28 - __main__ - DEBUG - Temp and Humidity sensor read after  1 tries
+Wed, 12 Nov 2014 12:58:28 - __main__ - DEBUG - AirPressure:  1009.69
+Wed, 12 Nov 2014 12:58:28 - __main__ - DEBUG - Temperature:  28.6
+Wed, 12 Nov 2014 12:58:28 - __main__ - DEBUG - Humidity:     55.3
+Wed, 12 Nov 2014 12:58:28 - __main__ - DEBUG - CO2 = 576
+Wed, 12 Nov 2014 12:58:28 - __main__ - INFO - Inserting record into firstCypress Measurements table:
+Wed, 12 Nov 2014 12:58:28 - __main__ - INFO - INSERT INTO Measurements VALUES (null, '2014-11-12 12:58:28', 28.6, 55.3, 1009.69, 576)
+Wed, 12 Nov 2014 12:59:02 - __main__ - INFO - Finished display cycle 0
+Wed, 12 Nov 2014 12:59:36 - __main__ - INFO - Finished display cycle 1
+Wed, 12 Nov 2014 13:00:10 - __main__ - INFO - Finished display cycle 2
+Wed, 12 Nov 2014 13:00:10 - __main__ - INFO - timer started in livDemo process
+Wed, 12 Nov 2014 13:00:10 - __main__ - INFO - start Adafruit process
+Wed, 12 Nov 2014 13:00:11 - __main__ - INFO - temp NOT MATCH Using pin #17
+Data (40): 0x2 0x29 0x1 0x1d 0x48
+
+Wed, 12 Nov 2014 13:00:16 - __main__ - INFO - timer started in livDemo process
+Wed, 12 Nov 2014 13:00:16 - __main__ - INFO - start Adafruit process
+Wed, 12 Nov 2014 13:00:16 - __main__ - DEBUG - Temp and Humidity sensor read after  2 tries
+Wed, 12 Nov 2014 13:00:16 - __main__ - DEBUG - AirPressure:  1009.66
+Wed, 12 Nov 2014 13:00:16 - __main__ - DEBUG - Temperature:  28.5
+Wed, 12 Nov 2014 13:00:16 - __main__ - DEBUG - Humidity:     55.3
+Wed, 12 Nov 2014 13:00:16 - __main__ - DEBUG - CO2 = 565
+Wed, 12 Nov 2014 13:00:16 - __main__ - INFO - Inserting record into firstCypress Measurements table:
+Wed, 12 Nov 2014 13:00:17 - __main__ - INFO - INSERT INTO Measurements VALUES (null, '2014-11-12 13:00:16', 28.5, 55.3, 1009.66, 565)
+Wed, 12 Nov 2014 13:00:51 - __main__ - INFO - Finished display cycle 0
+Wed, 12 Nov 2014 13:01:25 - __main__ - INFO - Finished display cycle 1
+Wed, 12 Nov 2014 13:01:59 - __main__ - INFO - Finished display cycle 2
+Wed, 12 Nov 2014 13:01:59 - __main__ - INFO - timer started in livDemo process
+Wed, 12 Nov 2014 13:01:59 - __main__ - INFO - start Adafruit process
+Wed, 12 Nov 2014 13:01:59 - __main__ - INFO - temp NOT MATCH Using pin #17
+Data (24): 0x2 0x26 0x1 0x0 0x0
+
+Wed, 12 Nov 2014 13:02:04 - __main__ - INFO - timer started in livDemo process
+Wed, 12 Nov 2014 13:02:04 - __main__ - INFO - start Adafruit process
+Wed, 12 Nov 2014 13:02:05 - __main__ - DEBUG - Temp and Humidity sensor read after  2 tries
+Wed, 12 Nov 2014 13:02:05 - __main__ - DEBUG - AirPressure:  1009.53
+Wed, 12 Nov 2014 13:02:05 - __main__ - DEBUG - Temperature:  28.7
+Wed, 12 Nov 2014 13:02:05 - __main__ - DEBUG - Humidity:     54.9
+Wed, 12 Nov 2014 13:02:05 - __main__ - DEBUG - CO2 = 564
+Wed, 12 Nov 2014 13:02:05 - __main__ - INFO - Inserting record into firstCypress Measurements table:
+Wed, 12 Nov 2014 13:02:05 - __main__ - INFO - INSERT INTO Measurements VALUES (null, '2014-11-12 13:02:05', 28.7, 54.9, 1009.53, 564)
+Wed, 12 Nov 2014 13:02:39 - __main__ - INFO - Finished display cycle 0
+Wed, 12 Nov 2014 13:03:13 - __main__ - INFO - Finished display cycle 1
+Wed, 12 Nov 2014 13:03:47 - __main__ - INFO - Finished display cycle 2
+Wed, 12 Nov 2014 13:03:47 - __main__ - INFO - timer started in livDemo process
+Wed, 12 Nov 2014 13:03:47 - __main__ - INFO - start Adafruit process
+Wed, 12 Nov 2014 13:03:48 - __main__ - DEBUG - Temp and Humidity sensor read after  1 tries
+Wed, 12 Nov 2014 13:03:48 - __main__ - DEBUG - AirPressure:  1009.72
+Wed, 12 Nov 2014 13:03:48 - __main__ - DEBUG - Temperature:  28.6
+Wed, 12 Nov 2014 13:03:48 - __main__ - DEBUG - Humidity:     55.3
+Wed, 12 Nov 2014 13:03:48 - __main__ - DEBUG - CO2 = 594
+Wed, 12 Nov 2014 13:03:48 - __main__ - INFO - Inserting record into firstCypress Measurements table:
+Wed, 12 Nov 2014 13:03:48 - __main__ - INFO - INSERT INTO Measurements VALUES (null, '2014-11-12 13:03:48', 28.6, 55.3, 1009.72, 594)
+Wed, 12 Nov 2014 13:04:22 - __main__ - INFO - Finished display cycle 0
+Wed, 12 Nov 2014 13:04:56 - __main__ - INFO - Finished display cycle 1
+Wed, 12 Nov 2014 13:05:30 - __main__ - INFO - Finished display cycle 2
+Wed, 12 Nov 2014 13:05:30 - __main__ - INFO - timer started in livDemo process
+Wed, 12 Nov 2014 13:05:30 - __main__ - INFO - start Adafruit process
+Wed, 12 Nov 2014 13:05:31 - __main__ - DEBUG - Temp and Humidity sensor read after  1 tries
+Wed, 12 Nov 2014 13:05:31 - __main__ - DEBUG - AirPressure:  1009.54
+Wed, 12 Nov 2014 13:05:31 - __main__ - DEBUG - Temperature:  28.6
+Wed, 12 Nov 2014 13:05:31 - __main__ - DEBUG - Humidity:     55.3
+Wed, 12 Nov 2014 13:05:31 - __main__ - DEBUG - CO2 = 573
+Wed, 12 Nov 2014 13:05:31 - __main__ - INFO - Inserting record into firstCypress Measurements table:
+Wed, 12 Nov 2014 13:05:31 - __main__ - INFO - INSERT INTO Measurements VALUES (null, '2014-11-12 13:05:31', 28.6, 55.3, 1009.54, 573)
+Wed, 12 Nov 2014 13:06:05 - __main__ - INFO - Finished display cycle 0
+Wed, 12 Nov 2014 13:06:39 - __main__ - INFO - Finished display cycle 1
+Wed, 12 Nov 2014 13:07:13 - __main__ - INFO - Finished display cycle 2
+Wed, 12 Nov 2014 13:07:14 - __main__ - INFO - timer started in livDemo process
+Wed, 12 Nov 2014 13:07:14 - __main__ - INFO - start Adafruit process
+Wed, 12 Nov 2014 13:07:14 - __main__ - DEBUG - Temp and Humidity sensor read after  1 tries
+Wed, 12 Nov 2014 13:07:14 - __main__ - DEBUG - AirPressure:  1009.49
+Wed, 12 Nov 2014 13:07:14 - __main__ - DEBUG - Temperature:  28.6
+Wed, 12 Nov 2014 13:07:14 - __main__ - DEBUG - Humidity:     55.2
+Wed, 12 Nov 2014 13:07:14 - __main__ - DEBUG - CO2 = 558
+Wed, 12 Nov 2014 13:07:14 - __main__ - INFO - Inserting record into firstCypress Measurements table:
+Wed, 12 Nov 2014 13:07:14 - __main__ - INFO - INSERT INTO Measurements VALUES (null, '2014-11-12 13:07:14', 28.6, 55.2, 1009.49, 558)
+Wed, 12 Nov 2014 13:07:48 - __main__ - INFO - Finished display cycle 0
+Wed, 12 Nov 2014 13:08:22 - __main__ - INFO - Finished display cycle 1
+Wed, 12 Nov 2014 13:08:56 - __main__ - INFO - Finished display cycle 2
+Wed, 12 Nov 2014 13:08:56 - __main__ - INFO - timer started in livDemo process
+Wed, 12 Nov 2014 13:08:56 - __main__ - INFO - start Adafruit process
+Wed, 12 Nov 2014 13:08:57 - __main__ - DEBUG - Temp and Humidity sensor read after  1 tries
+Wed, 12 Nov 2014 13:08:57 - __main__ - DEBUG - AirPressure:  1009.43
+Wed, 12 Nov 2014 13:08:57 - __main__ - DEBUG - Temperature:  28.4
+Wed, 12 Nov 2014 13:08:57 - __main__ - DEBUG - Humidity:     55.8
+Wed, 12 Nov 2014 13:08:57 - __main__ - DEBUG - CO2 = 579
+Wed, 12 Nov 2014 13:08:57 - __main__ - INFO - Inserting record into firstCypress Measurements table:
+Wed, 12 Nov 2014 13:08:57 - __main__ - INFO - INSERT INTO Measurements VALUES (null, '2014-11-12 13:08:57', 28.4, 55.8, 1009.43, 579)
+Wed, 12 Nov 2014 13:09:31 - __main__ - INFO - Finished display cycle 0
+Wed, 12 Nov 2014 13:10:05 - __main__ - INFO - Finished display cycle 1
+Wed, 12 Nov 2014 13:10:39 - __main__ - INFO - Finished display cycle 2
+Wed, 12 Nov 2014 13:10:39 - __main__ - INFO - timer started in livDemo process
+Wed, 12 Nov 2014 13:10:39 - __main__ - INFO - start Adafruit process
+Wed, 12 Nov 2014 13:10:40 - __main__ - DEBUG - Temp and Humidity sensor read after  1 tries
+Wed, 12 Nov 2014 13:10:40 - __main__ - DEBUG - AirPressure:  1009.58
+Wed, 12 Nov 2014 13:10:40 - __main__ - DEBUG - Temperature:  28.5
+Wed, 12 Nov 2014 13:10:40 - __main__ - DEBUG - Humidity:     55.3
+Wed, 12 Nov 2014 13:10:40 - __main__ - DEBUG - CO2 = 561
+Wed, 12 Nov 2014 13:10:40 - __main__ - INFO - Inserting record into firstCypress Measurements table:
+Wed, 12 Nov 2014 13:10:40 - __main__ - INFO - INSERT INTO Measurements VALUES (null, '2014-11-12 13:10:40', 28.5, 55.3, 1009.58, 561)
+Wed, 12 Nov 2014 13:11:14 - __main__ - INFO - Finished display cycle 0
+Wed, 12 Nov 2014 13:11:48 - __main__ - INFO - Finished display cycle 1
+Wed, 12 Nov 2014 13:12:22 - __main__ - INFO - Finished display cycle 2
+Wed, 12 Nov 2014 13:12:22 - __main__ - INFO - timer started in livDemo process
+Wed, 12 Nov 2014 13:12:22 - __main__ - INFO - start Adafruit process
+Wed, 12 Nov 2014 13:12:23 - __main__ - INFO - temp NOT MATCH Using pin #17
+Data (39): 0x2 0x54 0x2 0x3a 0x4a
+

@@ -1,0 +1,30 @@
+#!/bin/sh
+### BEGIN INIT INFO
+# Provides:          livDemoStart script
+# Required-Start:    $all
+# Required-Stop:     $sll
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+# Short-Description: Starts livDemoStart daemon at boot time
+# Description:       Enable service provided by livDemo
+### END INIT INFO
+
+
+# Carry out specific functions when asked to by the system
+case "$1" in
+  start)
+    echo "Starting script livDemoStart”
+    cd /home/pi/liv
+    sudo python livDemo.py
+    ;;
+  stop)
+    echo "Stopping script livDemoStart”
+    sudo pkill -f livDemo.py
+    ;;
+  *)
+    echo "Usage: /etc/init.d/livDemoStart {start|stop}"
+    exit 1
+    ;;
+esac
+
+exit 0
