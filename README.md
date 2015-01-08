@@ -1,4 +1,4 @@
-LiV is a sensor expansion board that turns your Raspberry Pi model B into a modern indoor air quality monitoring device that measures CO2, temperature, humidity and air pressure. 
+LiV is a sensor expansion board that turns your Raspberry Pi model B or B+ into a modern indoor air quality monitoring device that measures CO2, temperature, humidity and air pressure. 
 
 LiV's software is released under a MIT license. 
 
