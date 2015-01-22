@@ -77,7 +77,8 @@ def getAllSensorDataFromMostRecentReading():
     ap = c["AirPressure"]
     ts = c["Timestamp"]
     co2 = c["CO2level"]
-    return jsonify( { 'Temperature': t, 'Humidity': h, 'AirPressure': ap, 'Timestamp': ts, 'CO2level': co2} )
+    return jsonify( { 'Temperature': str(t)+' C', 'Humidity': str(h)+' %', 'AirPressure': str(ap)+' hPa', 'Timestamp': ts, 'CO2level': str(co2)+' ppm'} )
+
 
 @app.route('/getTemperature')
 def getLastTemperature():
