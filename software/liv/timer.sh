@@ -6,9 +6,9 @@ pid=`ps aux |grep Adafruit | grep -v grep | awk '{print $2}'`
 
 if [ -z "$pid" ]
  then
-  echo "NO SUCH PROCESS"
+  echo "NO HANGED ADAFRUIT PROCESS"
  else
   sudo kill -9 $pid
-  echo "KILLED ADAFRUIT PROCESS"
+  echo "KILLED HANGED ADAFRUIT PROCESS"
 fi
 

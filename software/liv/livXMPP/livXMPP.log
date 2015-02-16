@@ -1,4 +1,14 @@
+Fri, 13 Feb 2015 21:18:51 - __main__ - DEBUG - livXMPP.py - 28- Register Handlers
+Fri, 13 Feb 2015 21:18:51 - __main__ - INFO - livXMPP.py - 127- Successful XMPP Connection
 
+Fri, 13 Feb 2015 21:18:51 - __main__ - INFO - livXMPP.py - 133- Keep alive thread started
+Sat, 14 Feb 2015 15:55:15 - __main__ - DEBUG - livXMPP.py - 28- Register Handlers
+Sat, 14 Feb 2015 15:55:15 - __main__ - INFO - livXMPP.py - 127- Successful XMPP Connection
 
-
-
+Sat, 14 Feb 2015 15:55:15 - __main__ - INFO - livXMPP.py - 133- Keep alive thread started
+Sun, 15 Feb 2015 13:01:14 - __main__ - DEBUG - livXMPP.py - 32- Start processing XMPP message 
+Sun, 15 Feb 2015 13:01:14 - __main__ - DEBUG - livXMPP.py - 37- Reply to message: report 
+Sun, 15 Feb 2015 13:01:14 - __main__ - INFO - livXMPP.py - 64- Starting to respond to XMPP message
+Sun, 15 Feb 2015 13:02:51 - __main__ - DEBUG - livXMPP.py - 32- Start processing XMPP message 
+Sun, 15 Feb 2015 13:02:51 - __main__ - DEBUG - livXMPP.py - 37- Reply to message: what
+Sun, 15 Feb 2015 13:02:51 - __main__ - INFO - livXMPP.py - 64- Starting to respond to XMPP message

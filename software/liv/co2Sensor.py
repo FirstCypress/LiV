@@ -1,12 +1,5 @@
-'''
-Created by alfredc333
-First Cypress Limited, 2014
-MIT license
-'''
-
 import serial
 import time
-
 
 
 class  co2Sensor:
@@ -34,7 +27,7 @@ if __name__ == "__main__":
 
   co2Sensor = co2Sensor()
   co2 = co2Sensor.readCO2Level()
-  
+
 
   print 'co2 level is ' + str(co2)
 
