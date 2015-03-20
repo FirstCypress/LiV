@@ -118,7 +118,7 @@ class RPiApp(BaseRPiApp) :
         self.factory.device_save(self.info).addCallbacks(on_subscribe, on_failed)
 
     
-
+# DATA PUSH 
     def update_readings(self):
         target = urlparse('http://localhost:5000/getAllSensorData')
         method = 'GET'
