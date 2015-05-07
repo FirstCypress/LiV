@@ -28,7 +28,7 @@ app.logger_name = logging.getLogger(__name__)
 
 # Load default config and override config from an environment variable
 app.config.update(dict(
-    DATABASE=os.path.join(app.root_path, '../liv.db'),
+    DATABASE=os.path.join(app.root_path, '../livDB/liv.db'),
     DEBUG=True,
     SECRET_KEY='development key',
     USERNAME='admin',
@@ -65,8 +65,8 @@ def getData(recs):
   
 def prepareData(dbRecName, numberRecords):
     records = getData(int(numberRecords))
-    m =[]
-    x =[]
+    m = []
+    x = []
     l = records[0]
     f = records[-1]
     fromTS = f["Timestamp"]
@@ -75,7 +75,7 @@ def prepareData(dbRecName, numberRecords):
     for record in records[::-1]:
       m.append(record[dbRecName])
       x.append(i)
-      i=i+1
+      i = i + 1
     return fromTS, toTS, x, m
     
   
@@ -90,8 +90,22 @@ def close_db(error):
 
 @app.route('/')
 def getInfo():
-    return 'Available APIs: /getAllSensorData   /getSystemDate'
+    return 'Available APIs: .../getAllSensorData   .../getSystemDate'
 
+
+
+@app.route('/newliv')
+def newliv():
+      app.logger_name.debug('Access /newliv web page')
+      records = getData(1)
+      c = records[0]
+      t = c["Temperature"]
+      h = c["Humidity"]
+      ap = c["AirPressure"]
+      ts = c["Timestamp"]
+      co2 = c["CO2level"]
+      sData = { 'Temperature': t, 'Humidity': h, 'AirPressure': ap, 'Timestamp': ts, 'CO2level': co2} 
+      return render_template('livHomePage.html', sensorData=sData)
 
 @app.route('/liv')
 def liv():
@@ -104,7 +118,7 @@ def liv():
     ts = c["Timestamp"]
     co2 = c["CO2level"]
     sData = { 'Temperature': t, 'Humidity': h, 'AirPressure': ap, 'Timestamp': ts, 'CO2level': co2} 
-    return render_template('liv.html', sensorData = sData)
+    return render_template('liv.html', sensorData=sData)
     
 
 @app.route('/getAllSensorData')
@@ -117,25 +131,25 @@ def getAllSensorDataFromMostRecentReading():
     ap = c["AirPressure"]
     ts = c["Timestamp"]
     co2 = c["CO2level"]
-    return jsonify( { 'Temperature': str(t)+' C', 'Humidity': str(h)+' %', 'AirPressure': str(ap)+' hPa', 'Timestamp': ts, 'CO2level': str(co2)+' ppm'} )
+    return jsonify({ 'Temperature': str(t) + ' C', 'Humidity': str(h) + ' %', 'AirPressure': str(ap) + ' hPa', 'Timestamp': ts, 'CO2level': str(co2) + ' ppm'})
 
 
-@app.route('/getSystemDate', methods = ['GET'])
+@app.route('/getSystemDate', methods=['GET'])
 def getSystemDate():
   timestamp = strftime("%Y-%m-%d %H:%M:%S")
-  return jsonify( { 'LiV Date': timestamp } )
+  return jsonify({ 'LiV Date': timestamp })
 
-#use POST for setting date, this is just for browser testing.
-@app.route('/setHongKongDate', methods = ['GET'])
+# use POST for setting date, this is just for browser testing.
+@app.route('/setHongKongDate', methods=['GET'])
 def setHongKongDate():
   os.environ['TZ'] = 'Hongkong'
   time.tzset()
   timestamp = strftime("%Y-%m-%d %H:%M:%S")
-  return jsonify( { 'LiV Date set to': timestamp } )
+  return jsonify({ 'LiV Date set to': timestamp })
 
 @app.route('/co2/<numberRecords>')
 def images(numberRecords):
-    return render_template("CO2.html", title= numberRecords)
+    return render_template("CO2.html", title=numberRecords)
 
 @app.route('/CO2Fig/<numberRecords>')
 def CO2Fig(numberRecords):
@@ -148,17 +162,17 @@ def CO2Fig(numberRecords):
     plt.ylabel("CO2 Level in PPM")
     plt.title("From: " + fromTS + "                            To: " + toTS)
     plt.xlabel('Number of measurement points ')
-    ax.plot(x, m, color = '#009900')
+    ax.plot(x, m, color='#009900')
     
     img = StringIO.StringIO()
-    #plt.savefig('co2.png')
+    # plt.savefig('co2.png')
     plt.savefig(img)
     img.seek(0)
     return send_file(img, mimetype='image/png')
 
 @app.route('/temperature/<numberRecords>')
 def tGraph(numberRecords):
-    return render_template("temperature.html", title= numberRecords)
+    return render_template("temperature.html", title=numberRecords)
 
 @app.route('/tFig/<numberRecords>')
 def tFig(numberRecords):
@@ -171,7 +185,7 @@ def tFig(numberRecords):
     plt.ylabel("Temperature in C degrees")
     plt.title("From: " + fromTS + "                            To: " + toTS)
     plt.xlabel('Number of measurement points ')
-    ax.plot(x, m, color = '#009900')
+    ax.plot(x, m, color='#009900')
     
     img = StringIO.StringIO()
     plt.savefig(img)
@@ -180,7 +194,7 @@ def tFig(numberRecords):
 
 @app.route('/humidity/<numberRecords>')
 def hGraph(numberRecords):
-    return render_template("humidity.html", title= numberRecords)
+    return render_template("humidity.html", title=numberRecords)
 
 @app.route('/hFig/<numberRecords>')
 def hFig(numberRecords):
@@ -193,7 +207,7 @@ def hFig(numberRecords):
     plt.ylabel("Humidity in %")
     plt.title("From: " + fromTS + "                            To: " + toTS)
     plt.xlabel('Number of measurement points ')
-    ax.plot(x, m, color = '#009900')
+    ax.plot(x, m, color='#009900')
     
     img = StringIO.StringIO()
     plt.savefig(img)
@@ -202,7 +216,7 @@ def hFig(numberRecords):
 
 @app.route('/airPressure/<numberRecords>')
 def apGraph(numberRecords):
-    return render_template("airPressure.html", title= numberRecords)
+    return render_template("airPressure.html", title=numberRecords)
 
 @app.route('/apFig/<numberRecords>')
 def apFig(numberRecords):
@@ -218,7 +232,7 @@ def apFig(numberRecords):
     plt.ylabel("Air Pressure in hPa")
     plt.title("From: " + fromTS + "                            To: " + toTS)
     plt.xlabel('Number of measurement points ')
-    ax.plot(x, m, color = '#009900')
+    ax.plot(x, m, color='#009900')
     
     img = StringIO.StringIO()
     plt.savefig(img)
@@ -228,10 +242,10 @@ def apFig(numberRecords):
 
 if __name__ == '__main__':
 
-  #app.run(host='0.0.0.0', debug = True)
+  # app.run(host='0.0.0.0', debug = True)
 #   logging.config.fileConfig('livAPIsLogging.ini')
 #   app.logger_name = logging.getLogger(__name__)
-  #app.debug = True
+  # app.debug = True
 
-  app.run('0.0.0.0', debug = True)
+  app.run('0.0.0.0', debug=False)
     

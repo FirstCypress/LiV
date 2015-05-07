@@ -1,0 +1,59 @@
+{% extends "livLayout.html" %} {% block title %}LiV {% endblock %} {%
+block head %} {{ super() }}
+<!--  
+  <style type="text/css">
+    .important { color: #886699; }
+  </style>
+  -->
+{% endblock %} {% block content %}
+
+<table style="width: 100%; text-align: center">
+	<br>
+	<tr>
+		<td><img src="/static/Liv_web_banner_1.1.jpg" alt="LiV Icon"
+			style="width: 600px; height: 500px"></td>
+		<td>
+
+		
+			<ul class=sensorData>
+				<h1>Current Measurements</h1>
+				<br>
+				<p>
+				<h2>CO2 Level: {{ sensorData.CO2level }} ppm</h2>
+				</p>
+				<br>
+				<p>
+				<h2>Temperature: {{ sensorData.Temperature }} C</h2>
+				</p>
+				<br>
+				<p>
+				<h2>Humidity: {{ sensorData.Humidity }} %</h2>
+				</p>
+				<br>
+				<p>
+				<h2>Air Pressure: {{ sensorData.AirPressure }} hPa</h2>
+				</p>
+				<br>
+
+				<p>
+				<h2>Time Stamp: {{ sensorData.Timestamp }}</h2>
+				</p>
+				<br>
+
+			</ul>
+
+
+		</td>
+
+	</tr>
+</table>
+<br>
+
+
+
+
+<!--
+  <p class="important">
+    Welcome on my awesome homepage.
+    -->
+{% endblock %}

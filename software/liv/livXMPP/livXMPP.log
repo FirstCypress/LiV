@@ -12,3 +12,290 @@ Sun, 15 Feb 2015 13:01:14 - __main__ - INFO - livXMPP.py - 64- Starting to respo
 Sun, 15 Feb 2015 13:02:51 - __main__ - DEBUG - livXMPP.py - 32- Start processing XMPP message 
 Sun, 15 Feb 2015 13:02:51 - __main__ - DEBUG - livXMPP.py - 37- Reply to message: what
 Sun, 15 Feb 2015 13:02:51 - __main__ - INFO - livXMPP.py - 64- Starting to respond to XMPP message
+Mon, 16 Feb 2015 09:43:20 - __main__ - CRITICAL - livXMPP.py - 50- XMPP FAILED TO CONNECT
+Mon, 16 Feb 2015 09:43:20 - __main__ - ERROR - livXMPP.py - 124- Could not connect to server, or password mismatch!
+
+Mon, 16 Feb 2015 09:53:24 - __main__ - DEBUG - livXMPP.py - 28- Register Handlers
+Mon, 16 Feb 2015 09:53:24 - __main__ - INFO - livXMPP.py - 127- Successful XMPP Connection
+
+Mon, 16 Feb 2015 09:53:24 - __main__ - INFO - livXMPP.py - 133- Keep alive thread started
+Mon, 16 Feb 2015 15:10:55 - __main__ - CRITICAL - livXMPP.py - 50- XMPP FAILED TO CONNECT
+Mon, 16 Feb 2015 15:10:55 - __main__ - ERROR - livXMPP.py - 124- Could not connect to server, or password mismatch!
+
+Mon, 16 Feb 2015 15:13:27 - __main__ - CRITICAL - livXMPP.py - 50- XMPP FAILED TO CONNECT
+Mon, 16 Feb 2015 15:13:27 - __main__ - ERROR - livXMPP.py - 124- Could not connect to server, or password mismatch!
+
+Mon, 02 Mar 2015 12:47:26 - __main__ - CRITICAL - livXMPP.py - 50- XMPP FAILED TO CONNECT
+Mon, 02 Mar 2015 12:47:26 - __main__ - ERROR - livXMPP.py - 124- Could not connect to server, or password mismatch!
+
+Thu, 05 Mar 2015 09:15:46 - __main__ - CRITICAL - livXMPP.py - 50- XMPP FAILED TO CONNECT
+Thu, 05 Mar 2015 09:15:46 - __main__ - ERROR - livXMPP.py - 124- Could not connect to server, or password mismatch!
+
+Thu, 05 Mar 2015 10:35:14 - __main__ - CRITICAL - livXMPP.py - 55- XMPP FAILED TO AUTHENTICATE
+Thu, 05 Mar 2015 10:35:14 - __main__ - ERROR - livXMPP.py - 124- Could not connect to server, or password mismatch!
+
+Thu, 05 Mar 2015 19:52:02 - __main__ - CRITICAL - livXMPP.py - 50- XMPP FAILED TO CONNECT
+Thu, 05 Mar 2015 19:52:02 - __main__ - ERROR - livXMPP.py - 124- Could not connect to server, or password mismatch!
+
+Thu, 05 Mar 2015 19:54:39 - __main__ - DEBUG - livXMPP.py - 28- Register Handlers
+Thu, 05 Mar 2015 19:54:39 - __main__ - INFO - livXMPP.py - 127- Successful XMPP Connection
+
+Thu, 05 Mar 2015 19:54:39 - __main__ - INFO - livXMPP.py - 133- Keep alive thread started
+Thu, 05 Mar 2015 19:54:46 - __main__ - DEBUG - livXMPP.py - 32- Start processing XMPP message 
+Thu, 05 Mar 2015 19:54:46 - __main__ - DEBUG - livXMPP.py - 37- Reply to message: test
+Thu, 05 Mar 2015 19:54:46 - __main__ - INFO - livXMPP.py - 64- Starting to respond to XMPP message
+Thu, 05 Mar 2015 19:54:51 - __main__ - DEBUG - livXMPP.py - 32- Start processing XMPP message 
+Thu, 05 Mar 2015 19:54:51 - __main__ - DEBUG - livXMPP.py - 37- Reply to message: report
+Thu, 05 Mar 2015 19:54:51 - __main__ - INFO - livXMPP.py - 64- Starting to respond to XMPP message
+Fri, 06 Mar 2015 12:18:14 - __main__ - CRITICAL - livXMPP.py - 50- XMPP FAILED TO CONNECT
+Fri, 06 Mar 2015 12:18:14 - __main__ - ERROR - livXMPP.py - 124- Could not connect to server, or password mismatch!
+
+Fri, 13 Mar 2015 22:12:43 - __main__ - DEBUG - livXMPP.py - 28- Register Handlers
+Fri, 13 Mar 2015 22:12:43 - __main__ - INFO - livXMPP.py - 127- Successful XMPP Connection
+
+Fri, 13 Mar 2015 22:12:43 - __main__ - INFO - livXMPP.py - 133- Keep alive thread started
+Fri, 13 Mar 2015 23:21:04 - __main__ - DEBUG - livXMPP.py - 28- Register Handlers
+Fri, 13 Mar 2015 23:21:04 - __main__ - INFO - livXMPP.py - 127- Successful XMPP Connection
+
+Fri, 13 Mar 2015 23:21:04 - __main__ - INFO - livXMPP.py - 133- Keep alive thread started
+Sat, 14 Mar 2015 08:06:34 - __main__ - DEBUG - livXMPP.py - 28- Register Handlers
+Sat, 14 Mar 2015 08:06:34 - __main__ - INFO - livXMPP.py - 127- Successful XMPP Connection
+
+Sat, 14 Mar 2015 08:06:34 - __main__ - INFO - livXMPP.py - 133- Keep alive thread started
+Sat, 14 Mar 2015 08:48:45 - __main__ - DEBUG - livXMPP.py - 28- Register Handlers
+Sat, 14 Mar 2015 08:48:45 - __main__ - INFO - livXMPP.py - 127- Successful XMPP Connection
+
+Sat, 14 Mar 2015 08:48:45 - __main__ - INFO - livXMPP.py - 133- Keep alive thread started
+Sat, 14 Mar 2015 09:16:13 - __main__ - CRITICAL - livXMPP.py - 55- XMPP FAILED TO AUTHENTICATE
+Sat, 14 Mar 2015 09:16:13 - __main__ - ERROR - livXMPP.py - 124- Could not connect to server, or password mismatch!
+
+Sat, 14 Mar 2015 13:58:00 - __main__ - DEBUG - livXMPP.py - 28- Register Handlers
+Sat, 14 Mar 2015 13:58:00 - __main__ - INFO - livXMPP.py - 127- Successful XMPP Connection
+
+Sat, 14 Mar 2015 13:58:00 - __main__ - INFO - livXMPP.py - 133- Keep alive thread started
+Sat, 14 Mar 2015 15:34:28 - __main__ - DEBUG - livXMPP.py - 28- Register Handlers
+Sat, 14 Mar 2015 15:34:28 - __main__ - INFO - livXMPP.py - 127- Successful XMPP Connection
+
+Sat, 14 Mar 2015 15:34:28 - __main__ - INFO - livXMPP.py - 133- Keep alive thread started
+Sat, 14 Mar 2015 15:48:14 - __main__ - DEBUG - livXMPP.py - 28- Register Handlers
+Sat, 14 Mar 2015 15:48:14 - __main__ - INFO - livXMPP.py - 127- Successful XMPP Connection
+
+Sat, 14 Mar 2015 15:48:14 - __main__ - INFO - livXMPP.py - 133- Keep alive thread started
+Sat, 14 Mar 2015 16:09:16 - __main__ - DEBUG - livXMPP.py - 28- Register Handlers
+Sat, 14 Mar 2015 16:09:16 - __main__ - INFO - livXMPP.py - 127- Successful XMPP Connection
+
+Sat, 14 Mar 2015 16:09:16 - __main__ - INFO - livXMPP.py - 133- Keep alive thread started
+Sat, 14 Mar 2015 16:44:36 - __main__ - DEBUG - livXMPP.py - 28- Register Handlers
+Sat, 14 Mar 2015 16:44:36 - __main__ - INFO - livXMPP.py - 127- Successful XMPP Connection
+
+Sat, 14 Mar 2015 16:44:36 - __main__ - INFO - livXMPP.py - 133- Keep alive thread started
+Sat, 14 Mar 2015 17:12:31 - __main__ - DEBUG - livXMPP.py - 28- Register Handlers
+Sat, 14 Mar 2015 17:12:32 - __main__ - INFO - livXMPP.py - 127- Successful XMPP Connection
+
+Sat, 14 Mar 2015 17:12:32 - __main__ - INFO - livXMPP.py - 133- Keep alive thread started
+Sun, 15 Mar 2015 17:16:20 - __main__ - DEBUG - livXMPP.py - 28- Register Handlers
+Sun, 15 Mar 2015 17:16:20 - __main__ - INFO - livXMPP.py - 127- Successful XMPP Connection
+
+Sun, 15 Mar 2015 17:16:20 - __main__ - INFO - livXMPP.py - 133- Keep alive thread started
+Tue, 17 Mar 2015 20:01:12 - __main__ - DEBUG - livXMPP.py - 32- Start processing XMPP message 
+Tue, 17 Mar 2015 20:01:12 - __main__ - DEBUG - livXMPP.py - 37- Reply to message: test
+Tue, 17 Mar 2015 20:01:12 - __main__ - INFO - livXMPP.py - 64- Starting to respond to XMPP message
+Tue, 17 Mar 2015 20:01:18 - __main__ - DEBUG - livXMPP.py - 32- Start processing XMPP message 
+Tue, 17 Mar 2015 20:01:18 - __main__ - DEBUG - livXMPP.py - 37- Reply to message: report 
+Tue, 17 Mar 2015 20:01:18 - __main__ - INFO - livXMPP.py - 64- Starting to respond to XMPP message
+Wed, 18 Mar 2015 11:16:48 - __main__ - DEBUG - livXMPP.py - 28- Register Handlers
+Wed, 18 Mar 2015 11:16:48 - __main__ - INFO - livXMPP.py - 127- Successful XMPP Connection
+
+Wed, 18 Mar 2015 11:16:48 - __main__ - INFO - livXMPP.py - 133- Keep alive thread started
+Thu, 19 Mar 2015 16:29:03 - __main__ - DEBUG - livXMPP.py - 28- Register Handlers
+Thu, 19 Mar 2015 16:29:03 - __main__ - INFO - livXMPP.py - 127- Successful XMPP Connection
+
+Thu, 19 Mar 2015 16:29:03 - __main__ - INFO - livXMPP.py - 133- Keep alive thread started
+Thu, 19 Mar 2015 16:51:42 - __main__ - DEBUG - livXMPP.py - 28- Register Handlers
+Thu, 19 Mar 2015 16:51:42 - __main__ - INFO - livXMPP.py - 127- Successful XMPP Connection
+
+Thu, 19 Mar 2015 16:51:42 - __main__ - INFO - livXMPP.py - 133- Keep alive thread started
+Thu, 19 Mar 2015 17:04:49 - __main__ - DEBUG - livXMPP.py - 28- Register Handlers
+Thu, 19 Mar 2015 17:04:49 - __main__ - INFO - livXMPP.py - 127- Successful XMPP Connection
+
+Thu, 19 Mar 2015 17:04:49 - __main__ - INFO - livXMPP.py - 133- Keep alive thread started
+Thu, 19 Mar 2015 17:14:53 - __main__ - DEBUG - livXMPP.py - 28- Register Handlers
+Thu, 19 Mar 2015 17:14:53 - __main__ - INFO - livXMPP.py - 127- Successful XMPP Connection
+
+Thu, 19 Mar 2015 17:14:53 - __main__ - INFO - livXMPP.py - 133- Keep alive thread started
+Thu, 19 Mar 2015 17:19:55 - __main__ - DEBUG - livXMPP.py - 28- Register Handlers
+Thu, 19 Mar 2015 17:19:55 - __main__ - INFO - livXMPP.py - 127- Successful XMPP Connection
+
+Thu, 19 Mar 2015 17:19:55 - __main__ - INFO - livXMPP.py - 133- Keep alive thread started
+Thu, 19 Mar 2015 17:27:33 - __main__ - CRITICAL - livXMPP.py - 50- XMPP FAILED TO CONNECT
+Thu, 19 Mar 2015 17:27:33 - __main__ - ERROR - livXMPP.py - 124- Could not connect to server, or password mismatch!
+
+Thu, 19 Mar 2015 17:47:56 - __main__ - DEBUG - livXMPP.py - 28- Register Handlers
+Thu, 19 Mar 2015 17:47:56 - __main__ - INFO - livXMPP.py - 127- Successful XMPP Connection
+
+Thu, 19 Mar 2015 17:47:56 - __main__ - INFO - livXMPP.py - 133- Keep alive thread started
+Thu, 19 Mar 2015 21:36:55 - __main__ - DEBUG - livXMPP.py - 32- Start processing XMPP message 
+Thu, 19 Mar 2015 21:36:55 - __main__ - DEBUG - livXMPP.py - 37- Reply to message: report
+Thu, 19 Mar 2015 21:36:55 - __main__ - INFO - livXMPP.py - 64- Starting to respond to XMPP message
+Thu, 19 Mar 2015 21:37:06 - __main__ - DEBUG - livXMPP.py - 32- Start processing XMPP message 
+Thu, 19 Mar 2015 21:37:06 - __main__ - DEBUG - livXMPP.py - 37- Reply to message: hello
+Thu, 19 Mar 2015 21:37:06 - __main__ - INFO - livXMPP.py - 64- Starting to respond to XMPP message
+Tue, 24 Mar 2015 19:35:34 - __main__ - DEBUG - livXMPP.py - 32- Start processing XMPP message 
+Tue, 24 Mar 2015 19:35:34 - __main__ - DEBUG - livXMPP.py - 37- Reply to message: report
+Tue, 24 Mar 2015 19:35:34 - __main__ - INFO - livXMPP.py - 64- Starting to respond to XMPP message
+Tue, 24 Mar 2015 20:49:32 - __main__ - DEBUG - livXMPP.py - 32- Start processing XMPP message 
+Tue, 24 Mar 2015 20:49:32 - __main__ - DEBUG - livXMPP.py - 37- Reply to message: report
+Tue, 24 Mar 2015 20:49:32 - __main__ - INFO - livXMPP.py - 64- Starting to respond to XMPP message
+Sat, 28 Mar 2015 15:53:35 - __main__ - CRITICAL - livXMPP.py - 50- XMPP FAILED TO CONNECT
+Sat, 28 Mar 2015 15:53:35 - __main__ - ERROR - livXMPP.py - 124- Could not connect to server, or password mismatch!
+
+Sat, 28 Mar 2015 16:25:38 - __main__ - CRITICAL - livXMPP.py - 50- XMPP FAILED TO CONNECT
+Sat, 28 Mar 2015 16:25:38 - __main__ - ERROR - livXMPP.py - 124- Could not connect to server, or password mismatch!
+
+Sat, 28 Mar 2015 16:37:01 - __main__ - DEBUG - livXMPP.py - 28- Register Handlers
+Sat, 28 Mar 2015 16:37:01 - __main__ - INFO - livXMPP.py - 127- Successful XMPP Connection
+
+Sat, 28 Mar 2015 16:37:01 - __main__ - INFO - livXMPP.py - 133- Keep alive thread started
+Sat, 28 Mar 2015 17:08:36 - __main__ - DEBUG - livXMPP.py - 28- Register Handlers
+Sat, 28 Mar 2015 17:08:36 - __main__ - INFO - livXMPP.py - 127- Successful XMPP Connection
+
+Sat, 28 Mar 2015 17:08:36 - __main__ - INFO - livXMPP.py - 133- Keep alive thread started
+Sat, 28 Mar 2015 17:21:21 - __main__ - CRITICAL - livXMPP.py - 55- XMPP FAILED TO AUTHENTICATE
+Sat, 28 Mar 2015 17:21:21 - __main__ - ERROR - livXMPP.py - 124- Could not connect to server, or password mismatch!
+
+Wed, 01 Apr 2015 11:42:42 - __main__ - DEBUG - livXMPP.py - 28- Register Handlers
+Wed, 01 Apr 2015 11:42:42 - __main__ - INFO - livXMPP.py - 127- Successful XMPP Connection
+
+Wed, 01 Apr 2015 11:42:42 - __main__ - INFO - livXMPP.py - 133- Keep alive thread started
+Wed, 01 Apr 2015 11:51:18 - __main__ - DEBUG - livXMPP.py - 28- Register Handlers
+Wed, 01 Apr 2015 11:51:18 - __main__ - INFO - livXMPP.py - 127- Successful XMPP Connection
+
+Wed, 01 Apr 2015 11:51:18 - __main__ - INFO - livXMPP.py - 133- Keep alive thread started
+Wed, 01 Apr 2015 11:56:46 - __main__ - CRITICAL - livXMPP.py - 50- XMPP FAILED TO CONNECT
+Wed, 01 Apr 2015 11:56:46 - __main__ - ERROR - livXMPP.py - 124- Could not connect to server, or password mismatch!
+
+Wed, 01 Apr 2015 12:08:05 - __main__ - DEBUG - livXMPP.py - 28- Register Handlers
+Wed, 01 Apr 2015 12:08:05 - __main__ - INFO - livXMPP.py - 127- Successful XMPP Connection
+
+Wed, 01 Apr 2015 12:08:05 - __main__ - INFO - livXMPP.py - 133- Keep alive thread started
+Wed, 01 Apr 2015 12:18:59 - __main__ - CRITICAL - livXMPP.py - 50- XMPP FAILED TO CONNECT
+Wed, 01 Apr 2015 12:18:59 - __main__ - ERROR - livXMPP.py - 124- Could not connect to server, or password mismatch!
+
+Wed, 01 Apr 2015 12:24:06 - __main__ - CRITICAL - livXMPP.py - 50- XMPP FAILED TO CONNECT
+Wed, 01 Apr 2015 12:24:06 - __main__ - ERROR - livXMPP.py - 124- Could not connect to server, or password mismatch!
+
+Wed, 01 Apr 2015 12:45:59 - __main__ - CRITICAL - livXMPP.py - 50- XMPP FAILED TO CONNECT
+Wed, 01 Apr 2015 12:45:59 - __main__ - ERROR - livXMPP.py - 124- Could not connect to server, or password mismatch!
+
+Wed, 01 Apr 2015 19:47:39 - __main__ - CRITICAL - livXMPP.py - 50- XMPP FAILED TO CONNECT
+Wed, 01 Apr 2015 19:47:39 - __main__ - ERROR - livXMPP.py - 124- Could not connect to server, or password mismatch!
+
+Fri, 03 Apr 2015 22:18:48 - __main__ - CRITICAL - livXMPP.py - 50- XMPP FAILED TO CONNECT
+Fri, 03 Apr 2015 22:18:48 - __main__ - ERROR - livXMPP.py - 124- Could not connect to server, or password mismatch!
+
+Mon, 13 Apr 2015 16:32:00 - __main__ - DEBUG - livXMPP.py - 28- Register Handlers
+Mon, 13 Apr 2015 16:32:00 - __main__ - INFO - livXMPP.py - 127- Successful XMPP Connection
+
+Mon, 13 Apr 2015 16:32:00 - __main__ - INFO - livXMPP.py - 133- Keep alive thread started
+Mon, 13 Apr 2015 16:54:39 - __main__ - DEBUG - livXMPP.py - 28- Register Handlers
+Mon, 13 Apr 2015 16:54:39 - __main__ - INFO - livXMPP.py - 127- Successful XMPP Connection
+
+Mon, 13 Apr 2015 16:54:39 - __main__ - INFO - livXMPP.py - 133- Keep alive thread started
+Mon, 13 Apr 2015 18:56:55 - __main__ - DEBUG - livXMPP.py - 28- Register Handlers
+Mon, 13 Apr 2015 18:56:55 - __main__ - INFO - livXMPP.py - 127- Successful XMPP Connection
+
+Mon, 13 Apr 2015 18:56:55 - __main__ - INFO - livXMPP.py - 133- Keep alive thread started
+Mon, 13 Apr 2015 19:03:48 - __main__ - DEBUG - livXMPP.py - 28- Register Handlers
+Mon, 13 Apr 2015 19:03:48 - __main__ - INFO - livXMPP.py - 127- Successful XMPP Connection
+
+Mon, 13 Apr 2015 19:03:48 - __main__ - INFO - livXMPP.py - 133- Keep alive thread started
+Mon, 13 Apr 2015 19:30:44 - __main__ - DEBUG - livXMPP.py - 28- Register Handlers
+Mon, 13 Apr 2015 19:30:44 - __main__ - INFO - livXMPP.py - 127- Successful XMPP Connection
+
+Mon, 13 Apr 2015 19:30:44 - __main__ - INFO - livXMPP.py - 133- Keep alive thread started
+Mon, 13 Apr 2015 20:40:51 - __main__ - DEBUG - livXMPP.py - 28- Register Handlers
+Mon, 13 Apr 2015 20:40:51 - __main__ - INFO - livXMPP.py - 127- Successful XMPP Connection
+
+Mon, 13 Apr 2015 20:40:51 - __main__ - INFO - livXMPP.py - 133- Keep alive thread started
+Mon, 13 Apr 2015 21:00:47 - __main__ - DEBUG - livXMPP.py - 28- Register Handlers
+Mon, 13 Apr 2015 21:00:47 - __main__ - INFO - livXMPP.py - 127- Successful XMPP Connection
+
+Mon, 13 Apr 2015 21:00:47 - __main__ - INFO - livXMPP.py - 133- Keep alive thread started
+Tue, 14 Apr 2015 08:18:31 - __main__ - CRITICAL - livXMPP.py - 50- XMPP FAILED TO CONNECT
+Tue, 14 Apr 2015 08:18:31 - __main__ - ERROR - livXMPP.py - 124- Could not connect to server, or password mismatch!
+
+Tue, 14 Apr 2015 08:37:27 - __main__ - CRITICAL - livXMPP.py - 50- XMPP FAILED TO CONNECT
+Tue, 14 Apr 2015 08:37:27 - __main__ - ERROR - livXMPP.py - 124- Could not connect to server, or password mismatch!
+
+Tue, 14 Apr 2015 09:03:38 - __main__ - CRITICAL - livXMPP.py - 50- XMPP FAILED TO CONNECT
+Tue, 14 Apr 2015 09:03:38 - __main__ - ERROR - livXMPP.py - 124- Could not connect to server, or password mismatch!
+
+Tue, 14 Apr 2015 12:13:58 - __main__ - DEBUG - livXMPP.py - 28- Register Handlers
+Tue, 14 Apr 2015 12:13:58 - __main__ - INFO - livXMPP.py - 127- Successful XMPP Connection
+
+Tue, 14 Apr 2015 12:13:58 - __main__ - INFO - livXMPP.py - 133- Keep alive thread started
+Tue, 14 Apr 2015 13:14:55 - __main__ - DEBUG - livXMPP.py - 28- Register Handlers
+Tue, 14 Apr 2015 13:14:55 - __main__ - INFO - livXMPP.py - 127- Successful XMPP Connection
+
+Tue, 14 Apr 2015 13:14:55 - __main__ - INFO - livXMPP.py - 133- Keep alive thread started
+Wed, 15 Apr 2015 15:05:02 - __main__ - DEBUG - livXMPP.py - 28- Register Handlers
+Wed, 15 Apr 2015 15:05:02 - __main__ - INFO - livXMPP.py - 127- Successful XMPP Connection
+
+Wed, 15 Apr 2015 15:05:02 - __main__ - INFO - livXMPP.py - 133- Keep alive thread started
+Wed, 15 Apr 2015 15:33:41 - __main__ - DEBUG - livXMPP.py - 28- Register Handlers
+Wed, 15 Apr 2015 15:33:41 - __main__ - INFO - livXMPP.py - 127- Successful XMPP Connection
+
+Wed, 15 Apr 2015 15:33:41 - __main__ - INFO - livXMPP.py - 133- Keep alive thread started
+Tue, 21 Apr 2015 20:05:25 - __main__ - DEBUG - livXMPP.py - 28- Register Handlers
+Tue, 21 Apr 2015 20:05:25 - __main__ - INFO - livXMPP.py - 127- Successful XMPP Connection
+
+Tue, 21 Apr 2015 20:05:25 - __main__ - INFO - livXMPP.py - 133- Keep alive thread started
+Thu, 30 Apr 2015 15:51:32 - __main__ - DEBUG - livXMPP.py - 28- Register Handlers
+Thu, 30 Apr 2015 15:51:32 - __main__ - INFO - livXMPP.py - 127- Successful XMPP Connection
+
+Thu, 30 Apr 2015 15:51:32 - __main__ - INFO - livXMPP.py - 133- Keep alive thread started
+Thu, 30 Apr 2015 15:52:35 - __main__ - DEBUG - livXMPP.py - 32- Start processing XMPP message 
+Thu, 30 Apr 2015 15:52:35 - __main__ - DEBUG - livXMPP.py - 37- Reply to message: report
+Thu, 30 Apr 2015 15:52:35 - __main__ - INFO - livXMPP.py - 64- Starting to respond to XMPP message
+Mon, 04 May 2015 16:33:02 - __main__ - DEBUG - livXMPP.py - 28- Register Handlers
+Mon, 04 May 2015 16:33:02 - __main__ - INFO - livXMPP.py - 127- Successful XMPP Connection
+
+Mon, 04 May 2015 16:33:02 - __main__ - INFO - livXMPP.py - 133- Keep alive thread started
+Mon, 04 May 2015 16:33:28 - __main__ - DEBUG - livXMPP.py - 32- Start processing XMPP message 
+Mon, 04 May 2015 16:33:28 - __main__ - DEBUG - livXMPP.py - 37- Reply to message: report 
+Mon, 04 May 2015 16:33:28 - __main__ - INFO - livXMPP.py - 64- Starting to respond to XMPP message
+Mon, 04 May 2015 16:34:20 - __main__ - DEBUG - livXMPP.py - 28- Register Handlers
+Mon, 04 May 2015 16:34:20 - __main__ - INFO - livXMPP.py - 127- Successful XMPP Connection
+
+Mon, 04 May 2015 16:34:20 - __main__ - INFO - livXMPP.py - 133- Keep alive thread started
+Mon, 04 May 2015 16:34:24 - __main__ - DEBUG - livXMPP.py - 32- Start processing XMPP message 
+Mon, 04 May 2015 16:34:24 - __main__ - DEBUG - livXMPP.py - 37- Reply to message: test
+Mon, 04 May 2015 16:34:24 - __main__ - INFO - livXMPP.py - 64- Starting to respond to XMPP message
+Mon, 04 May 2015 16:34:31 - __main__ - DEBUG - livXMPP.py - 32- Start processing XMPP message 
+Mon, 04 May 2015 16:34:31 - __main__ - DEBUG - livXMPP.py - 37- Reply to message: report
+Mon, 04 May 2015 16:34:31 - __main__ - INFO - livXMPP.py - 64- Starting to respond to XMPP message
+Mon, 04 May 2015 16:35:22 - __main__ - DEBUG - livXMPP.py - 28- Register Handlers
+Mon, 04 May 2015 16:35:22 - __main__ - INFO - livXMPP.py - 127- Successful XMPP Connection
+
+Mon, 04 May 2015 16:35:22 - __main__ - INFO - livXMPP.py - 133- Keep alive thread started
+Mon, 04 May 2015 16:35:25 - __main__ - DEBUG - livXMPP.py - 32- Start processing XMPP message 
+Mon, 04 May 2015 16:35:25 - __main__ - DEBUG - livXMPP.py - 37- Reply to message: test
+Mon, 04 May 2015 16:35:25 - __main__ - INFO - livXMPP.py - 64- Starting to respond to XMPP message
+Mon, 04 May 2015 16:35:29 - __main__ - DEBUG - livXMPP.py - 32- Start processing XMPP message 
+Mon, 04 May 2015 16:35:29 - __main__ - DEBUG - livXMPP.py - 37- Reply to message: report
+Mon, 04 May 2015 16:35:29 - __main__ - INFO - livXMPP.py - 64- Starting to respond to XMPP message
+Mon, 04 May 2015 20:23:01 - __main__ - DEBUG - livXMPP.py - 28- Register Handlers
+Mon, 04 May 2015 20:23:01 - __main__ - INFO - livXMPP.py - 127- Successful XMPP Connection
+
+Mon, 04 May 2015 20:23:01 - __main__ - INFO - livXMPP.py - 133- Keep alive thread started
+Mon, 04 May 2015 20:53:21 - __main__ - DEBUG - livXMPP.py - 28- Register Handlers
+Mon, 04 May 2015 20:53:21 - __main__ - INFO - livXMPP.py - 127- Successful XMPP Connection
+
+Mon, 04 May 2015 20:53:21 - __main__ - INFO - livXMPP.py - 133- Keep alive thread started
+Mon, 04 May 2015 21:08:18 - __main__ - DEBUG - livXMPP.py - 28- Register Handlers
+Mon, 04 May 2015 21:08:18 - __main__ - INFO - livXMPP.py - 127- Successful XMPP Connection
+
+Mon, 04 May 2015 21:08:18 - __main__ - INFO - livXMPP.py - 133- Keep alive thread started
+Thu, 07 May 2015 10:05:25 - __main__ - DEBUG - livXMPP.py - 32- Start processing XMPP message 
+Thu, 07 May 2015 10:05:25 - __main__ - DEBUG - livXMPP.py - 37- Reply to message: report
+Thu, 07 May 2015 10:05:25 - __main__ - INFO - livXMPP.py - 64- Starting to respond to XMPP message
