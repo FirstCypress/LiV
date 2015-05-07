@@ -44,7 +44,7 @@ class RPiDescr( devicehive.DeviceInfo ):
 
         super(RPiDescr, self).__init__(name = 'LiV Device',
                                        status = 'Online',
-                                       network = devicehive.Network(key = 'aeiou123456789',
+                                       network = devicehive.Network(key = 'yourKeyHere',
                                        name = 'LiV Network',
                                        descr = 'LiV Air Monitoring Network'),
                                        device_class = devicehive.DeviceClass(name = 'LiV',
