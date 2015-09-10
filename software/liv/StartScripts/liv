@@ -21,7 +21,7 @@ case "$1" in
     cd /home/pi/liv/livDB/
     sudo python livDB.py &
     
-    sleep 10
+    sudo sleep 10
 
     echo "Starting livLCD"
     cd /home/pi/liv/livLCD/
