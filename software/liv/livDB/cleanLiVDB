@@ -1,0 +1,36 @@
+#!/bin/bash
+
+
+function cleanLivDB {
+               echo "1. Stop all LiV Processes .......";
+               sudo systemctl stop liv;
+               sleep 5; echo; echo "...........................";echo;
+               
+               echo "2. Back up liv.db .........";
+               time=$(date +%Y%m%d_%H%M%S); filename=liv.db;mv ${filename} ${filename}_${time};
+               sleep 5; echo; echo "..........................."; echo;
+               
+               echo "3. Create new liv.db ........";
+               sqlite3 liv.db < schema.sql;
+               sleep 5; echo; echo "..........................."; echo;
+               
+               echo "4. Start LiV Processes ......";
+               #start and kill livLCD, known LCD init bug
+               cd ../livLCD; 
+               sudo python livLCD.py&
+               sleep 5;
+               sudo pkill -f livLCD;
+               sudo systemctl start liv;
+               sleep 15;
+               echo; echo "...........................";
+               echo "LiV Pi DB successfully re-created. All LIV processes up and running. Good bye now.";
+}
+
+echo    "You are about to delete LiV DB and re-create it from scratch."
+read -p "Continue (y/n)?" choice
+           
+case "$choice" in 
+  y|Y ) cleanLivDB;;
+  n|N ) echo "Good bye now";;
+  * ) echo "Invalid option. Good bye now.";;
+esac
