@@ -1,0 +1,5 @@
+[LIV_SOFTWARE]
+version: V_1.0
+supported_devices: RPi 3,2,B+,B
+
+
