@@ -1,0 +1,66 @@
+Thu, 31 Mar 2016 14:13:28 - __main__ - INFO - livDB.py - 45- --------------------------------------------
+Thu, 31 Mar 2016 14:13:28 - __main__ - INFO - livDB.py - 46- LIV STARTED
+Thu, 31 Mar 2016 14:13:28 - __main__ - INFO - livDB.py - 60- Air pressure sensor initialized
+Thu, 31 Mar 2016 14:13:28 - __main__ - INFO - livDB.py - 71- co2 sensor initialized
+Thu, 31 Mar 2016 14:13:28 - __main__ - INFO - livDB.py - 81- Temp and Humidity sensor initialized
+Thu, 31 Mar 2016 14:13:28 - __main__ - INFO - livDB.py - 92- sqlite DB Connection initialized
+Thu, 31 Mar 2016 14:13:30 - __main__ - INFO - livDB.py - 119- AirPressure:  1008.77
+Thu, 31 Mar 2016 14:13:30 - __main__ - INFO - livDB.py - 120- Temperature:  25.1
+Thu, 31 Mar 2016 14:13:30 - __main__ - INFO - livDB.py - 121- Humidity:     75.6
+Thu, 31 Mar 2016 14:13:30 - __main__ - INFO - livDB.py - 122- CO2 = 849
+Thu, 31 Mar 2016 14:13:30 - __main__ - INFO - livDB.py - 145- Inserting record into liv Measurements table:
+Thu, 31 Mar 2016 14:13:30 - __main__ - INFO - livDB.py - 148- INSERT INTO Measurements VALUES (null, '2016-03-31 14:13:30', 25.1, 75.6, 1008.77, 849)
+Thu, 31 Mar 2016 14:15:56 - __main__ - INFO - livDB.py - 119- AirPressure:  1008.84
+Thu, 31 Mar 2016 14:15:56 - __main__ - INFO - livDB.py - 120- Temperature:  25.1
+Thu, 31 Mar 2016 14:15:56 - __main__ - INFO - livDB.py - 121- Humidity:     76.2
+Thu, 31 Mar 2016 14:15:56 - __main__ - INFO - livDB.py - 122- CO2 = 884
+Thu, 31 Mar 2016 14:15:56 - __main__ - INFO - livDB.py - 145- Inserting record into liv Measurements table:
+Thu, 31 Mar 2016 14:15:56 - __main__ - INFO - livDB.py - 148- INSERT INTO Measurements VALUES (null, '2016-03-31 14:15:56', 25.1, 76.2, 1008.84, 884)
+Thu, 31 Mar 2016 14:17:57 - __main__ - INFO - livDB.py - 119- AirPressure:  1008.83
+Thu, 31 Mar 2016 14:17:57 - __main__ - INFO - livDB.py - 120- Temperature:  25.3
+Thu, 31 Mar 2016 14:17:57 - __main__ - INFO - livDB.py - 121- Humidity:     75.5
+Thu, 31 Mar 2016 14:17:57 - __main__ - INFO - livDB.py - 122- CO2 = 871
+Thu, 31 Mar 2016 14:17:57 - __main__ - INFO - livDB.py - 145- Inserting record into liv Measurements table:
+Thu, 31 Mar 2016 14:17:57 - __main__ - INFO - livDB.py - 148- INSERT INTO Measurements VALUES (null, '2016-03-31 14:17:57', 25.3, 75.5, 1008.83, 871)
+Thu, 31 Mar 2016 14:19:58 - __main__ - INFO - livDB.py - 119- AirPressure:  1008.78
+Thu, 31 Mar 2016 14:19:58 - __main__ - INFO - livDB.py - 120- Temperature:  25.2
+Thu, 31 Mar 2016 14:19:58 - __main__ - INFO - livDB.py - 121- Humidity:     75.6
+Thu, 31 Mar 2016 14:19:58 - __main__ - INFO - livDB.py - 122- CO2 = 862
+Thu, 31 Mar 2016 14:19:58 - __main__ - INFO - livDB.py - 145- Inserting record into liv Measurements table:
+Thu, 31 Mar 2016 14:19:58 - __main__ - INFO - livDB.py - 148- INSERT INTO Measurements VALUES (null, '2016-03-31 14:19:58', 25.2, 75.6, 1008.78, 862)
+Thu, 31 Mar 2016 14:21:59 - __main__ - INFO - livDB.py - 119- AirPressure:  1008.7
+Thu, 31 Mar 2016 14:21:59 - __main__ - INFO - livDB.py - 120- Temperature:  25.2
+Thu, 31 Mar 2016 14:21:59 - __main__ - INFO - livDB.py - 121- Humidity:     75.8
+Thu, 31 Mar 2016 14:21:59 - __main__ - INFO - livDB.py - 122- CO2 = 862
+Thu, 31 Mar 2016 14:21:59 - __main__ - INFO - livDB.py - 145- Inserting record into liv Measurements table:
+Thu, 31 Mar 2016 14:21:59 - __main__ - INFO - livDB.py - 148- INSERT INTO Measurements VALUES (null, '2016-03-31 14:21:59', 25.2, 75.8, 1008.7, 862)
+Thu, 31 Mar 2016 14:24:00 - __main__ - INFO - livDB.py - 119- AirPressure:  1008.73
+Thu, 31 Mar 2016 14:24:00 - __main__ - INFO - livDB.py - 120- Temperature:  25.1
+Thu, 31 Mar 2016 14:24:00 - __main__ - INFO - livDB.py - 121- Humidity:     75.9
+Thu, 31 Mar 2016 14:24:00 - __main__ - INFO - livDB.py - 122- CO2 = 839
+Thu, 31 Mar 2016 14:24:00 - __main__ - INFO - livDB.py - 145- Inserting record into liv Measurements table:
+Thu, 31 Mar 2016 14:24:00 - __main__ - INFO - livDB.py - 148- INSERT INTO Measurements VALUES (null, '2016-03-31 14:24:00', 25.1, 75.9, 1008.73, 839)
+Thu, 31 Mar 2016 14:26:01 - __main__ - INFO - livDB.py - 119- AirPressure:  1008.6
+Thu, 31 Mar 2016 14:26:01 - __main__ - INFO - livDB.py - 120- Temperature:  25.1
+Thu, 31 Mar 2016 14:26:01 - __main__ - INFO - livDB.py - 121- Humidity:     75.6
+Thu, 31 Mar 2016 14:26:01 - __main__ - INFO - livDB.py - 122- CO2 = 844
+Thu, 31 Mar 2016 14:26:01 - __main__ - INFO - livDB.py - 145- Inserting record into liv Measurements table:
+Thu, 31 Mar 2016 14:26:01 - __main__ - INFO - livDB.py - 148- INSERT INTO Measurements VALUES (null, '2016-03-31 14:26:01', 25.1, 75.6, 1008.6, 844)
+Thu, 31 Mar 2016 14:28:02 - __main__ - INFO - livDB.py - 119- AirPressure:  1008.59
+Thu, 31 Mar 2016 14:28:02 - __main__ - INFO - livDB.py - 120- Temperature:  25.1
+Thu, 31 Mar 2016 14:28:02 - __main__ - INFO - livDB.py - 121- Humidity:     75.6
+Thu, 31 Mar 2016 14:28:02 - __main__ - INFO - livDB.py - 122- CO2 = 857
+Thu, 31 Mar 2016 14:28:02 - __main__ - INFO - livDB.py - 145- Inserting record into liv Measurements table:
+Thu, 31 Mar 2016 14:28:02 - __main__ - INFO - livDB.py - 148- INSERT INTO Measurements VALUES (null, '2016-03-31 14:28:02', 25.1, 75.6, 1008.59, 857)
+Thu, 31 Mar 2016 14:30:03 - __main__ - INFO - livDB.py - 119- AirPressure:  1008.5
+Thu, 31 Mar 2016 14:30:03 - __main__ - INFO - livDB.py - 120- Temperature:  25.1
+Thu, 31 Mar 2016 14:30:03 - __main__ - INFO - livDB.py - 121- Humidity:     75.8
+Thu, 31 Mar 2016 14:30:03 - __main__ - INFO - livDB.py - 122- CO2 = 805
+Thu, 31 Mar 2016 14:30:03 - __main__ - INFO - livDB.py - 145- Inserting record into liv Measurements table:
+Thu, 31 Mar 2016 14:30:03 - __main__ - INFO - livDB.py - 148- INSERT INTO Measurements VALUES (null, '2016-03-31 14:30:03', 25.1, 75.8, 1008.5, 805)
+Thu, 31 Mar 2016 14:32:04 - __main__ - INFO - livDB.py - 119- AirPressure:  1008.56
+Thu, 31 Mar 2016 14:32:04 - __main__ - INFO - livDB.py - 120- Temperature:  25.1
+Thu, 31 Mar 2016 14:32:04 - __main__ - INFO - livDB.py - 121- Humidity:     75.6
+Thu, 31 Mar 2016 14:32:04 - __main__ - INFO - livDB.py - 122- CO2 = 797
+Thu, 31 Mar 2016 14:32:04 - __main__ - INFO - livDB.py - 145- Inserting record into liv Measurements table:
+Thu, 31 Mar 2016 14:32:04 - __main__ - INFO - livDB.py - 148- INSERT INTO Measurements VALUES (null, '2016-03-31 14:32:04', 25.1, 75.6, 1008.56, 797)

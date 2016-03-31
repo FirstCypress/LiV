@@ -1,0 +1,14 @@
+<!doctype html>
+<title>LiV</title>
+<link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+<div class=page>
+  <h1>Current Data reported by LiV</h1>
+  
+  <ul class=sensorData>
+    <li><h2>CO2 Level:           {{ sensorData.CO2level }}    ppm</h2>
+    <li><h2>Temperature:         {{ sensorData.Temperature }} C</h2>
+    <li><h2>Humidity:            {{ sensorData.Humidity }}     %  </h2>
+    <li><h2>Air Pressure:        {{ sensorData.AirPressure }}  hPa</h2>
+  </ul>
+  
+</div>

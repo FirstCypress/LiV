@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+
+<head>
+<!-- Begin -->
+<script type=text/javascript src="{{ url_for('static', filename='RGraph.common.core.js') }}"></script>
+<script type=text/javascript src="{{ url_for('static', filename='RGraph.common.dynamic.js') }}"></script>
+<script type=text/javascript src="{{ url_for('static', filename='RGraph.meter.js') }}"></script>
+<script type=text/javascript src="{{url_for('static', filename='jquery-1.11.2.min.js') }}"></script>
+<script type="text/JavaScript">
+<!--
+function timedRefresh(timeoutPeriod) {
+    setTimeout("location.reload(true);",timeoutPeriod);
+}
+//   -->
+</script>
+
+
+{% block head %}
+<title>{% block title %}{% endblock %} - LiV</title>
+<link rel="stylesheet" type=text/css
+	href="{{ url_for('static', filename='style.css') }}">
+<center>
+	<img src="/static/Liv_Logo_Photo.png" alt="LiV Icon"
+		style="width: 300px; height: 100px">
+	<p><h2>Know your air!
+	
+		<h2>
+			</p>
+</center>
+{% endblock %}
+</head>
+
+
+
+
+
+<body onload="JavaScript:timedRefresh(60000);">
+
+	<div id="content">{% block content %}{% endblock %}</div>
+	<div id="footer">
+		{% block footer %}
+		<link rel="stylesheet" type=text/css
+			href="{{ url_for('static', filename='style.css') }}">
+		<center>
+			<p>
+			<h2>
+				LiV is a internet connected indoor air quality monitor <br> crafted in
+				Hong Kong by First Cypress<br>
+				<a href="http://livpi.com/">www.livpi.com</a>
+			</h2>
+			</p>
+			<!--  <p>LiV APIs available at: {{ url_for('static', filename='style.css') }} </p> -->
+		</center>
+		{% endblock %}
+	</div>
+	
+</body>
+</html>

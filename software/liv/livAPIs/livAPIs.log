@@ -1,0 +1,23 @@
+Thu, 31 Mar 2016 14:27:10 - werkzeug - ERROR - _internal.py - 87- Error on request:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 193, in run_wsgi
+    execute(self.server.app)
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 181, in execute
+    application_iter = app(environ, start_response)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1407, in handle_exception
+    self.log_exception((exc_type, exc_value, tb))
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1420, in log_exception
+    self.logger.error('Exception on %s [%s]' % (
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 583, in logger
+    self._logger = rv = create_logger(self)
+  File "/usr/local/lib/python2.7/dist-packages/flask/logging.py", line 39, in create_logger
+    logger = getLogger(app.logger_name)
+  File "/usr/lib/python2.7/logging/__init__.py", line 1567, in getLogger
+    return Logger.manager.getLogger(name)
+  File "/usr/lib/python2.7/logging/__init__.py", line 1031, in getLogger
+    raise TypeError('A logger name must be string or Unicode')
+TypeError: A logger name must be string or Unicode

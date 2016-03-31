@@ -1,0 +1,56 @@
+#!/bin/sh
+### BEGIN INIT INFO
+# Provides:          livDemo
+# Required-Start:    $all
+# Required-Stop:     $sll
+# Default-Start:     2 3 4 5 6
+# Default-Stop:      0 1
+# Short-Description: Starts liv processes at boot time
+# Description:       Enable service provided by liv
+### END INIT INFO
+
+
+# Carry out specific functions when asked to by the system
+case "$1" in
+  start)
+    echo "Starting livAPIs"
+    cd /home/pi/liv/livAPIs/
+    sudo python livAPIs.py &
+        
+    echo "Starting livDB"
+    cd /home/pi/liv/livDB/
+    sudo python livDB.py &
+
+    sudo sleep 10
+    
+    echo "Starting livLCD"
+    cd /home/pi/liv/livLCD/
+    sudo python livLCD.py &
+    
+    echo "Starting livXMPP"
+    cd /home/pi/liv/livXMPP/
+    sudo python livXMPP.py &
+
+    echo "Starting thingSpeak"
+    cd /home/pi/liv/iotConnectors/thingspeak
+    sudo python thingspeak.py &
+    ;;
+  stop)
+    echo "Stopping livAPIs"
+    sudo pkill -f livAPIs.py
+    echo "Stopping livDB"
+    sudo pkill -f livDB.py
+    echo "Stopping livLCD"
+    sudo pkill -f livLCD.py
+    echo "Stopping livXMPP"
+    sudo pkill -f livXMPP.py
+    echo "Stopping thingSpeak"
+    sudo pkill -f thingSpeak.py
+    ;;
+  *)
+    echo "Usage: /etc/init.d/livDemo {start|stop}"
+    exit 1
+    ;;
+esac
+
+exit 0

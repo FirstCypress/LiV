@@ -1,0 +1,13 @@
+Tue, 19 Jan 2016 12:25:23 - __main__ - INFO - livXMPP.py - 40- Register Handlers
+Tue, 19 Jan 2016 12:25:23 - __main__ - INFO - livXMPP.py - 200- Successful XMPP Connection
+
+Tue, 19 Jan 2016 12:25:23 - __main__ - INFO - livXMPP.py - 206- Keep alive thread started
+Tue, 19 Jan 2016 12:26:23 - __main__ - INFO - livXMPP.py - 78- tManager timer incremented
+Tue, 19 Jan 2016 12:26:23 - __main__ - INFO - commandManager.py - 34- ParseResult(scheme='http', netloc='localhost:5000', path='/getAllRawSensorData', params='', query='', fragment='')
+Tue, 19 Jan 2016 12:26:23 - __main__ - INFO - livXMPP.py - 99- Sending twitter alert temperature ALARM NOTIFICATION! threshold is 10. current value of temperature is 19.8
+Tue, 19 Jan 2016 12:26:24 - __main__ - INFO - twitterManager.py - 36- LiV sent a tweet  LiV 1  LiV Alarm     temperature ALARM NOTIFICATION! threshold is 10. current value of temperature is 19.8
+Tue, 19 Jan 2016 12:27:24 - __main__ - INFO - livXMPP.py - 78- tManager timer incremented
+Tue, 19 Jan 2016 12:27:26 - __main__ - INFO - twitterManager.py - 36- LiV sent a tweet  LiV 1  LiV Report    TEMPERATURE=19.8C HUMIDITY=65.4% AIR PRESSURE=1013.4hPa CO2 LEVEL=750ppm TIME STAMP = 2016-01-19 12:26:09
+Tue, 19 Jan 2016 12:27:26 - __main__ - INFO - commandManager.py - 34- ParseResult(scheme='http', netloc='localhost:5000', path='/getAllRawSensorData', params='', query='', fragment='')
+Tue, 19 Jan 2016 12:28:26 - __main__ - INFO - livXMPP.py - 78- tManager timer incremented
+Tue, 19 Jan 2016 12:28:26 - __main__ - INFO - commandManager.py - 34- ParseResult(scheme='http', netloc='localhost:5000', path='/getAllRawSensorData', params='', query='', fragment='')

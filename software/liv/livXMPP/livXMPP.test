@@ -1,0 +1,22 @@
+[XMPP]
+from = your_from_address_here
+frompassword = your_from_password_here
+to = your_to_address_here
+keepalivetime = 60
+
+[API]
+url_raw_sensor_data = http://localhost:5000/getAllRawSensorData
+url_base = http://localhost:5000/
+
+[temperature]
+rule = reset
+
+[humidity]
+rule = reset
+
+[airpressure]
+rule = reset
+
+[co2]
+rule = reset
+
