@@ -1,0 +1,60 @@
+Mon, 14 Mar 2016 20:18:18 - __main__ - INFO - livDB.py - 45- --------------------------------------------
+Mon, 14 Mar 2016 20:18:18 - __main__ - INFO - livDB.py - 46- LIV STARTED
+Mon, 14 Mar 2016 20:18:19 - __main__ - INFO - livDB.py - 60- Air pressure sensor initialized
+Mon, 14 Mar 2016 20:18:19 - __main__ - INFO - livDB.py - 71- co2 sensor initialized
+Mon, 14 Mar 2016 20:18:19 - __main__ - INFO - livDB.py - 81- Temp and Humidity sensor initialized
+Mon, 14 Mar 2016 20:18:19 - __main__ - INFO - livDB.py - 92- sqlite DB Connection initialized
+Mon, 14 Mar 2016 20:18:19 - __main__ - ERROR - temperatureHumiditySensor.py - 28- Unexpected error! <class 'subprocess.CalledProcessError'>
+Mon, 14 Mar 2016 20:18:19 - __main__ - ERROR - temperatureHumiditySensor.py - 29- Make sure temp sensor is connected 
+Mon, 14 Mar 2016 20:18:19 - __main__ - ERROR - temperatureHumiditySensor.py - 35- temp NOT MATCH EMPTY STRING
+Mon, 14 Mar 2016 20:18:24 - __main__ - ERROR - temperatureHumiditySensor.py - 28- Unexpected error! <class 'subprocess.CalledProcessError'>
+Mon, 14 Mar 2016 20:18:24 - __main__ - ERROR - temperatureHumiditySensor.py - 29- Make sure temp sensor is connected 
+Mon, 14 Mar 2016 20:18:24 - __main__ - ERROR - temperatureHumiditySensor.py - 35- temp NOT MATCH EMPTY STRING
+Mon, 14 Mar 2016 20:18:29 - __main__ - ERROR - temperatureHumiditySensor.py - 28- Unexpected error! <class 'subprocess.CalledProcessError'>
+Mon, 14 Mar 2016 20:18:29 - __main__ - ERROR - temperatureHumiditySensor.py - 29- Make sure temp sensor is connected 
+Mon, 14 Mar 2016 20:18:29 - __main__ - ERROR - temperatureHumiditySensor.py - 35- temp NOT MATCH EMPTY STRING
+Mon, 14 Mar 2016 20:18:34 - __main__ - ERROR - temperatureHumiditySensor.py - 28- Unexpected error! <class 'subprocess.CalledProcessError'>
+Mon, 14 Mar 2016 20:18:34 - __main__ - ERROR - temperatureHumiditySensor.py - 29- Make sure temp sensor is connected 
+Mon, 14 Mar 2016 20:18:34 - __main__ - ERROR - temperatureHumiditySensor.py - 35- temp NOT MATCH EMPTY STRING
+Mon, 14 Mar 2016 20:18:39 - __main__ - ERROR - temperatureHumiditySensor.py - 28- Unexpected error! <class 'subprocess.CalledProcessError'>
+Mon, 14 Mar 2016 20:18:39 - __main__ - ERROR - temperatureHumiditySensor.py - 29- Make sure temp sensor is connected 
+Mon, 14 Mar 2016 20:18:39 - __main__ - ERROR - temperatureHumiditySensor.py - 35- temp NOT MATCH EMPTY STRING
+Mon, 14 Mar 2016 20:18:44 - __main__ - INFO - livDB.py - 119- AirPressure:  1010.87
+Mon, 14 Mar 2016 20:18:44 - __main__ - INFO - livDB.py - 120- Temperature:  ERROR
+Mon, 14 Mar 2016 20:18:44 - __main__ - INFO - livDB.py - 121- Humidity:     ERROR
+Mon, 14 Mar 2016 20:18:44 - __main__ - INFO - livDB.py - 122- CO2 = 816
+Mon, 14 Mar 2016 20:18:44 - __main__ - INFO - livDB.py - 145- Inserting record into liv Measurements table:
+Mon, 14 Mar 2016 20:18:44 - __main__ - INFO - livDB.py - 148- INSERT INTO Measurements VALUES (null, '2016-03-14 20:18:44', -999, -999, 1010.87, 816)
+Mon, 14 Mar 2016 20:20:44 - __main__ - ERROR - temperatureHumiditySensor.py - 28- Unexpected error! <class 'subprocess.CalledProcessError'>
+Mon, 14 Mar 2016 20:20:44 - __main__ - ERROR - temperatureHumiditySensor.py - 29- Make sure temp sensor is connected 
+Mon, 14 Mar 2016 20:20:44 - __main__ - ERROR - temperatureHumiditySensor.py - 35- temp NOT MATCH EMPTY STRING
+Mon, 14 Mar 2016 20:20:50 - __main__ - ERROR - temperatureHumiditySensor.py - 28- Unexpected error! <class 'subprocess.CalledProcessError'>
+Mon, 14 Mar 2016 20:20:50 - __main__ - ERROR - temperatureHumiditySensor.py - 29- Make sure temp sensor is connected 
+Mon, 14 Mar 2016 20:20:50 - __main__ - ERROR - temperatureHumiditySensor.py - 35- temp NOT MATCH EMPTY STRING
+Mon, 14 Mar 2016 20:20:55 - __main__ - ERROR - temperatureHumiditySensor.py - 28- Unexpected error! <class 'subprocess.CalledProcessError'>
+Mon, 14 Mar 2016 20:20:55 - __main__ - ERROR - temperatureHumiditySensor.py - 29- Make sure temp sensor is connected 
+Mon, 14 Mar 2016 20:20:55 - __main__ - ERROR - temperatureHumiditySensor.py - 35- temp NOT MATCH EMPTY STRING
+Mon, 14 Mar 2016 20:21:00 - __main__ - ERROR - temperatureHumiditySensor.py - 28- Unexpected error! <class 'subprocess.CalledProcessError'>
+Mon, 14 Mar 2016 20:21:00 - __main__ - ERROR - temperatureHumiditySensor.py - 29- Make sure temp sensor is connected 
+Mon, 14 Mar 2016 20:21:00 - __main__ - ERROR - temperatureHumiditySensor.py - 35- temp NOT MATCH EMPTY STRING
+Mon, 14 Mar 2016 20:21:05 - __main__ - ERROR - temperatureHumiditySensor.py - 28- Unexpected error! <class 'subprocess.CalledProcessError'>
+Mon, 14 Mar 2016 20:21:05 - __main__ - ERROR - temperatureHumiditySensor.py - 29- Make sure temp sensor is connected 
+Mon, 14 Mar 2016 20:21:05 - __main__ - ERROR - temperatureHumiditySensor.py - 35- temp NOT MATCH EMPTY STRING
+Mon, 14 Mar 2016 20:21:10 - __main__ - INFO - livDB.py - 119- AirPressure:  1011.13
+Mon, 14 Mar 2016 20:21:10 - __main__ - INFO - livDB.py - 120- Temperature:  ERROR
+Mon, 14 Mar 2016 20:21:10 - __main__ - INFO - livDB.py - 121- Humidity:     ERROR
+Mon, 14 Mar 2016 20:21:10 - __main__ - INFO - livDB.py - 122- CO2 = 985
+Mon, 14 Mar 2016 20:21:10 - __main__ - INFO - livDB.py - 145- Inserting record into liv Measurements table:
+Mon, 14 Mar 2016 20:21:10 - __main__ - INFO - livDB.py - 148- INSERT INTO Measurements VALUES (null, '2016-03-14 20:21:10', -999, -999, 1011.13, 985)
+Mon, 14 Mar 2016 20:23:11 - __main__ - INFO - livDB.py - 119- AirPressure:  1011.11
+Mon, 14 Mar 2016 20:23:11 - __main__ - INFO - livDB.py - 120- Temperature:  22.0
+Mon, 14 Mar 2016 20:23:11 - __main__ - INFO - livDB.py - 121- Humidity:     97.3
+Mon, 14 Mar 2016 20:23:11 - __main__ - INFO - livDB.py - 122- CO2 = 820
+Mon, 14 Mar 2016 20:23:11 - __main__ - INFO - livDB.py - 145- Inserting record into liv Measurements table:
+Mon, 14 Mar 2016 20:23:11 - __main__ - INFO - livDB.py - 148- INSERT INTO Measurements VALUES (null, '2016-03-14 20:23:11', 22.0, 97.3, 1011.11, 820)
+Mon, 14 Mar 2016 20:25:12 - __main__ - INFO - livDB.py - 119- AirPressure:  1011.14
+Mon, 14 Mar 2016 20:25:12 - __main__ - INFO - livDB.py - 120- Temperature:  22.3
+Mon, 14 Mar 2016 20:25:12 - __main__ - INFO - livDB.py - 121- Humidity:     93.9
+Mon, 14 Mar 2016 20:25:12 - __main__ - INFO - livDB.py - 122- CO2 = 850
+Mon, 14 Mar 2016 20:25:12 - __main__ - INFO - livDB.py - 145- Inserting record into liv Measurements table:
+Mon, 14 Mar 2016 20:25:12 - __main__ - INFO - livDB.py - 148- INSERT INTO Measurements VALUES (null, '2016-03-14 20:25:12', 22.3, 93.9, 1011.14, 850)

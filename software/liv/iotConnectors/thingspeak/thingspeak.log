@@ -1,0 +1,228 @@
+Mon, 14 Mar 2016 20:18:27 - __main__ - INFO - thingspeak.py - 17- --------------------------------------------
+Mon, 14 Mar 2016 20:18:27 - __main__ - INFO - thingspeak.py - 18- THINGSPEAK STARTED
+Mon, 14 Mar 2016 20:18:27 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 20:18:27 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-14 20:15:35', u'CO2level': u'-999', u'Temperature': u'-999.0', u'AirPressure': u'1011.08', u'Humidity': u'-999.0'}
+Mon, 14 Mar 2016 20:18:27 - __main__ - INFO - thingspeak.py - 52- 2016-03-14 12:18:27.745216
+Mon, 14 Mar 2016 20:18:28 - __main__ - INFO - thingspeak.py - 63- 400
+Mon, 14 Mar 2016 20:18:28 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Mon, 14 Mar 2016 20:19:28 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 20:19:28 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-14 20:18:44', u'CO2level': u'816', u'Temperature': u'-999.0', u'AirPressure': u'1010.87', u'Humidity': u'-999.0'}
+Mon, 14 Mar 2016 20:19:28 - __main__ - INFO - thingspeak.py - 52- 2016-03-14 12:19:28.294839
+Mon, 14 Mar 2016 20:19:28 - __main__ - INFO - thingspeak.py - 63- 400
+Mon, 14 Mar 2016 20:19:28 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Mon, 14 Mar 2016 20:20:28 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 20:20:28 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-14 20:18:44', u'CO2level': u'816', u'Temperature': u'-999.0', u'AirPressure': u'1010.87', u'Humidity': u'-999.0'}
+Mon, 14 Mar 2016 20:20:28 - __main__ - INFO - thingspeak.py - 52- 2016-03-14 12:20:28.858946
+Mon, 14 Mar 2016 20:20:29 - __main__ - INFO - thingspeak.py - 63- 400
+Mon, 14 Mar 2016 20:20:29 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Mon, 14 Mar 2016 20:21:29 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 20:21:29 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-14 20:21:10', u'CO2level': u'985', u'Temperature': u'-999.0', u'AirPressure': u'1011.13', u'Humidity': u'-999.0'}
+Mon, 14 Mar 2016 20:21:29 - __main__ - INFO - thingspeak.py - 52- 2016-03-14 12:21:29.418947
+Mon, 14 Mar 2016 20:21:29 - __main__ - INFO - thingspeak.py - 63- 400
+Mon, 14 Mar 2016 20:21:29 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Mon, 14 Mar 2016 20:22:29 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 20:22:29 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-14 20:21:10', u'CO2level': u'985', u'Temperature': u'-999.0', u'AirPressure': u'1011.13', u'Humidity': u'-999.0'}
+Mon, 14 Mar 2016 20:22:29 - __main__ - INFO - thingspeak.py - 52- 2016-03-14 12:22:29.985947
+Mon, 14 Mar 2016 20:22:30 - __main__ - INFO - thingspeak.py - 63- 400
+Mon, 14 Mar 2016 20:22:30 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Mon, 14 Mar 2016 20:23:30 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 20:23:30 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-14 20:23:11', u'CO2level': u'820', u'Temperature': u'22.0', u'AirPressure': u'1011.11', u'Humidity': u'97.3'}
+Mon, 14 Mar 2016 20:23:30 - __main__ - INFO - thingspeak.py - 52- 2016-03-14 12:23:30.507317
+Mon, 14 Mar 2016 20:23:30 - __main__ - INFO - thingspeak.py - 63- 400
+Mon, 14 Mar 2016 20:23:30 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Mon, 14 Mar 2016 20:24:31 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 20:24:31 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-14 20:23:11', u'CO2level': u'820', u'Temperature': u'22.0', u'AirPressure': u'1011.11', u'Humidity': u'97.3'}
+Mon, 14 Mar 2016 20:24:31 - __main__ - INFO - thingspeak.py - 52- 2016-03-14 12:24:31.085343
+Mon, 14 Mar 2016 20:24:31 - __main__ - INFO - thingspeak.py - 63- 400
+Mon, 14 Mar 2016 20:24:31 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Mon, 14 Mar 2016 20:25:31 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 20:25:31 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-14 20:25:12', u'CO2level': u'850', u'Temperature': u'22.3', u'AirPressure': u'1011.14', u'Humidity': u'93.9'}
+Mon, 14 Mar 2016 20:25:31 - __main__ - INFO - thingspeak.py - 52- 2016-03-14 12:25:31.635710
+Mon, 14 Mar 2016 20:25:32 - __main__ - INFO - thingspeak.py - 63- 400
+Mon, 14 Mar 2016 20:25:32 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Mon, 14 Mar 2016 20:26:32 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 20:26:32 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 20:27:32 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 20:27:32 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 20:28:32 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 20:28:32 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 20:29:32 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 20:29:32 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 20:30:32 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 20:30:32 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 20:31:32 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 20:31:32 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 20:32:32 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 20:32:32 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 20:33:32 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 20:33:32 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 20:34:32 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 20:34:32 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 20:35:32 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 20:35:32 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 20:36:32 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 20:36:32 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 20:37:32 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 20:37:32 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 20:38:33 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 20:38:33 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 20:39:33 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 20:39:33 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 20:40:33 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 20:40:33 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 20:41:33 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 20:41:33 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 20:42:33 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 20:42:33 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 20:43:33 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 20:43:33 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 20:44:33 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 20:44:33 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 20:45:33 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 20:45:33 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 20:46:33 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 20:46:33 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 20:47:33 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 20:47:33 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 20:48:33 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 20:48:33 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 20:49:33 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 20:49:33 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 20:50:33 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 20:50:34 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 20:51:34 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 20:51:34 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 20:52:34 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 20:52:34 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 20:53:34 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 20:53:34 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 20:54:34 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 20:54:34 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 20:55:34 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 20:55:34 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 20:56:34 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 20:56:34 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 20:57:34 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 20:57:34 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 20:58:34 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 20:58:34 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 20:59:34 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 20:59:34 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 21:00:34 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 21:00:34 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 21:01:34 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 21:01:34 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 21:02:34 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 21:02:34 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 21:03:35 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 21:03:35 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 21:04:35 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 21:04:35 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 21:05:35 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 21:05:35 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 21:06:35 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 21:06:35 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 21:07:35 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 21:07:35 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 21:08:35 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 21:08:35 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 21:09:35 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 21:09:35 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 21:10:35 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 21:10:35 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 21:11:35 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 21:11:35 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 21:12:35 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 21:12:35 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 21:13:35 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 21:13:35 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 21:14:35 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 21:14:35 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 21:15:35 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 21:15:35 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 21:16:36 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 21:16:36 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 21:17:36 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 21:17:36 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 21:18:36 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 21:18:36 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 21:19:36 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 21:19:36 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 21:20:36 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 21:20:36 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 21:21:36 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 21:21:36 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 21:22:36 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 21:22:36 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 21:23:36 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 21:23:36 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 21:24:36 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 21:24:36 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 21:25:36 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 21:25:36 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 21:26:36 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 21:26:36 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 21:27:36 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 21:27:36 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 21:28:36 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 21:28:36 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 21:29:36 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 21:29:36 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 21:30:36 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 21:30:37 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 21:31:37 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 21:31:37 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 21:32:37 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 21:32:37 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 21:33:37 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 21:33:37 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 21:34:37 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 21:34:37 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 21:35:37 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 21:35:37 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 21:36:37 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 21:36:37 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 21:37:37 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 21:37:37 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 21:38:37 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 21:38:37 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 21:39:37 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 21:39:37 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 21:40:37 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 21:40:37 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 21:41:37 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 21:41:37 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 21:42:37 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 21:42:37 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 21:43:37 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 21:43:37 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 21:44:37 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 21:44:37 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 21:45:38 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 21:45:38 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 21:46:38 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 21:46:38 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 21:47:38 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 21:47:38 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 21:48:38 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 21:48:38 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 21:49:38 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 21:49:38 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 21:50:38 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 21:50:38 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 21:51:38 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 21:51:38 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 21:52:38 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 21:52:38 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 21:53:38 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 21:53:38 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 21:54:38 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 21:54:38 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 21:55:38 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 21:55:38 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 21:56:38 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 21:56:38 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 21:57:38 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 21:57:38 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
+Mon, 14 Mar 2016 21:58:38 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Mon, 14 Mar 2016 21:58:39 - __main__ - CRITICAL - thingspeak.py - 69- <class 'httplib.ResponseNotReady'>
