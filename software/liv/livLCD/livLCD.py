@@ -1,6 +1,5 @@
 '''
 Created on August 27, 2014 by alfredc333
-
 '''
 
 import re
@@ -31,6 +30,10 @@ displayClock = config.getboolean('LCD_DISPLAY', 'display_clock')
 logging.config.fileConfig('logging.ini')
 logger = logging.getLogger(__name__)
 
+config.read('../.livpi')
+version = config.get('LIV_SOFTWARE', 'version')
+supported_devices = config.get('LIV_SOFTWARE','supported_devices')
+
 logger.info('--------------------------------------------')
 logger.info('LIV LCD STARTED')
 
@@ -45,7 +48,7 @@ except:
   sys.exit(1)
 
 # read last readings directly from database, so I can have LCD working 
-# even when livAPIs is down so:
+# even if livAPIs is down.
 # initialize db connection 
 # conect to sqlite DB
 try:
@@ -53,6 +56,11 @@ try:
   dbconn.row_factory = sqlite3.Row
   logger.info('sqlite DB connection initialized')
 except:
+  lcd.cleanFirstLine()
+  lcd.cleanSecondLine()
+  lcd.writeFirstLine( "DB Init Error")
+  lcd.writeSecondLine("Check logs")
+  time.sleep(10)
   logger.critical('sqlite DB Failed to initialize')
   sys.exit(1)
   
@@ -74,8 +82,14 @@ lcd.cleanFirstLine()
 lcd.cleanSecondLine()
 lcd.writeFirstLine( "     LIV PI     ")
 lcd.writeSecondLine(" KNOW YOUR AIR! ")
-time.sleep(5)
+time.sleep(8)
 
+lcd.cleanFirstLine()
+lcd.cleanSecondLine()
+lcd.writeFirstLine( "Version: " + version)
+lcd.writeSecondLine(supported_devices)
+time.sleep(8)
+    
     
 while(True):
   config.read('./livLCD.config')
@@ -86,8 +100,9 @@ while(True):
   H_ALARM = config.getfloat('ALARM_LEVELS', 'humidity')
   AP_ALARM = config.getfloat('ALARM_LEVELS', 'airPressure')
   alarmLevels = {'temperature':T_ALARM, 'humidity':H_ALARM, 'airpressure':AP_ALARM, 'co2':CO2_ALARM}
-  alarmValues={'temperature': False, 'humidity':False, 'airpressure':False, 'co2':False}
-  
+  alarmValues = {'temperature': False, 'humidity':False, 'airpressure':False, 'co2':False}
+  tempFormat = config.get('FORMAT','temperature') 
+  airpressureFormat = config.get('FORMAT','airpressure')
   
   #read last measurement directly from database, don't use local APIs so LCD display works even if 
   #LiV APIs process is down 
@@ -120,13 +135,31 @@ while(True):
           alarmValues[s] = True
       
       #dbDisplayData = [dbData[0]+' C', dbData[1]+' %',dbData[2]+' ppm',dbData[3]+' hPa']
-      dbDisplayData = {'temperature': dbData['temperature']+' C','humidity': dbData['humidity']+' %', 'airpressure':dbData['airpressure']+ ' hPa', 'co2': dbData['co2']+' ppm'}
+      
+      if tempFormat == 'F':
+        formatTemp = str (9.0/5.0*float(dbData['temperature']) + 32) + ' F'
+      else:  
+        formatTemp = dbData['temperature']+' C'
+      
+      if airpressureFormat == 'inchHg':
+        formatAirPressure = str (0.0295300*float(dbData['airpressure'])) + ' inHg'
+      else:  
+        formatAirPressure = dbData['airpressure']+ ' hPa'
+      
+      dbDisplayData = {'temperature': formatTemp,'humidity': dbData['humidity']+' %', 'airpressure': formatAirPressure, 'co2': dbData['co2']+' ppm'}
+      
+      #dbDisplayData = {'temperature': dbData['temperature']+' C','humidity': dbData['humidity']+' %', 'airpressure':dbData['airpressure']+ ' hPa', 'co2': dbData['co2']+' ppm'}
       
   
   except:
     dbDisplayData ={'temperature':"error", 'humidity':"error", 'airpressure':"error", 'co2':"error"}
     alarmValues = {'temperature':True, 'humidity':True, 'airpressure':True, 'co2':True}
     logger.critical("Failed to retrieve record")
+    lcd.cleanFirstLine()
+    lcd.cleanSecondLine()
+    lcd.writeFirstLine("Critical Error")
+    lcd.writeSecondLine("Check logs")
+    time.sleep(10)
     sys.exit(1)
   
   #display only measurements for onBoard Sensors
@@ -143,7 +176,6 @@ while(True):
 
   lcdDisplayData = zip(dStrings.values(),dData.values()) 
   
-
  
   for x in range(0,displayCycles):
     i=0

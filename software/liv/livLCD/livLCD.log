@@ -1,104 +1,118 @@
-Thu, 31 Mar 2016 14:13:37 - __main__ - INFO - livLCD.py - 34- --------------------------------------------
-Thu, 31 Mar 2016 14:13:37 - __main__ - INFO - livLCD.py - 35- LIV LCD STARTED
-Thu, 31 Mar 2016 14:13:37 - __main__ - INFO - livLCD.py - 42- LCD initialized
-Thu, 31 Mar 2016 14:13:37 - __main__ - INFO - livLCD.py - 54- sqlite DB connection initialized
-Thu, 31 Mar 2016 14:13:37 - __main__ - INFO - livLCD.py - 68- onBoardSensors:
-Thu, 31 Mar 2016 14:13:37 - __main__ - INFO - livLCD.py - 69- {'co2': True, 'temperature': True, 'airpressure': True, 'humidity': True}
-Thu, 31 Mar 2016 14:14:07 - __main__ - INFO - livLCD.py - 98- start retrieve last sqlite record
-Thu, 31 Mar 2016 14:14:07 - __main__ - INFO - livLCD.py - 111- Succesfully retrieved db Data: 
-Thu, 31 Mar 2016 14:14:07 - __main__ - INFO - livLCD.py - 112- Time Stamp = 2016-03-31 14:13:30
-Thu, 31 Mar 2016 14:14:07 - __main__ - INFO - livLCD.py - 113- alarmLevels are: 
-Thu, 31 Mar 2016 14:14:07 - __main__ - INFO - livLCD.py - 114- {'co2': 1000.0, 'temperature': 50.0, 'airpressure': 1300.0, 'humidity': 90.0}
-Thu, 31 Mar 2016 14:14:07 - __main__ - INFO - livLCD.py - 115- dbData is: 
-Thu, 31 Mar 2016 14:14:07 - __main__ - INFO - livLCD.py - 116- {'co2': '849', 'temperature': '25.1', 'airpressure': '1008.77', 'humidity': '75.6'}
-Thu, 31 Mar 2016 14:15:34 - __main__ - INFO - livLCD.py - 98- start retrieve last sqlite record
-Thu, 31 Mar 2016 14:15:34 - __main__ - INFO - livLCD.py - 111- Succesfully retrieved db Data: 
-Thu, 31 Mar 2016 14:15:34 - __main__ - INFO - livLCD.py - 112- Time Stamp = 2016-03-31 14:13:30
-Thu, 31 Mar 2016 14:15:34 - __main__ - INFO - livLCD.py - 113- alarmLevels are: 
-Thu, 31 Mar 2016 14:15:34 - __main__ - INFO - livLCD.py - 114- {'co2': 1000.0, 'temperature': 50.0, 'airpressure': 1300.0, 'humidity': 90.0}
-Thu, 31 Mar 2016 14:15:34 - __main__ - INFO - livLCD.py - 115- dbData is: 
-Thu, 31 Mar 2016 14:15:34 - __main__ - INFO - livLCD.py - 116- {'co2': '849', 'temperature': '25.1', 'airpressure': '1008.77', 'humidity': '75.6'}
-Thu, 31 Mar 2016 14:17:01 - __main__ - INFO - livLCD.py - 98- start retrieve last sqlite record
-Thu, 31 Mar 2016 14:17:01 - __main__ - INFO - livLCD.py - 111- Succesfully retrieved db Data: 
-Thu, 31 Mar 2016 14:17:01 - __main__ - INFO - livLCD.py - 112- Time Stamp = 2016-03-31 14:15:56
-Thu, 31 Mar 2016 14:17:01 - __main__ - INFO - livLCD.py - 113- alarmLevels are: 
-Thu, 31 Mar 2016 14:17:01 - __main__ - INFO - livLCD.py - 114- {'co2': 1000.0, 'temperature': 50.0, 'airpressure': 1300.0, 'humidity': 90.0}
-Thu, 31 Mar 2016 14:17:01 - __main__ - INFO - livLCD.py - 115- dbData is: 
-Thu, 31 Mar 2016 14:17:01 - __main__ - INFO - livLCD.py - 116- {'co2': '884', 'temperature': '25.1', 'airpressure': '1008.84', 'humidity': '76.2'}
-Thu, 31 Mar 2016 14:18:28 - __main__ - INFO - livLCD.py - 98- start retrieve last sqlite record
-Thu, 31 Mar 2016 14:18:28 - __main__ - INFO - livLCD.py - 111- Succesfully retrieved db Data: 
-Thu, 31 Mar 2016 14:18:28 - __main__ - INFO - livLCD.py - 112- Time Stamp = 2016-03-31 14:17:57
-Thu, 31 Mar 2016 14:18:28 - __main__ - INFO - livLCD.py - 113- alarmLevels are: 
-Thu, 31 Mar 2016 14:18:28 - __main__ - INFO - livLCD.py - 114- {'co2': 1000.0, 'temperature': 50.0, 'airpressure': 1300.0, 'humidity': 90.0}
-Thu, 31 Mar 2016 14:18:28 - __main__ - INFO - livLCD.py - 115- dbData is: 
-Thu, 31 Mar 2016 14:18:28 - __main__ - INFO - livLCD.py - 116- {'co2': '871', 'temperature': '25.3', 'airpressure': '1008.83', 'humidity': '75.5'}
-Thu, 31 Mar 2016 14:19:55 - __main__ - INFO - livLCD.py - 98- start retrieve last sqlite record
-Thu, 31 Mar 2016 14:19:55 - __main__ - INFO - livLCD.py - 111- Succesfully retrieved db Data: 
-Thu, 31 Mar 2016 14:19:55 - __main__ - INFO - livLCD.py - 112- Time Stamp = 2016-03-31 14:17:57
-Thu, 31 Mar 2016 14:19:55 - __main__ - INFO - livLCD.py - 113- alarmLevels are: 
-Thu, 31 Mar 2016 14:19:55 - __main__ - INFO - livLCD.py - 114- {'co2': 1000.0, 'temperature': 50.0, 'airpressure': 1300.0, 'humidity': 90.0}
-Thu, 31 Mar 2016 14:19:55 - __main__ - INFO - livLCD.py - 115- dbData is: 
-Thu, 31 Mar 2016 14:19:55 - __main__ - INFO - livLCD.py - 116- {'co2': '871', 'temperature': '25.3', 'airpressure': '1008.83', 'humidity': '75.5'}
-Thu, 31 Mar 2016 14:21:22 - __main__ - INFO - livLCD.py - 98- start retrieve last sqlite record
-Thu, 31 Mar 2016 14:21:22 - __main__ - INFO - livLCD.py - 111- Succesfully retrieved db Data: 
-Thu, 31 Mar 2016 14:21:22 - __main__ - INFO - livLCD.py - 112- Time Stamp = 2016-03-31 14:19:58
-Thu, 31 Mar 2016 14:21:22 - __main__ - INFO - livLCD.py - 113- alarmLevels are: 
-Thu, 31 Mar 2016 14:21:22 - __main__ - INFO - livLCD.py - 114- {'co2': 1000.0, 'temperature': 50.0, 'airpressure': 1300.0, 'humidity': 90.0}
-Thu, 31 Mar 2016 14:21:22 - __main__ - INFO - livLCD.py - 115- dbData is: 
-Thu, 31 Mar 2016 14:21:22 - __main__ - INFO - livLCD.py - 116- {'co2': '862', 'temperature': '25.2', 'airpressure': '1008.78', 'humidity': '75.6'}
-Thu, 31 Mar 2016 14:22:49 - __main__ - INFO - livLCD.py - 98- start retrieve last sqlite record
-Thu, 31 Mar 2016 14:22:49 - __main__ - INFO - livLCD.py - 111- Succesfully retrieved db Data: 
-Thu, 31 Mar 2016 14:22:49 - __main__ - INFO - livLCD.py - 112- Time Stamp = 2016-03-31 14:21:59
-Thu, 31 Mar 2016 14:22:49 - __main__ - INFO - livLCD.py - 113- alarmLevels are: 
-Thu, 31 Mar 2016 14:22:49 - __main__ - INFO - livLCD.py - 114- {'co2': 1000.0, 'temperature': 50.0, 'airpressure': 1300.0, 'humidity': 90.0}
-Thu, 31 Mar 2016 14:22:49 - __main__ - INFO - livLCD.py - 115- dbData is: 
-Thu, 31 Mar 2016 14:22:49 - __main__ - INFO - livLCD.py - 116- {'co2': '862', 'temperature': '25.2', 'airpressure': '1008.7', 'humidity': '75.8'}
-Thu, 31 Mar 2016 14:24:16 - __main__ - INFO - livLCD.py - 98- start retrieve last sqlite record
-Thu, 31 Mar 2016 14:24:16 - __main__ - INFO - livLCD.py - 111- Succesfully retrieved db Data: 
-Thu, 31 Mar 2016 14:24:16 - __main__ - INFO - livLCD.py - 112- Time Stamp = 2016-03-31 14:24:00
-Thu, 31 Mar 2016 14:24:16 - __main__ - INFO - livLCD.py - 113- alarmLevels are: 
-Thu, 31 Mar 2016 14:24:16 - __main__ - INFO - livLCD.py - 114- {'co2': 1000.0, 'temperature': 50.0, 'airpressure': 1300.0, 'humidity': 90.0}
-Thu, 31 Mar 2016 14:24:16 - __main__ - INFO - livLCD.py - 115- dbData is: 
-Thu, 31 Mar 2016 14:24:16 - __main__ - INFO - livLCD.py - 116- {'co2': '839', 'temperature': '25.1', 'airpressure': '1008.73', 'humidity': '75.9'}
-Thu, 31 Mar 2016 14:25:43 - __main__ - INFO - livLCD.py - 98- start retrieve last sqlite record
-Thu, 31 Mar 2016 14:25:43 - __main__ - INFO - livLCD.py - 111- Succesfully retrieved db Data: 
-Thu, 31 Mar 2016 14:25:43 - __main__ - INFO - livLCD.py - 112- Time Stamp = 2016-03-31 14:24:00
-Thu, 31 Mar 2016 14:25:43 - __main__ - INFO - livLCD.py - 113- alarmLevels are: 
-Thu, 31 Mar 2016 14:25:43 - __main__ - INFO - livLCD.py - 114- {'co2': 1000.0, 'temperature': 50.0, 'airpressure': 1300.0, 'humidity': 90.0}
-Thu, 31 Mar 2016 14:25:43 - __main__ - INFO - livLCD.py - 115- dbData is: 
-Thu, 31 Mar 2016 14:25:43 - __main__ - INFO - livLCD.py - 116- {'co2': '839', 'temperature': '25.1', 'airpressure': '1008.73', 'humidity': '75.9'}
-Thu, 31 Mar 2016 14:27:11 - __main__ - INFO - livLCD.py - 98- start retrieve last sqlite record
-Thu, 31 Mar 2016 14:27:11 - __main__ - INFO - livLCD.py - 111- Succesfully retrieved db Data: 
-Thu, 31 Mar 2016 14:27:11 - __main__ - INFO - livLCD.py - 112- Time Stamp = 2016-03-31 14:26:01
-Thu, 31 Mar 2016 14:27:11 - __main__ - INFO - livLCD.py - 113- alarmLevels are: 
-Thu, 31 Mar 2016 14:27:11 - __main__ - INFO - livLCD.py - 114- {'co2': 1000.0, 'temperature': 50.0, 'airpressure': 1300.0, 'humidity': 90.0}
-Thu, 31 Mar 2016 14:27:11 - __main__ - INFO - livLCD.py - 115- dbData is: 
-Thu, 31 Mar 2016 14:27:11 - __main__ - INFO - livLCD.py - 116- {'co2': '844', 'temperature': '25.1', 'airpressure': '1008.6', 'humidity': '75.6'}
-Thu, 31 Mar 2016 14:28:38 - __main__ - INFO - livLCD.py - 98- start retrieve last sqlite record
-Thu, 31 Mar 2016 14:28:38 - __main__ - INFO - livLCD.py - 111- Succesfully retrieved db Data: 
-Thu, 31 Mar 2016 14:28:38 - __main__ - INFO - livLCD.py - 112- Time Stamp = 2016-03-31 14:28:02
-Thu, 31 Mar 2016 14:28:38 - __main__ - INFO - livLCD.py - 113- alarmLevels are: 
-Thu, 31 Mar 2016 14:28:38 - __main__ - INFO - livLCD.py - 114- {'co2': 1000.0, 'temperature': 50.0, 'airpressure': 1300.0, 'humidity': 90.0}
-Thu, 31 Mar 2016 14:28:38 - __main__ - INFO - livLCD.py - 115- dbData is: 
-Thu, 31 Mar 2016 14:28:38 - __main__ - INFO - livLCD.py - 116- {'co2': '857', 'temperature': '25.1', 'airpressure': '1008.59', 'humidity': '75.6'}
-Thu, 31 Mar 2016 14:30:05 - __main__ - INFO - livLCD.py - 98- start retrieve last sqlite record
-Thu, 31 Mar 2016 14:30:05 - __main__ - INFO - livLCD.py - 111- Succesfully retrieved db Data: 
-Thu, 31 Mar 2016 14:30:05 - __main__ - INFO - livLCD.py - 112- Time Stamp = 2016-03-31 14:30:03
-Thu, 31 Mar 2016 14:30:05 - __main__ - INFO - livLCD.py - 113- alarmLevels are: 
-Thu, 31 Mar 2016 14:30:05 - __main__ - INFO - livLCD.py - 114- {'co2': 1000.0, 'temperature': 50.0, 'airpressure': 1300.0, 'humidity': 90.0}
-Thu, 31 Mar 2016 14:30:05 - __main__ - INFO - livLCD.py - 115- dbData is: 
-Thu, 31 Mar 2016 14:30:05 - __main__ - INFO - livLCD.py - 116- {'co2': '805', 'temperature': '25.1', 'airpressure': '1008.5', 'humidity': '75.8'}
-Thu, 31 Mar 2016 14:31:32 - __main__ - INFO - livLCD.py - 98- start retrieve last sqlite record
-Thu, 31 Mar 2016 14:31:32 - __main__ - INFO - livLCD.py - 111- Succesfully retrieved db Data: 
-Thu, 31 Mar 2016 14:31:32 - __main__ - INFO - livLCD.py - 112- Time Stamp = 2016-03-31 14:30:03
-Thu, 31 Mar 2016 14:31:32 - __main__ - INFO - livLCD.py - 113- alarmLevels are: 
-Thu, 31 Mar 2016 14:31:32 - __main__ - INFO - livLCD.py - 114- {'co2': 1000.0, 'temperature': 50.0, 'airpressure': 1300.0, 'humidity': 90.0}
-Thu, 31 Mar 2016 14:31:32 - __main__ - INFO - livLCD.py - 115- dbData is: 
-Thu, 31 Mar 2016 14:31:32 - __main__ - INFO - livLCD.py - 116- {'co2': '805', 'temperature': '25.1', 'airpressure': '1008.5', 'humidity': '75.8'}
-Thu, 31 Mar 2016 14:32:59 - __main__ - INFO - livLCD.py - 98- start retrieve last sqlite record
-Thu, 31 Mar 2016 14:32:59 - __main__ - INFO - livLCD.py - 111- Succesfully retrieved db Data: 
-Thu, 31 Mar 2016 14:32:59 - __main__ - INFO - livLCD.py - 112- Time Stamp = 2016-03-31 14:32:04
-Thu, 31 Mar 2016 14:32:59 - __main__ - INFO - livLCD.py - 113- alarmLevels are: 
-Thu, 31 Mar 2016 14:32:59 - __main__ - INFO - livLCD.py - 114- {'co2': 1000.0, 'temperature': 50.0, 'airpressure': 1300.0, 'humidity': 90.0}
-Thu, 31 Mar 2016 14:32:59 - __main__ - INFO - livLCD.py - 115- dbData is: 
-Thu, 31 Mar 2016 14:32:59 - __main__ - INFO - livLCD.py - 116- {'co2': '797', 'temperature': '25.1', 'airpressure': '1008.56', 'humidity': '75.6'}
+Thu, 31 Mar 2016 16:20:59 - __main__ - INFO - livLCD.py - 37- --------------------------------------------
+Thu, 31 Mar 2016 16:20:59 - __main__ - INFO - livLCD.py - 38- LIV LCD STARTED
+Thu, 31 Mar 2016 16:20:59 - __main__ - INFO - livLCD.py - 45- LCD initialized
+Thu, 31 Mar 2016 16:20:59 - __main__ - INFO - livLCD.py - 57- sqlite DB connection initialized
+Thu, 31 Mar 2016 16:20:59 - __main__ - INFO - livLCD.py - 76- onBoardSensors:
+Thu, 31 Mar 2016 16:20:59 - __main__ - INFO - livLCD.py - 77- {'co2': True, 'temperature': True, 'airpressure': True, 'humidity': True}
+Thu, 31 Mar 2016 16:21:15 - __main__ - INFO - livLCD.py - 113- start retrieve last sqlite record
+Thu, 31 Mar 2016 16:21:15 - __main__ - INFO - livLCD.py - 126- Succesfully retrieved db Data: 
+Thu, 31 Mar 2016 16:21:15 - __main__ - INFO - livLCD.py - 127- Time Stamp = 2016-03-31 16:21:04
+Thu, 31 Mar 2016 16:21:15 - __main__ - INFO - livLCD.py - 128- alarmLevels are: 
+Thu, 31 Mar 2016 16:21:15 - __main__ - INFO - livLCD.py - 129- {'co2': 1000.0, 'temperature': 60.0, 'airpressure': 1200.0, 'humidity': 95.0}
+Thu, 31 Mar 2016 16:21:15 - __main__ - INFO - livLCD.py - 130- dbData is: 
+Thu, 31 Mar 2016 16:21:15 - __main__ - INFO - livLCD.py - 131- {'co2': '672', 'temperature': '25.5', 'airpressure': '1007.91', 'humidity': '75.5'}
+Thu, 31 Mar 2016 16:22:42 - __main__ - INFO - livLCD.py - 113- start retrieve last sqlite record
+Thu, 31 Mar 2016 16:22:42 - __main__ - INFO - livLCD.py - 126- Succesfully retrieved db Data: 
+Thu, 31 Mar 2016 16:22:42 - __main__ - INFO - livLCD.py - 127- Time Stamp = 2016-03-31 16:21:04
+Thu, 31 Mar 2016 16:22:42 - __main__ - INFO - livLCD.py - 128- alarmLevels are: 
+Thu, 31 Mar 2016 16:22:42 - __main__ - INFO - livLCD.py - 129- {'co2': 1000.0, 'temperature': 60.0, 'airpressure': 1200.0, 'humidity': 95.0}
+Thu, 31 Mar 2016 16:22:42 - __main__ - INFO - livLCD.py - 130- dbData is: 
+Thu, 31 Mar 2016 16:22:42 - __main__ - INFO - livLCD.py - 131- {'co2': '672', 'temperature': '25.5', 'airpressure': '1007.91', 'humidity': '75.5'}
+Thu, 31 Mar 2016 16:24:10 - __main__ - INFO - livLCD.py - 113- start retrieve last sqlite record
+Thu, 31 Mar 2016 16:24:10 - __main__ - INFO - livLCD.py - 126- Succesfully retrieved db Data: 
+Thu, 31 Mar 2016 16:24:10 - __main__ - INFO - livLCD.py - 127- Time Stamp = 2016-03-31 16:23:05
+Thu, 31 Mar 2016 16:24:10 - __main__ - INFO - livLCD.py - 128- alarmLevels are: 
+Thu, 31 Mar 2016 16:24:10 - __main__ - INFO - livLCD.py - 129- {'co2': 1000.0, 'temperature': 60.0, 'airpressure': 1200.0, 'humidity': 95.0}
+Thu, 31 Mar 2016 16:24:10 - __main__ - INFO - livLCD.py - 130- dbData is: 
+Thu, 31 Mar 2016 16:24:10 - __main__ - INFO - livLCD.py - 131- {'co2': '653', 'temperature': '25.5', 'airpressure': '1007.9', 'humidity': '75.4'}
+Thu, 31 Mar 2016 16:25:37 - __main__ - INFO - livLCD.py - 113- start retrieve last sqlite record
+Thu, 31 Mar 2016 16:25:37 - __main__ - INFO - livLCD.py - 126- Succesfully retrieved db Data: 
+Thu, 31 Mar 2016 16:25:37 - __main__ - INFO - livLCD.py - 127- Time Stamp = 2016-03-31 16:25:06
+Thu, 31 Mar 2016 16:25:37 - __main__ - INFO - livLCD.py - 128- alarmLevels are: 
+Thu, 31 Mar 2016 16:25:37 - __main__ - INFO - livLCD.py - 129- {'co2': 1000.0, 'temperature': 60.0, 'airpressure': 1200.0, 'humidity': 95.0}
+Thu, 31 Mar 2016 16:25:37 - __main__ - INFO - livLCD.py - 130- dbData is: 
+Thu, 31 Mar 2016 16:25:37 - __main__ - INFO - livLCD.py - 131- {'co2': '624', 'temperature': '25.7', 'airpressure': '1007.94', 'humidity': '74.6'}
+Thu, 31 Mar 2016 16:27:04 - __main__ - INFO - livLCD.py - 113- start retrieve last sqlite record
+Thu, 31 Mar 2016 16:27:04 - __main__ - INFO - livLCD.py - 126- Succesfully retrieved db Data: 
+Thu, 31 Mar 2016 16:27:04 - __main__ - INFO - livLCD.py - 127- Time Stamp = 2016-03-31 16:25:06
+Thu, 31 Mar 2016 16:27:04 - __main__ - INFO - livLCD.py - 128- alarmLevels are: 
+Thu, 31 Mar 2016 16:27:04 - __main__ - INFO - livLCD.py - 129- {'co2': 1000.0, 'temperature': 60.0, 'airpressure': 1200.0, 'humidity': 95.0}
+Thu, 31 Mar 2016 16:27:04 - __main__ - INFO - livLCD.py - 130- dbData is: 
+Thu, 31 Mar 2016 16:27:04 - __main__ - INFO - livLCD.py - 131- {'co2': '624', 'temperature': '25.7', 'airpressure': '1007.94', 'humidity': '74.6'}
+Thu, 31 Mar 2016 16:28:31 - __main__ - INFO - livLCD.py - 113- start retrieve last sqlite record
+Thu, 31 Mar 2016 16:28:31 - __main__ - INFO - livLCD.py - 126- Succesfully retrieved db Data: 
+Thu, 31 Mar 2016 16:28:31 - __main__ - INFO - livLCD.py - 127- Time Stamp = 2016-03-31 16:27:07
+Thu, 31 Mar 2016 16:28:31 - __main__ - INFO - livLCD.py - 128- alarmLevels are: 
+Thu, 31 Mar 2016 16:28:31 - __main__ - INFO - livLCD.py - 129- {'co2': 1000.0, 'temperature': 60.0, 'airpressure': 1200.0, 'humidity': 95.0}
+Thu, 31 Mar 2016 16:28:31 - __main__ - INFO - livLCD.py - 130- dbData is: 
+Thu, 31 Mar 2016 16:28:31 - __main__ - INFO - livLCD.py - 131- {'co2': '669', 'temperature': '25.7', 'airpressure': '1007.95', 'humidity': '74.5'}
+Thu, 31 Mar 2016 16:29:58 - __main__ - INFO - livLCD.py - 113- start retrieve last sqlite record
+Thu, 31 Mar 2016 16:29:58 - __main__ - INFO - livLCD.py - 126- Succesfully retrieved db Data: 
+Thu, 31 Mar 2016 16:29:58 - __main__ - INFO - livLCD.py - 127- Time Stamp = 2016-03-31 16:29:08
+Thu, 31 Mar 2016 16:29:58 - __main__ - INFO - livLCD.py - 128- alarmLevels are: 
+Thu, 31 Mar 2016 16:29:58 - __main__ - INFO - livLCD.py - 129- {'co2': 1000.0, 'temperature': 60.0, 'airpressure': 1200.0, 'humidity': 95.0}
+Thu, 31 Mar 2016 16:29:58 - __main__ - INFO - livLCD.py - 130- dbData is: 
+Thu, 31 Mar 2016 16:29:58 - __main__ - INFO - livLCD.py - 131- {'co2': '734', 'temperature': '25.6', 'airpressure': '1007.96', 'humidity': '75.1'}
+Thu, 31 Mar 2016 16:31:25 - __main__ - INFO - livLCD.py - 113- start retrieve last sqlite record
+Thu, 31 Mar 2016 16:31:25 - __main__ - INFO - livLCD.py - 126- Succesfully retrieved db Data: 
+Thu, 31 Mar 2016 16:31:25 - __main__ - INFO - livLCD.py - 127- Time Stamp = 2016-03-31 16:31:09
+Thu, 31 Mar 2016 16:31:25 - __main__ - INFO - livLCD.py - 128- alarmLevels are: 
+Thu, 31 Mar 2016 16:31:25 - __main__ - INFO - livLCD.py - 129- {'co2': 1000.0, 'temperature': 60.0, 'airpressure': 1200.0, 'humidity': 95.0}
+Thu, 31 Mar 2016 16:31:25 - __main__ - INFO - livLCD.py - 130- dbData is: 
+Thu, 31 Mar 2016 16:31:25 - __main__ - INFO - livLCD.py - 131- {'co2': '660', 'temperature': '25.4', 'airpressure': '1007.94', 'humidity': '75.6'}
+Thu, 31 Mar 2016 16:32:53 - __main__ - INFO - livLCD.py - 113- start retrieve last sqlite record
+Thu, 31 Mar 2016 16:32:53 - __main__ - INFO - livLCD.py - 126- Succesfully retrieved db Data: 
+Thu, 31 Mar 2016 16:32:53 - __main__ - INFO - livLCD.py - 127- Time Stamp = 2016-03-31 16:31:09
+Thu, 31 Mar 2016 16:32:53 - __main__ - INFO - livLCD.py - 128- alarmLevels are: 
+Thu, 31 Mar 2016 16:32:53 - __main__ - INFO - livLCD.py - 129- {'co2': 1000.0, 'temperature': 60.0, 'airpressure': 1200.0, 'humidity': 95.0}
+Thu, 31 Mar 2016 16:32:53 - __main__ - INFO - livLCD.py - 130- dbData is: 
+Thu, 31 Mar 2016 16:32:53 - __main__ - INFO - livLCD.py - 131- {'co2': '660', 'temperature': '25.4', 'airpressure': '1007.94', 'humidity': '75.6'}
+Thu, 31 Mar 2016 16:34:20 - __main__ - INFO - livLCD.py - 113- start retrieve last sqlite record
+Thu, 31 Mar 2016 16:34:20 - __main__ - INFO - livLCD.py - 126- Succesfully retrieved db Data: 
+Thu, 31 Mar 2016 16:34:20 - __main__ - INFO - livLCD.py - 127- Time Stamp = 2016-03-31 16:33:10
+Thu, 31 Mar 2016 16:34:20 - __main__ - INFO - livLCD.py - 128- alarmLevels are: 
+Thu, 31 Mar 2016 16:34:20 - __main__ - INFO - livLCD.py - 129- {'co2': 1000.0, 'temperature': 60.0, 'airpressure': 1200.0, 'humidity': 95.0}
+Thu, 31 Mar 2016 16:34:20 - __main__ - INFO - livLCD.py - 130- dbData is: 
+Thu, 31 Mar 2016 16:34:20 - __main__ - INFO - livLCD.py - 131- {'co2': '658', 'temperature': '25.4', 'airpressure': '1007.96', 'humidity': '75.5'}
+Thu, 31 Mar 2016 16:35:47 - __main__ - INFO - livLCD.py - 113- start retrieve last sqlite record
+Thu, 31 Mar 2016 16:35:47 - __main__ - INFO - livLCD.py - 126- Succesfully retrieved db Data: 
+Thu, 31 Mar 2016 16:35:47 - __main__ - INFO - livLCD.py - 127- Time Stamp = 2016-03-31 16:35:11
+Thu, 31 Mar 2016 16:35:47 - __main__ - INFO - livLCD.py - 128- alarmLevels are: 
+Thu, 31 Mar 2016 16:35:47 - __main__ - INFO - livLCD.py - 129- {'co2': 1000.0, 'temperature': 60.0, 'airpressure': 1200.0, 'humidity': 95.0}
+Thu, 31 Mar 2016 16:35:47 - __main__ - INFO - livLCD.py - 130- dbData is: 
+Thu, 31 Mar 2016 16:35:47 - __main__ - INFO - livLCD.py - 131- {'co2': '659', 'temperature': '25.4', 'airpressure': '1007.94', 'humidity': '75.5'}
+Thu, 31 Mar 2016 16:37:14 - __main__ - INFO - livLCD.py - 113- start retrieve last sqlite record
+Thu, 31 Mar 2016 16:37:14 - __main__ - INFO - livLCD.py - 126- Succesfully retrieved db Data: 
+Thu, 31 Mar 2016 16:37:14 - __main__ - INFO - livLCD.py - 127- Time Stamp = 2016-03-31 16:37:12
+Thu, 31 Mar 2016 16:37:14 - __main__ - INFO - livLCD.py - 128- alarmLevels are: 
+Thu, 31 Mar 2016 16:37:14 - __main__ - INFO - livLCD.py - 129- {'co2': 1000.0, 'temperature': 60.0, 'airpressure': 1200.0, 'humidity': 95.0}
+Thu, 31 Mar 2016 16:37:14 - __main__ - INFO - livLCD.py - 130- dbData is: 
+Thu, 31 Mar 2016 16:37:14 - __main__ - INFO - livLCD.py - 131- {'co2': '663', 'temperature': '25.4', 'airpressure': '1007.99', 'humidity': '75.6'}
+Thu, 31 Mar 2016 16:38:41 - __main__ - INFO - livLCD.py - 113- start retrieve last sqlite record
+Thu, 31 Mar 2016 16:38:41 - __main__ - INFO - livLCD.py - 126- Succesfully retrieved db Data: 
+Thu, 31 Mar 2016 16:38:41 - __main__ - INFO - livLCD.py - 127- Time Stamp = 2016-03-31 16:37:12
+Thu, 31 Mar 2016 16:38:41 - __main__ - INFO - livLCD.py - 128- alarmLevels are: 
+Thu, 31 Mar 2016 16:38:41 - __main__ - INFO - livLCD.py - 129- {'co2': 1000.0, 'temperature': 60.0, 'airpressure': 1200.0, 'humidity': 95.0}
+Thu, 31 Mar 2016 16:38:41 - __main__ - INFO - livLCD.py - 130- dbData is: 
+Thu, 31 Mar 2016 16:38:41 - __main__ - INFO - livLCD.py - 131- {'co2': '663', 'temperature': '25.4', 'airpressure': '1007.99', 'humidity': '75.6'}
+Thu, 31 Mar 2016 16:40:09 - __main__ - INFO - livLCD.py - 113- start retrieve last sqlite record
+Thu, 31 Mar 2016 16:40:09 - __main__ - INFO - livLCD.py - 126- Succesfully retrieved db Data: 
+Thu, 31 Mar 2016 16:40:09 - __main__ - INFO - livLCD.py - 127- Time Stamp = 2016-03-31 16:39:13
+Thu, 31 Mar 2016 16:40:09 - __main__ - INFO - livLCD.py - 128- alarmLevels are: 
+Thu, 31 Mar 2016 16:40:09 - __main__ - INFO - livLCD.py - 129- {'co2': 1000.0, 'temperature': 60.0, 'airpressure': 1200.0, 'humidity': 95.0}
+Thu, 31 Mar 2016 16:40:09 - __main__ - INFO - livLCD.py - 130- dbData is: 
+Thu, 31 Mar 2016 16:40:09 - __main__ - INFO - livLCD.py - 131- {'co2': '727', 'temperature': '25.4', 'airpressure': '1007.96', 'humidity': '75.6'}
+Thu, 31 Mar 2016 16:41:36 - __main__ - INFO - livLCD.py - 113- start retrieve last sqlite record
+Thu, 31 Mar 2016 16:41:36 - __main__ - INFO - livLCD.py - 126- Succesfully retrieved db Data: 
+Thu, 31 Mar 2016 16:41:36 - __main__ - INFO - livLCD.py - 127- Time Stamp = 2016-03-31 16:41:14
+Thu, 31 Mar 2016 16:41:36 - __main__ - INFO - livLCD.py - 128- alarmLevels are: 
+Thu, 31 Mar 2016 16:41:36 - __main__ - INFO - livLCD.py - 129- {'co2': 1000.0, 'temperature': 60.0, 'airpressure': 1200.0, 'humidity': 95.0}
+Thu, 31 Mar 2016 16:41:36 - __main__ - INFO - livLCD.py - 130- dbData is: 
+Thu, 31 Mar 2016 16:41:36 - __main__ - INFO - livLCD.py - 131- {'co2': '645', 'temperature': '25.5', 'airpressure': '1007.94', 'humidity': '75.6'}
+Thu, 31 Mar 2016 16:43:03 - __main__ - INFO - livLCD.py - 113- start retrieve last sqlite record
+Thu, 31 Mar 2016 16:43:03 - __main__ - INFO - livLCD.py - 126- Succesfully retrieved db Data: 
+Thu, 31 Mar 2016 16:43:03 - __main__ - INFO - livLCD.py - 127- Time Stamp = 2016-03-31 16:41:14
+Thu, 31 Mar 2016 16:43:03 - __main__ - INFO - livLCD.py - 128- alarmLevels are: 
+Thu, 31 Mar 2016 16:43:03 - __main__ - INFO - livLCD.py - 129- {'co2': 1000.0, 'temperature': 60.0, 'airpressure': 1200.0, 'humidity': 95.0}
+Thu, 31 Mar 2016 16:43:03 - __main__ - INFO - livLCD.py - 130- dbData is: 
+Thu, 31 Mar 2016 16:43:03 - __main__ - INFO - livLCD.py - 131- {'co2': '645', 'temperature': '25.5', 'airpressure': '1007.94', 'humidity': '75.6'}

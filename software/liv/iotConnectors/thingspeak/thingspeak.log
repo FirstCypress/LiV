@@ -95,3 +95,616 @@ Thu, 31 Mar 2016 14:33:11 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp':
 Thu, 31 Mar 2016 14:33:11 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 06:33:11.769122
 Thu, 31 Mar 2016 14:33:12 - __main__ - INFO - thingspeak.py - 63- 400
 Thu, 31 Mar 2016 14:33:12 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 14:34:12 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 14:34:12 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 14:34:08', u'CO2level': u'794', u'Temperature': u'25.0', u'AirPressure': u'1008.51', u'Humidity': u'76.0'}
+Thu, 31 Mar 2016 14:34:12 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 06:34:12.311633
+Thu, 31 Mar 2016 14:34:12 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 14:34:12 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 14:35:12 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 14:35:12 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 14:34:08', u'CO2level': u'794', u'Temperature': u'25.0', u'AirPressure': u'1008.51', u'Humidity': u'76.0'}
+Thu, 31 Mar 2016 14:35:12 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 06:35:12.869760
+Thu, 31 Mar 2016 14:35:13 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 14:35:13 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 14:36:13 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 14:36:13 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 14:36:09', u'CO2level': u'812', u'Temperature': u'25.0', u'AirPressure': u'1008.44', u'Humidity': u'76.0'}
+Thu, 31 Mar 2016 14:36:13 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 06:36:13.412261
+Thu, 31 Mar 2016 14:36:13 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 14:36:13 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 14:37:13 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 14:37:13 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 14:36:09', u'CO2level': u'812', u'Temperature': u'25.0', u'AirPressure': u'1008.44', u'Humidity': u'76.0'}
+Thu, 31 Mar 2016 14:37:13 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 06:37:13.954241
+Thu, 31 Mar 2016 14:37:14 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 14:37:14 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 14:38:14 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 14:38:14 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 14:38:10', u'CO2level': u'804', u'Temperature': u'25.0', u'AirPressure': u'1008.35', u'Humidity': u'75.8'}
+Thu, 31 Mar 2016 14:38:14 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 06:38:14.493550
+Thu, 31 Mar 2016 14:38:14 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 14:38:14 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 14:39:15 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 14:39:15 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 14:38:10', u'CO2level': u'804', u'Temperature': u'25.0', u'AirPressure': u'1008.35', u'Humidity': u'75.8'}
+Thu, 31 Mar 2016 14:39:15 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 06:39:15.035277
+Thu, 31 Mar 2016 14:39:15 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 14:39:15 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 14:40:15 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 14:40:15 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 14:40:11', u'CO2level': u'789', u'Temperature': u'25.1', u'AirPressure': u'1008.43', u'Humidity': u'75.6'}
+Thu, 31 Mar 2016 14:40:15 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 06:40:15.583748
+Thu, 31 Mar 2016 14:40:16 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 14:40:16 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 14:41:16 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 14:41:16 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 14:40:11', u'CO2level': u'789', u'Temperature': u'25.1', u'AirPressure': u'1008.43', u'Humidity': u'75.6'}
+Thu, 31 Mar 2016 14:41:16 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 06:41:16.132778
+Thu, 31 Mar 2016 14:43:23 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 14:43:23 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 14:44:24 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 14:44:24 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 14:44:13', u'CO2level': u'742', u'Temperature': u'25.1', u'AirPressure': u'1008.37', u'Humidity': u'75.6'}
+Thu, 31 Mar 2016 14:44:24 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 06:44:24.064866
+Thu, 31 Mar 2016 14:44:24 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 14:44:24 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 14:45:24 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 14:45:24 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 14:44:13', u'CO2level': u'742', u'Temperature': u'25.1', u'AirPressure': u'1008.37', u'Humidity': u'75.6'}
+Thu, 31 Mar 2016 14:45:24 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 06:45:24.569857
+Thu, 31 Mar 2016 14:45:25 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 14:45:25 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 14:46:25 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 14:46:25 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 14:46:14', u'CO2level': u'779', u'Temperature': u'25.1', u'AirPressure': u'1008.32', u'Humidity': u'75.6'}
+Thu, 31 Mar 2016 14:46:25 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 06:46:25.106594
+Thu, 31 Mar 2016 14:46:25 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 14:46:25 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 14:47:25 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 14:47:25 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 14:46:14', u'CO2level': u'779', u'Temperature': u'25.1', u'AirPressure': u'1008.32', u'Humidity': u'75.6'}
+Thu, 31 Mar 2016 14:47:25 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 06:47:25.644111
+Thu, 31 Mar 2016 14:47:26 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 14:47:26 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 14:48:26 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 14:48:26 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 14:48:15', u'CO2level': u'778', u'Temperature': u'25.1', u'AirPressure': u'1008.37', u'Humidity': u'75.8'}
+Thu, 31 Mar 2016 14:48:26 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 06:48:26.182784
+Thu, 31 Mar 2016 14:48:26 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 14:48:26 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 14:49:26 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 14:49:26 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 14:48:15', u'CO2level': u'778', u'Temperature': u'25.1', u'AirPressure': u'1008.37', u'Humidity': u'75.8'}
+Thu, 31 Mar 2016 14:49:26 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 06:49:26.722655
+Thu, 31 Mar 2016 14:49:27 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 14:49:27 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 14:50:27 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 14:50:27 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 14:50:16', u'CO2level': u'730', u'Temperature': u'25.0', u'AirPressure': u'1008.29', u'Humidity': u'75.9'}
+Thu, 31 Mar 2016 14:50:27 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 06:50:27.227279
+Thu, 31 Mar 2016 14:50:27 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 14:50:27 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 14:51:27 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 14:51:27 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 14:50:16', u'CO2level': u'730', u'Temperature': u'25.0', u'AirPressure': u'1008.29', u'Humidity': u'75.9'}
+Thu, 31 Mar 2016 14:51:27 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 06:51:27.810358
+Thu, 31 Mar 2016 14:51:28 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 14:51:28 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 14:52:28 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 14:52:28 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 14:52:17', u'CO2level': u'713', u'Temperature': u'25.2', u'AirPressure': u'1008.24', u'Humidity': u'75.6'}
+Thu, 31 Mar 2016 14:52:28 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 06:52:28.349108
+Thu, 31 Mar 2016 14:52:28 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 14:52:28 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 14:53:28 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 14:53:28 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 14:52:17', u'CO2level': u'713', u'Temperature': u'25.2', u'AirPressure': u'1008.24', u'Humidity': u'75.6'}
+Thu, 31 Mar 2016 14:53:28 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 06:53:28.914326
+Thu, 31 Mar 2016 14:53:29 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 14:53:29 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 14:54:29 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 14:54:29 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 14:54:18', u'CO2level': u'717', u'Temperature': u'25.4', u'AirPressure': u'1008.24', u'Humidity': u'74.8'}
+Thu, 31 Mar 2016 14:54:29 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 06:54:29.421500
+Thu, 31 Mar 2016 14:54:29 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 14:54:29 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 14:55:29 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 14:55:29 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 14:54:18', u'CO2level': u'717', u'Temperature': u'25.4', u'AirPressure': u'1008.24', u'Humidity': u'74.8'}
+Thu, 31 Mar 2016 14:55:29 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 06:55:29.966026
+Thu, 31 Mar 2016 14:55:30 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 14:55:30 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 14:56:30 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 14:56:30 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 14:56:19', u'CO2level': u'721', u'Temperature': u'25.4', u'AirPressure': u'1008.23', u'Humidity': u'74.4'}
+Thu, 31 Mar 2016 14:56:30 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 06:56:30.496969
+Thu, 31 Mar 2016 14:56:30 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 14:56:30 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 14:57:31 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 14:57:31 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 14:56:19', u'CO2level': u'721', u'Temperature': u'25.4', u'AirPressure': u'1008.23', u'Humidity': u'74.4'}
+Thu, 31 Mar 2016 14:57:31 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 06:57:31.034820
+Thu, 31 Mar 2016 14:57:31 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 14:57:31 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 14:58:31 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 14:58:31 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 14:58:20', u'CO2level': u'758', u'Temperature': u'25.4', u'AirPressure': u'1008.2', u'Humidity': u'74.1'}
+Thu, 31 Mar 2016 14:58:31 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 06:58:31.576614
+Thu, 31 Mar 2016 14:58:32 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 14:58:32 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 14:59:32 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 14:59:32 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 14:58:20', u'CO2level': u'758', u'Temperature': u'25.4', u'AirPressure': u'1008.2', u'Humidity': u'74.1'}
+Thu, 31 Mar 2016 14:59:32 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 06:59:32.119655
+Thu, 31 Mar 2016 14:59:32 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 14:59:32 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 15:00:32 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 15:00:32 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 15:00:21', u'CO2level': u'730', u'Temperature': u'25.4', u'AirPressure': u'1008.12', u'Humidity': u'74.1'}
+Thu, 31 Mar 2016 15:00:32 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 07:00:32.659222
+Thu, 31 Mar 2016 15:00:33 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 15:00:33 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 15:01:33 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 15:01:33 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 15:00:21', u'CO2level': u'730', u'Temperature': u'25.4', u'AirPressure': u'1008.12', u'Humidity': u'74.1'}
+Thu, 31 Mar 2016 15:01:33 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 07:01:33.227775
+Thu, 31 Mar 2016 15:01:33 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 15:01:33 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 15:02:33 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 15:02:33 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 15:02:22', u'CO2level': u'729', u'Temperature': u'25.4', u'AirPressure': u'1008.1', u'Humidity': u'74.4'}
+Thu, 31 Mar 2016 15:02:33 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 07:02:33.780100
+Thu, 31 Mar 2016 15:02:34 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 15:02:34 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 15:03:34 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 15:03:34 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 15:02:22', u'CO2level': u'729', u'Temperature': u'25.4', u'AirPressure': u'1008.1', u'Humidity': u'74.4'}
+Thu, 31 Mar 2016 15:03:34 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 07:03:34.259274
+Thu, 31 Mar 2016 15:03:34 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 15:03:34 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 15:04:34 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 15:04:34 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 15:04:23', u'CO2level': u'724', u'Temperature': u'25.3', u'AirPressure': u'1008.1', u'Humidity': u'74.6'}
+Thu, 31 Mar 2016 15:04:34 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 07:04:34.798203
+Thu, 31 Mar 2016 15:04:35 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 15:04:35 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 15:05:35 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 15:05:35 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 15:04:23', u'CO2level': u'724', u'Temperature': u'25.3', u'AirPressure': u'1008.1', u'Humidity': u'74.6'}
+Thu, 31 Mar 2016 15:05:35 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 07:05:35.355651
+Thu, 31 Mar 2016 15:05:35 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 15:05:35 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 15:06:35 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 15:06:35 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 15:06:24', u'CO2level': u'720', u'Temperature': u'25.3', u'AirPressure': u'1007.97', u'Humidity': u'74.7'}
+Thu, 31 Mar 2016 15:06:35 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 07:06:35.903006
+Thu, 31 Mar 2016 15:06:36 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 15:06:36 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 15:07:36 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 15:07:36 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 15:06:24', u'CO2level': u'720', u'Temperature': u'25.3', u'AirPressure': u'1007.97', u'Humidity': u'74.7'}
+Thu, 31 Mar 2016 15:07:36 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 07:07:36.429229
+Thu, 31 Mar 2016 15:07:36 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 15:07:36 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 15:08:36 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 15:08:36 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 15:08:25', u'CO2level': u'734', u'Temperature': u'25.5', u'AirPressure': u'1007.99', u'Humidity': u'74.1'}
+Thu, 31 Mar 2016 15:08:36 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 07:08:36.963107
+Thu, 31 Mar 2016 15:08:37 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 15:08:37 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 15:09:37 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 15:09:37 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 15:08:25', u'CO2level': u'734', u'Temperature': u'25.5', u'AirPressure': u'1007.99', u'Humidity': u'74.1'}
+Thu, 31 Mar 2016 15:09:37 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 07:09:37.551895
+Thu, 31 Mar 2016 15:09:38 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 15:09:38 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 15:10:38 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 15:10:38 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 15:10:26', u'CO2level': u'706', u'Temperature': u'25.6', u'AirPressure': u'1008.0', u'Humidity': u'73.4'}
+Thu, 31 Mar 2016 15:10:38 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 07:10:38.094056
+Thu, 31 Mar 2016 15:10:38 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 15:10:38 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 15:11:38 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 15:11:38 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 15:10:26', u'CO2level': u'706', u'Temperature': u'25.6', u'AirPressure': u'1008.0', u'Humidity': u'73.4'}
+Thu, 31 Mar 2016 15:11:38 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 07:11:38.654444
+Thu, 31 Mar 2016 15:11:39 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 15:11:39 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 15:12:39 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 15:12:39 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 15:12:27', u'CO2level': u'637', u'Temperature': u'25.6', u'AirPressure': u'1007.98', u'Humidity': u'73.2'}
+Thu, 31 Mar 2016 15:12:39 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 07:12:39.202189
+Thu, 31 Mar 2016 15:12:39 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 15:12:39 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 15:13:39 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 15:13:39 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 15:12:27', u'CO2level': u'637', u'Temperature': u'25.6', u'AirPressure': u'1007.98', u'Humidity': u'73.2'}
+Thu, 31 Mar 2016 15:13:39 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 07:13:39.765588
+Thu, 31 Mar 2016 15:13:40 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 15:13:40 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 15:14:40 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 15:14:40 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 15:14:28', u'CO2level': u'635', u'Temperature': u'25.6', u'AirPressure': u'1007.97', u'Humidity': u'73.6'}
+Thu, 31 Mar 2016 15:14:40 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 07:14:40.299377
+Thu, 31 Mar 2016 15:14:40 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 15:14:40 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 15:15:40 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 15:15:40 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 15:14:28', u'CO2level': u'635', u'Temperature': u'25.6', u'AirPressure': u'1007.97', u'Humidity': u'73.6'}
+Thu, 31 Mar 2016 15:15:40 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 07:15:40.810870
+Thu, 31 Mar 2016 15:15:41 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 15:15:41 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 15:16:41 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 15:16:41 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 15:16:30', u'CO2level': u'678', u'Temperature': u'25.7', u'AirPressure': u'1007.95', u'Humidity': u'73.2'}
+Thu, 31 Mar 2016 15:16:41 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 07:16:41.343073
+Thu, 31 Mar 2016 15:16:41 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 15:16:41 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 15:17:41 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 15:17:41 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 15:16:30', u'CO2level': u'678', u'Temperature': u'25.7', u'AirPressure': u'1007.95', u'Humidity': u'73.2'}
+Thu, 31 Mar 2016 15:17:41 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 07:17:41.883118
+Thu, 31 Mar 2016 15:17:42 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 15:17:42 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 15:18:42 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 15:18:42 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 15:18:31', u'CO2level': u'691', u'Temperature': u'25.6', u'AirPressure': u'1007.98', u'Humidity': u'73.6'}
+Thu, 31 Mar 2016 15:18:42 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 07:18:42.429625
+Thu, 31 Mar 2016 15:18:42 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 15:18:42 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 15:19:42 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 15:19:42 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 15:18:31', u'CO2level': u'691', u'Temperature': u'25.6', u'AirPressure': u'1007.98', u'Humidity': u'73.6'}
+Thu, 31 Mar 2016 15:19:42 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 07:19:42.982156
+Thu, 31 Mar 2016 15:19:43 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 15:19:43 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 15:20:43 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 15:20:43 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 15:20:32', u'CO2level': u'688', u'Temperature': u'25.5', u'AirPressure': u'1008.01', u'Humidity': u'73.5'}
+Thu, 31 Mar 2016 15:20:43 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 07:20:43.530703
+Thu, 31 Mar 2016 15:20:44 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 15:20:44 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 15:21:44 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 15:21:44 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 15:20:32', u'CO2level': u'688', u'Temperature': u'25.5', u'AirPressure': u'1008.01', u'Humidity': u'73.5'}
+Thu, 31 Mar 2016 15:21:44 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 07:21:44.224594
+Thu, 31 Mar 2016 15:21:44 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 15:21:44 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 15:22:44 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 15:22:44 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 15:22:33', u'CO2level': u'668', u'Temperature': u'25.5', u'AirPressure': u'1008.06', u'Humidity': u'73.5'}
+Thu, 31 Mar 2016 15:22:44 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 07:22:44.764092
+Thu, 31 Mar 2016 15:22:45 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 15:22:45 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 15:23:45 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 15:23:45 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 15:22:33', u'CO2level': u'668', u'Temperature': u'25.5', u'AirPressure': u'1008.06', u'Humidity': u'73.5'}
+Thu, 31 Mar 2016 15:23:45 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 07:23:45.307840
+Thu, 31 Mar 2016 15:23:45 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 15:23:45 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 15:24:45 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 15:24:45 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 15:24:34', u'CO2level': u'673', u'Temperature': u'25.5', u'AirPressure': u'1008.08', u'Humidity': u'74.1'}
+Thu, 31 Mar 2016 15:24:45 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 07:24:45.838722
+Thu, 31 Mar 2016 15:24:46 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 15:24:46 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 15:25:46 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 15:25:46 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 15:24:34', u'CO2level': u'673', u'Temperature': u'25.5', u'AirPressure': u'1008.08', u'Humidity': u'74.1'}
+Thu, 31 Mar 2016 15:25:46 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 07:25:46.407149
+Thu, 31 Mar 2016 15:25:46 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 15:25:46 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 15:26:46 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 15:26:46 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 15:26:35', u'CO2level': u'670', u'Temperature': u'25.5', u'AirPressure': u'1008.0', u'Humidity': u'74.1'}
+Thu, 31 Mar 2016 15:26:46 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 07:26:46.963672
+Thu, 31 Mar 2016 15:26:47 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 15:26:47 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 15:27:47 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 15:27:47 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 15:26:35', u'CO2level': u'670', u'Temperature': u'25.5', u'AirPressure': u'1008.0', u'Humidity': u'74.1'}
+Thu, 31 Mar 2016 15:27:47 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 07:27:47.515648
+Thu, 31 Mar 2016 15:27:47 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 15:27:47 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 15:28:48 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 15:28:48 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 15:28:36', u'CO2level': u'666', u'Temperature': u'25.5', u'AirPressure': u'1007.99', u'Humidity': u'74.3'}
+Thu, 31 Mar 2016 15:28:48 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 07:28:48.055278
+Thu, 31 Mar 2016 15:28:48 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 15:28:48 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 15:29:48 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 15:29:48 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 15:28:36', u'CO2level': u'666', u'Temperature': u'25.5', u'AirPressure': u'1007.99', u'Humidity': u'74.3'}
+Thu, 31 Mar 2016 15:29:48 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 07:29:48.646066
+Thu, 31 Mar 2016 15:29:49 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 15:29:49 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 15:30:49 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 15:30:49 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 15:30:37', u'CO2level': u'722', u'Temperature': u'25.4', u'AirPressure': u'1007.9', u'Humidity': u'74.5'}
+Thu, 31 Mar 2016 15:30:49 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 07:30:49.181479
+Thu, 31 Mar 2016 15:30:49 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 15:30:49 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 15:31:49 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 15:31:49 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 15:30:37', u'CO2level': u'722', u'Temperature': u'25.4', u'AirPressure': u'1007.9', u'Humidity': u'74.5'}
+Thu, 31 Mar 2016 15:31:49 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 07:31:49.738050
+Thu, 31 Mar 2016 15:31:50 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 15:31:50 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 15:32:50 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 15:32:50 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 15:32:38', u'CO2level': u'848', u'Temperature': u'25.4', u'AirPressure': u'1007.83', u'Humidity': u'74.9'}
+Thu, 31 Mar 2016 15:32:50 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 07:32:50.280232
+Thu, 31 Mar 2016 15:32:50 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 15:32:50 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 15:33:50 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 15:33:50 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 15:32:38', u'CO2level': u'848', u'Temperature': u'25.4', u'AirPressure': u'1007.83', u'Humidity': u'74.9'}
+Thu, 31 Mar 2016 15:33:50 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 07:33:50.947426
+Thu, 31 Mar 2016 15:33:51 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 15:33:51 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 15:34:51 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 15:34:51 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 15:34:39', u'CO2level': u'991', u'Temperature': u'25.2', u'AirPressure': u'1007.85', u'Humidity': u'75.6'}
+Thu, 31 Mar 2016 15:34:51 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 07:34:51.504355
+Thu, 31 Mar 2016 15:34:52 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 15:34:52 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 15:35:52 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 15:35:52 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 15:34:39', u'CO2level': u'991', u'Temperature': u'25.2', u'AirPressure': u'1007.85', u'Humidity': u'75.6'}
+Thu, 31 Mar 2016 15:35:52 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 07:35:52.165837
+Thu, 31 Mar 2016 15:35:52 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 15:35:52 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 15:36:52 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 15:36:52 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 15:36:40', u'CO2level': u'955', u'Temperature': u'25.2', u'AirPressure': u'1007.88', u'Humidity': u'76.2'}
+Thu, 31 Mar 2016 15:36:52 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 07:36:52.704299
+Thu, 31 Mar 2016 15:36:53 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 15:36:53 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 15:37:53 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 15:37:53 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 15:36:40', u'CO2level': u'955', u'Temperature': u'25.2', u'AirPressure': u'1007.88', u'Humidity': u'76.2'}
+Thu, 31 Mar 2016 15:37:53 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 07:37:53.248771
+Thu, 31 Mar 2016 15:37:53 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 15:37:53 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 15:38:53 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 15:38:53 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 15:38:41', u'CO2level': u'863', u'Temperature': u'25.4', u'AirPressure': u'1007.81', u'Humidity': u'76.1'}
+Thu, 31 Mar 2016 15:38:53 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 07:38:53.738249
+Thu, 31 Mar 2016 15:38:54 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 15:38:54 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 15:39:54 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 15:39:54 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 15:38:41', u'CO2level': u'863', u'Temperature': u'25.4', u'AirPressure': u'1007.81', u'Humidity': u'76.1'}
+Thu, 31 Mar 2016 15:39:54 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 07:39:54.275678
+Thu, 31 Mar 2016 15:39:54 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 15:39:54 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 15:40:54 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 15:40:54 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 15:40:42', u'CO2level': u'898', u'Temperature': u'25.4', u'AirPressure': u'1007.79', u'Humidity': u'76.0'}
+Thu, 31 Mar 2016 15:40:54 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 07:40:54.806040
+Thu, 31 Mar 2016 15:40:55 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 15:40:55 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 15:41:55 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 15:41:55 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 15:40:42', u'CO2level': u'898', u'Temperature': u'25.4', u'AirPressure': u'1007.79', u'Humidity': u'76.0'}
+Thu, 31 Mar 2016 15:41:55 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 07:41:55.368146
+Thu, 31 Mar 2016 15:41:55 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 15:41:55 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 15:42:55 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 15:42:55 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 15:42:43', u'CO2level': u'882', u'Temperature': u'25.4', u'AirPressure': u'1007.76', u'Humidity': u'75.9'}
+Thu, 31 Mar 2016 15:42:55 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 07:42:55.899428
+Thu, 31 Mar 2016 15:42:56 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 15:42:56 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 15:43:56 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 15:43:56 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 15:42:43', u'CO2level': u'882', u'Temperature': u'25.4', u'AirPressure': u'1007.76', u'Humidity': u'75.9'}
+Thu, 31 Mar 2016 15:43:56 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 07:43:56.448663
+Thu, 31 Mar 2016 15:43:56 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 15:43:56 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 15:44:56 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 15:44:56 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 15:44:44', u'CO2level': u'824', u'Temperature': u'25.3', u'AirPressure': u'1007.77', u'Humidity': u'76.0'}
+Thu, 31 Mar 2016 15:44:56 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 07:44:56.985315
+Thu, 31 Mar 2016 15:44:57 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 15:44:57 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 15:45:57 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 15:45:57 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 15:44:44', u'CO2level': u'824', u'Temperature': u'25.3', u'AirPressure': u'1007.77', u'Humidity': u'76.0'}
+Thu, 31 Mar 2016 15:45:57 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 07:45:57.552132
+Thu, 31 Mar 2016 15:45:58 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 15:45:58 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 15:46:58 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 15:46:58 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 15:46:45', u'CO2level': u'969', u'Temperature': u'25.2', u'AirPressure': u'1007.76', u'Humidity': u'76.7'}
+Thu, 31 Mar 2016 15:46:58 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 07:46:58.096945
+Thu, 31 Mar 2016 15:46:58 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 15:46:58 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 15:47:58 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 15:47:58 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 15:46:45', u'CO2level': u'969', u'Temperature': u'25.2', u'AirPressure': u'1007.76', u'Humidity': u'76.7'}
+Thu, 31 Mar 2016 15:47:58 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 07:47:58.683218
+Thu, 31 Mar 2016 15:47:59 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 15:47:59 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 15:48:59 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 15:48:59 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 15:48:46', u'CO2level': u'801', u'Temperature': u'25.2', u'AirPressure': u'1007.83', u'Humidity': u'76.8'}
+Thu, 31 Mar 2016 15:48:59 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 07:48:59.224682
+Thu, 31 Mar 2016 15:48:59 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 15:48:59 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 15:49:59 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 15:49:59 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 15:48:46', u'CO2level': u'801', u'Temperature': u'25.2', u'AirPressure': u'1007.83', u'Humidity': u'76.8'}
+Thu, 31 Mar 2016 15:49:59 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 07:49:59.712622
+Thu, 31 Mar 2016 15:50:00 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 15:50:00 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 15:51:00 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 15:51:00 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 15:50:47', u'CO2level': u'847', u'Temperature': u'25.4', u'AirPressure': u'1007.79', u'Humidity': u'76.3'}
+Thu, 31 Mar 2016 15:51:00 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 07:51:00.266189
+Thu, 31 Mar 2016 15:51:00 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 15:51:00 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 15:52:00 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 15:52:00 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 15:50:47', u'CO2level': u'847', u'Temperature': u'25.4', u'AirPressure': u'1007.79', u'Humidity': u'76.3'}
+Thu, 31 Mar 2016 15:52:00 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 07:52:00.837148
+Thu, 31 Mar 2016 15:52:01 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 15:52:01 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 15:53:01 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 15:53:01 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 15:52:48', u'CO2level': u'819', u'Temperature': u'25.3', u'AirPressure': u'1007.82', u'Humidity': u'76.0'}
+Thu, 31 Mar 2016 15:53:01 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 07:53:01.335739
+Thu, 31 Mar 2016 15:53:01 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 15:53:01 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 15:54:01 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 15:54:01 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 15:52:48', u'CO2level': u'819', u'Temperature': u'25.3', u'AirPressure': u'1007.82', u'Humidity': u'76.0'}
+Thu, 31 Mar 2016 15:54:01 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 07:54:01.883515
+Thu, 31 Mar 2016 15:54:02 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 15:54:02 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 15:55:02 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 15:55:02 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 15:54:49', u'CO2level': u'827', u'Temperature': u'25.4', u'AirPressure': u'1007.84', u'Humidity': u'76.2'}
+Thu, 31 Mar 2016 15:55:02 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 07:55:02.429828
+Thu, 31 Mar 2016 15:55:02 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 15:55:02 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 15:56:02 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 15:56:03 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 15:54:49', u'CO2level': u'827', u'Temperature': u'25.4', u'AirPressure': u'1007.84', u'Humidity': u'76.2'}
+Thu, 31 Mar 2016 15:56:03 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 07:56:03.007581
+Thu, 31 Mar 2016 15:56:03 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 15:56:03 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 15:57:03 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 15:57:03 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 15:56:50', u'CO2level': u'800', u'Temperature': u'25.3', u'AirPressure': u'1007.82', u'Humidity': u'76.5'}
+Thu, 31 Mar 2016 15:57:03 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 07:57:03.571022
+Thu, 31 Mar 2016 15:57:04 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 15:57:04 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 15:58:04 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 15:58:04 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 15:56:50', u'CO2level': u'800', u'Temperature': u'25.3', u'AirPressure': u'1007.82', u'Humidity': u'76.5'}
+Thu, 31 Mar 2016 15:58:04 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 07:58:04.131195
+Thu, 31 Mar 2016 15:58:04 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 15:58:04 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 15:59:04 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 15:59:04 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 15:58:51', u'CO2level': u'792', u'Temperature': u'25.2', u'AirPressure': u'1007.83', u'Humidity': u'76.4'}
+Thu, 31 Mar 2016 15:59:04 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 07:59:04.672286
+Thu, 31 Mar 2016 15:59:05 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 15:59:05 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 16:00:05 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 16:00:05 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 15:58:51', u'CO2level': u'792', u'Temperature': u'25.2', u'AirPressure': u'1007.83', u'Humidity': u'76.4'}
+Thu, 31 Mar 2016 16:00:05 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 08:00:05.231050
+Thu, 31 Mar 2016 16:00:05 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 16:00:05 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 16:01:05 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 16:01:05 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 16:00:52', u'CO2level': u'768', u'Temperature': u'25.2', u'AirPressure': u'1007.92', u'Humidity': u'76.7'}
+Thu, 31 Mar 2016 16:01:05 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 08:01:05.774142
+Thu, 31 Mar 2016 16:01:06 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 16:01:06 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 16:02:06 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 16:02:06 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 16:00:52', u'CO2level': u'768', u'Temperature': u'25.2', u'AirPressure': u'1007.92', u'Humidity': u'76.7'}
+Thu, 31 Mar 2016 16:02:06 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 08:02:06.423262
+Thu, 31 Mar 2016 16:02:06 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 16:02:06 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 16:03:06 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 16:03:06 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 16:02:53', u'CO2level': u'712', u'Temperature': u'25.0', u'AirPressure': u'1007.84', u'Humidity': u'76.9'}
+Thu, 31 Mar 2016 16:03:06 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 08:03:06.969652
+Thu, 31 Mar 2016 16:03:07 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 16:03:07 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 16:04:07 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 16:04:07 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 16:02:53', u'CO2level': u'712', u'Temperature': u'25.0', u'AirPressure': u'1007.84', u'Humidity': u'76.9'}
+Thu, 31 Mar 2016 16:04:07 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 08:04:07.562545
+Thu, 31 Mar 2016 16:04:08 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 16:04:08 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 16:05:08 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 16:05:08 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 16:04:54', u'CO2level': u'702', u'Temperature': u'25.1', u'AirPressure': u'1007.93', u'Humidity': u'76.9'}
+Thu, 31 Mar 2016 16:05:08 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 08:05:08.051542
+Thu, 31 Mar 2016 16:05:08 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 16:05:08 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 16:06:08 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 16:06:08 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 16:04:54', u'CO2level': u'702', u'Temperature': u'25.1', u'AirPressure': u'1007.93', u'Humidity': u'76.9'}
+Thu, 31 Mar 2016 16:06:08 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 08:06:08.601151
+Thu, 31 Mar 2016 16:06:09 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 16:06:09 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 16:07:09 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 16:07:09 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 16:06:55', u'CO2level': u'737', u'Temperature': u'25.1', u'AirPressure': u'1007.89', u'Humidity': u'76.6'}
+Thu, 31 Mar 2016 16:07:09 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 08:07:09.151855
+Thu, 31 Mar 2016 16:07:09 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 16:07:09 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 16:08:09 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 16:08:09 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 16:06:55', u'CO2level': u'737', u'Temperature': u'25.1', u'AirPressure': u'1007.89', u'Humidity': u'76.6'}
+Thu, 31 Mar 2016 16:08:09 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 08:08:09.720652
+Thu, 31 Mar 2016 16:08:11 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 16:08:11 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 16:09:11 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 16:09:11 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 16:08:56', u'CO2level': u'658', u'Temperature': u'25.3', u'AirPressure': u'1007.95', u'Humidity': u'75.9'}
+Thu, 31 Mar 2016 16:09:11 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 08:09:11.887638
+Thu, 31 Mar 2016 16:09:12 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 16:09:12 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 16:10:12 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 16:10:12 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 16:08:56', u'CO2level': u'658', u'Temperature': u'25.3', u'AirPressure': u'1007.95', u'Humidity': u'75.9'}
+Thu, 31 Mar 2016 16:10:12 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 08:10:12.527388
+Thu, 31 Mar 2016 16:10:12 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 16:10:12 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 16:11:13 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 16:11:13 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 16:10:59', u'CO2level': u'668', u'Temperature': u'25.4', u'AirPressure': u'1007.96', u'Humidity': u'75.5'}
+Thu, 31 Mar 2016 16:11:13 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 08:11:13.074340
+Thu, 31 Mar 2016 16:11:13 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 16:11:13 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 16:12:13 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 16:12:13 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 16:10:59', u'CO2level': u'668', u'Temperature': u'25.4', u'AirPressure': u'1007.96', u'Humidity': u'75.5'}
+Thu, 31 Mar 2016 16:12:13 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 08:12:13.616315
+Thu, 31 Mar 2016 16:12:14 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 16:12:14 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 16:13:14 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 16:13:14 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 16:13:00', u'CO2level': u'653', u'Temperature': u'25.6', u'AirPressure': u'1007.93', u'Humidity': u'75.2'}
+Thu, 31 Mar 2016 16:13:14 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 08:13:14.163790
+Thu, 31 Mar 2016 16:13:14 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 16:13:14 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 16:14:14 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 16:14:14 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 16:13:00', u'CO2level': u'653', u'Temperature': u'25.6', u'AirPressure': u'1007.93', u'Humidity': u'75.2'}
+Thu, 31 Mar 2016 16:14:14 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 08:14:14.679411
+Thu, 31 Mar 2016 16:14:15 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 16:14:15 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 16:15:15 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 16:15:15 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 16:15:01', u'CO2level': u'642', u'Temperature': u'25.5', u'AirPressure': u'1007.85', u'Humidity': u'75.1'}
+Thu, 31 Mar 2016 16:15:15 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 08:15:15.179711
+Thu, 31 Mar 2016 16:15:15 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 16:15:15 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 16:16:15 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 16:16:15 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 16:15:01', u'CO2level': u'642', u'Temperature': u'25.5', u'AirPressure': u'1007.85', u'Humidity': u'75.1'}
+Thu, 31 Mar 2016 16:16:15 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 08:16:15.680958
+Thu, 31 Mar 2016 16:16:16 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 16:16:16 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 16:17:16 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 16:17:16 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 16:17:02', u'CO2level': u'604', u'Temperature': u'25.4', u'AirPressure': u'1007.91', u'Humidity': u'75.4'}
+Thu, 31 Mar 2016 16:17:16 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 08:17:16.182819
+Thu, 31 Mar 2016 16:17:16 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 16:17:16 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 16:18:16 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 16:18:16 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 16:17:02', u'CO2level': u'604', u'Temperature': u'25.4', u'AirPressure': u'1007.91', u'Humidity': u'75.4'}
+Thu, 31 Mar 2016 16:18:16 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 08:18:16.755304
+Thu, 31 Mar 2016 16:18:17 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 16:18:17 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 16:19:17 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 16:19:17 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 16:19:03', u'CO2level': u'782', u'Temperature': u'25.5', u'AirPressure': u'1007.97', u'Humidity': u'75.3'}
+Thu, 31 Mar 2016 16:19:17 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 08:19:17.293357
+Thu, 31 Mar 2016 16:19:17 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 16:19:17 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 16:20:17 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 16:20:17 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 16:19:03', u'CO2level': u'782', u'Temperature': u'25.5', u'AirPressure': u'1007.97', u'Humidity': u'75.3'}
+Thu, 31 Mar 2016 16:20:17 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 08:20:17.834106
+Thu, 31 Mar 2016 16:20:18 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 16:20:18 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 16:21:18 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 16:21:18 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 16:21:04', u'CO2level': u'672', u'Temperature': u'25.5', u'AirPressure': u'1007.91', u'Humidity': u'75.5'}
+Thu, 31 Mar 2016 16:21:18 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 08:21:18.343928
+Thu, 31 Mar 2016 16:21:18 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 16:21:18 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 16:22:18 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 16:22:18 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 16:21:04', u'CO2level': u'672', u'Temperature': u'25.5', u'AirPressure': u'1007.91', u'Humidity': u'75.5'}
+Thu, 31 Mar 2016 16:22:18 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 08:22:18.965769
+Thu, 31 Mar 2016 16:22:19 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 16:22:19 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 16:23:19 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 16:23:19 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 16:23:05', u'CO2level': u'653', u'Temperature': u'25.5', u'AirPressure': u'1007.9', u'Humidity': u'75.4'}
+Thu, 31 Mar 2016 16:23:19 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 08:23:19.549327
+Thu, 31 Mar 2016 16:23:20 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 16:23:20 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 16:24:20 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 16:24:20 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 16:23:05', u'CO2level': u'653', u'Temperature': u'25.5', u'AirPressure': u'1007.9', u'Humidity': u'75.4'}
+Thu, 31 Mar 2016 16:24:20 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 08:24:20.106437
+Thu, 31 Mar 2016 16:24:20 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 16:24:20 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 16:25:20 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 16:25:20 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 16:25:06', u'CO2level': u'624', u'Temperature': u'25.7', u'AirPressure': u'1007.94', u'Humidity': u'74.6'}
+Thu, 31 Mar 2016 16:25:20 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 08:25:20.648007
+Thu, 31 Mar 2016 16:25:21 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 16:25:21 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 16:26:21 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 16:26:21 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 16:25:06', u'CO2level': u'624', u'Temperature': u'25.7', u'AirPressure': u'1007.94', u'Humidity': u'74.6'}
+Thu, 31 Mar 2016 16:26:21 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 08:26:21.354921
+Thu, 31 Mar 2016 16:26:21 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 16:26:21 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 16:27:21 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 16:27:21 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 16:27:07', u'CO2level': u'669', u'Temperature': u'25.7', u'AirPressure': u'1007.95', u'Humidity': u'74.5'}
+Thu, 31 Mar 2016 16:27:21 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 08:27:21.894851
+Thu, 31 Mar 2016 16:27:22 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 16:27:22 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 16:28:22 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 16:28:22 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 16:27:07', u'CO2level': u'669', u'Temperature': u'25.7', u'AirPressure': u'1007.95', u'Humidity': u'74.5'}
+Thu, 31 Mar 2016 16:28:22 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 08:28:22.561277
+Thu, 31 Mar 2016 16:28:23 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 16:28:23 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 16:29:23 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 16:29:23 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 16:29:08', u'CO2level': u'734', u'Temperature': u'25.6', u'AirPressure': u'1007.96', u'Humidity': u'75.1'}
+Thu, 31 Mar 2016 16:29:23 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 08:29:23.105499
+Thu, 31 Mar 2016 16:29:23 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 16:29:23 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 16:30:23 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 16:30:23 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 16:29:08', u'CO2level': u'734', u'Temperature': u'25.6', u'AirPressure': u'1007.96', u'Humidity': u'75.1'}
+Thu, 31 Mar 2016 16:30:23 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 08:30:23.688637
+Thu, 31 Mar 2016 16:30:24 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 16:30:24 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 16:31:24 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 16:31:24 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 16:31:09', u'CO2level': u'660', u'Temperature': u'25.4', u'AirPressure': u'1007.94', u'Humidity': u'75.6'}
+Thu, 31 Mar 2016 16:31:24 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 08:31:24.233771
+Thu, 31 Mar 2016 16:31:24 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 16:31:24 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 16:32:24 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 16:32:24 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 16:31:09', u'CO2level': u'660', u'Temperature': u'25.4', u'AirPressure': u'1007.94', u'Humidity': u'75.6'}
+Thu, 31 Mar 2016 16:32:24 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 08:32:24.792997
+Thu, 31 Mar 2016 16:32:25 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 16:32:25 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 16:33:25 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 16:33:25 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 16:33:10', u'CO2level': u'658', u'Temperature': u'25.4', u'AirPressure': u'1007.96', u'Humidity': u'75.5'}
+Thu, 31 Mar 2016 16:33:25 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 08:33:25.334427
+Thu, 31 Mar 2016 16:33:25 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 16:33:25 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 16:34:25 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 16:34:25 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 16:33:10', u'CO2level': u'658', u'Temperature': u'25.4', u'AirPressure': u'1007.96', u'Humidity': u'75.5'}
+Thu, 31 Mar 2016 16:34:25 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 08:34:25.898720
+Thu, 31 Mar 2016 16:34:26 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 16:34:26 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 16:35:26 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 16:35:26 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 16:35:11', u'CO2level': u'659', u'Temperature': u'25.4', u'AirPressure': u'1007.94', u'Humidity': u'75.5'}
+Thu, 31 Mar 2016 16:35:26 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 08:35:26.431137
+Thu, 31 Mar 2016 16:35:26 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 16:35:26 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 16:36:26 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 16:36:26 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 16:35:11', u'CO2level': u'659', u'Temperature': u'25.4', u'AirPressure': u'1007.94', u'Humidity': u'75.5'}
+Thu, 31 Mar 2016 16:36:26 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 08:36:26.917334
+Thu, 31 Mar 2016 16:36:27 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 16:36:27 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 16:37:27 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 16:37:27 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 16:37:12', u'CO2level': u'663', u'Temperature': u'25.4', u'AirPressure': u'1007.99', u'Humidity': u'75.6'}
+Thu, 31 Mar 2016 16:37:27 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 08:37:27.429798
+Thu, 31 Mar 2016 16:37:27 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 16:37:27 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 16:38:27 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 16:38:27 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 16:37:12', u'CO2level': u'663', u'Temperature': u'25.4', u'AirPressure': u'1007.99', u'Humidity': u'75.6'}
+Thu, 31 Mar 2016 16:38:27 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 08:38:27.969558
+Thu, 31 Mar 2016 16:38:28 - __main__ - INFO - thingspeak.py - 63- 400
+Thu, 31 Mar 2016 16:38:28 - __main__ - INFO - thingspeak.py - 64- Bad Request
+Thu, 31 Mar 2016 16:39:28 - __main__ - INFO - thingspeak.py - 44- Writing data to thingspeak 
+Thu, 31 Mar 2016 16:39:28 - __main__ - INFO - thingspeak.py - 50- {u'Timestamp': u'2016-03-31 16:39:13', u'CO2level': u'727', u'Temperature': u'25.4', u'AirPressure': u'1007.96', u'Humidity': u'75.6'}
+Thu, 31 Mar 2016 16:39:28 - __main__ - INFO - thingspeak.py - 52- 2016-03-31 08:39:28.504544
