@@ -51,7 +51,7 @@ class xmppLiv:
 
   def xmppKeepAlive(self, c):
     while True:
-      print("Start xmppKeepAlive thread")
+      #print("Start xmppKeepAlive thread")
 
       #KEEP ALIVE TIME is 60 seconds.
       #DO NOT MODIFY this value unless you understand how this will impact sending alerts and 
@@ -78,8 +78,8 @@ class xmppLiv:
         self.logger.info("tManager timer incremented")  
         if self.tManager.sendTwitterReportNow() == True:
           m = self.getMeasurements()      
-          self.tManager.sendTweet("LiV Report ", m)
-          self.eManager.resetMinuteCounter()
+          self.tManager.sendTweet("Report: ", m)
+          self.tManager.resetMinuteCounter()
           
           
       #send XMPP alarm notification if needed
@@ -92,12 +92,11 @@ class xmppLiv:
         if self.eManager.getEmailAlertFlag() == True:
           self.logger.info("Sending email alert  "  + i)   
           self.eManager.sendEmail("LiV Pi Alarm Notification", i)
-          
-            
+           
         #send twitter notification
         if self.tManager.getTwitterAlarmFlag() == True:
            self.logger.info("Sending twitter alert " + i)
-           self.tManager.sendTweet("LiV Alarm  ", i)
+           self.tManager.sendTweet("Alarm: ", i)
            
            
   def xmppConnect(self):
@@ -137,8 +136,8 @@ class xmppLiv:
        
     # assume that content is a json reply
     data = json.loads(content)
-    print("data is ")
-    print(data)
+    #print("data is ")
+    #print(data)
        
     #measurements
        
@@ -150,9 +149,10 @@ class xmppLiv:
     return m
 
 
+  '''
   def sendTwitter(self, token, token_key, con_secret, con_secret_key, data):
       print "send twitter"
-
+  '''
     
 if __name__ == '__main__':
 
@@ -173,15 +173,11 @@ if __name__ == '__main__':
   
   twitterMgr = twitterManager(logger)
 
-  
   jid=xmpp.protocol.JID(xmppFrom)
   client=xmpp.Client(jid.getDomain(),debug=[])
   cm = commandManager(logger, apiURLdata, apiURLbase, './livXMPP.config')
   
-  #KEEP ALIVE TIME is 60 seconds. This is the thread that runs every 60 seconds
-  #DO NOT MODIFY this value unless you understand how this will impact sending alerts and 
-  #reports via XMPP, email and twitter!!!   
-  #bot=xmppLiv(client, xmppFromPassword, xmppTo, emailMgr, twitterMgr, logger, cm, 60)
+
   bot=xmppLiv(client, xmppFromPassword, xmppTo, emailMgr, twitterMgr, logger, cm)
   
   '''
@@ -192,21 +188,39 @@ if __name__ == '__main__':
   print bot.eTo
   exit()
   '''
-  
+    
+  '''
   if not bot.xmppConnect():
     logger.error('Could not connect to server, or password mismatch!\n')
     sys.exit(1)
   else:
     logger.info('Successful XMPP Connection\n')
     #client.sendInitPresence()
+  ''' 
 
-  keepalive_th = threading.Thread(target=bot.xmppKeepAlive, args =(client,) )
-  keepalive_th.setDaemon(True)
-  keepalive_th.start()
-  logger.info('Keep alive thread started')
-
+  try: 
+    while (not bot.xmppConnect()):      
+      #try again connection after 300 seconds
+      time.sleep(60)
+  except:
+    logger.error('Could not connect to server, or password mismatch!\n')   
+    sys.exit(1)
+     
+  logger.info('Successful XMPP Connection\n')
+    
+  try:
+    keepalive_th = threading.Thread(target=bot.xmppKeepAlive, args =(client,) )
+    keepalive_th.setDaemon(True)
+    keepalive_th.start()
+    logger.info('Keep alive thread started')
+  except:
+    logger.error('Failed to start keep alive thread. Stop XMPP process')  
+    sys.exit(1) 
 
   while 1:
-    client.Process(1)    
-
+    try:  
+      client.Process(1)    
+    except: 
+      logger.error('Critical error. Stop XMPP process')  
+      sys.exit(1)
 

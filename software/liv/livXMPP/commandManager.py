@@ -59,10 +59,10 @@ class  commandManager:
                                          
     
     m = ('Measurements from LIV: \n' + \
-         'TEMPERATURE = ' + data['Temperature'] + '\n' + \
-        'HUMIDITY = ' + data['Humidity'] + '\n' + \
-         'AIR PRESSURE = ' + data['AirPressure'] +'\n' + \
-         'CO2 LEVEL = ' + data['CO2level'] +'\n' + \
+         'TEMPERATURE = ' + data['Temperature'] + ' C' +' \n' + \
+        'HUMIDITY = ' + data['Humidity'] + ' %'+ ' \n' + \
+         'AIR PRESSURE = ' + data['AirPressure'] +' hPa' + '\n' + \
+         'CO2 LEVEL = ' + data['CO2level'] +' ppm' + '\n' + \
          'TIME STAMP = ' + data['Timestamp'])
     return m
 
@@ -241,30 +241,32 @@ class  commandManager:
       
       #print 'GOT latest msrmnts'
       for i, v in self.alarmFlags.iteritems():
-        print i, v
+        #print i, v
         if v == True:
           #print 'check'
           if self.alarmCompRules[i] == 'more':
             #print d[i]
             #print self.alarmValues[i]
+            alarmMessage = '\nThreshold is ' + self.alarmValues[i] + '\nCurrent value of ' + i +' is ' +d[i] \
+                                      +  '\nTimestamp:  ' + data['Timestamp']
             if float(d[i]) > float(self.alarmValues[i]):
               if self.alarmWasSent[i] == False:
-                messageList.append( i + ' ALARM NOTIFICATION! threshold is ' + self.alarmValues[i] + '. current value of ' + i +' is ' +d[i] )
+                messageList.append( i + ' ALARM NOTIFICATION!' + alarmMessage)
                 self.alarmWasSent[i] = True
             else:
               if self.alarmWasSent[i] == True:
-                messageList.append( i + ' CLEAR ALARM NOTIFICATION! threshold is ' + self.alarmValues[i] + '. current value of ' + i +' is ' +d[i] )
+                messageList.append( i + ' CLEAR ALARM NOTIFICATION!'  + alarmMessage)
                 self.alarmWasSent[i] = False
           elif self.alarmCompRules[i] == 'less':
             #print d[i]
             #print self.alarmValues[i]
             if float(d[i]) < float(self.alarmValues[i]):
               if self.alarmWasSent[i] == False:
-                messageList.append( i + ' ALARM NOTIFICATION! threshold is ' + self.alarmValues[i] + '. current value of ' + i +' is ' +d[i] )
+                messageList.append( i + ' ALARM NOTIFICATION!' + alarmMessage)
                 self.alarmWasSent[i] = True
             else:
               if self.alarmWasSent[i] == True:
-                messageList.append( i + ' CLEAR ALARM NOTIFICATION! threshold is ' + self.alarmValues[i] + '. current value of ' + i +' is ' +d[i] )
+                messageList.append( i + ' CLEAR ALARM NOTIFICATION!' + alarmMessage)
                 self.alarmWasSent[i] = False
           else:
             #this should never happen
