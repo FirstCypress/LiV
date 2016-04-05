@@ -11,11 +11,13 @@ import stun
 
 class  commandManager:
 
-  def  __init__(self, log, auData, auBase, path):
+  def  __init__(self, log, auData, auBase, path, temperatureFormat='C', airPressureFormat='hPa'):
     self.config = ConfigParser.RawConfigParser()
     self.logger = log
     self.apiURLdata = auData
     self.apiURLbase = auBase
+    self.tFormat = temperatureFormat
+    self.apFormat = airPressureFormat
     self.path = path
     self.config.read(path)
     self.parameter0 = ['report', 'website','set','reset','alarms','show']
@@ -59,9 +61,9 @@ class  commandManager:
                                          
     
     m = ('Measurements from LIV: \n' + \
-         'TEMPERATURE = ' + data['Temperature'] + ' C' +' \n' + \
+         'TEMPERATURE = ' + data['Temperature'] + ' ' + self.tFormat +' \n' + \
         'HUMIDITY = ' + data['Humidity'] + ' %'+ ' \n' + \
-         'AIR PRESSURE = ' + data['AirPressure'] +' hPa' + '\n' + \
+         'AIR PRESSURE = ' + data['AirPressure'] + ' ' + self.apFormat + '\n' + \
          'CO2 LEVEL = ' + data['CO2level'] +' ppm' + '\n' + \
          'TIME STAMP = ' + data['Timestamp'])
     return m

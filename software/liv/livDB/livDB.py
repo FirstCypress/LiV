@@ -37,7 +37,9 @@ thGPIO = config.get('TEMP_HUMIDITY_SENSOR', 'gpio_no')
 
 sensorReadTime = config.getfloat('READ_CYCLE','read_time')
 
-# logging.basicConfig(filename='liv.log', level=logging.DEBUG, format='%(asctime)s %(message)s')
+#read format C/F, hPa/inchHg
+tempFormat = config.get('FORMAT','temperature') 
+airpressureFormat = config.get('FORMAT','airpressure')
 
 logging.config.fileConfig('logging.ini')
 logger = logging.getLogger(__name__)
@@ -97,11 +99,21 @@ if (thSensorOn):
     
   while(True):
     if(thSensorOn):
-      temperatureString, humidityString = ts.readTemperatureHumidity()   
+      try:  
+        temperatureString, humidityString = ts.readTemperatureHumidity()
+        #convert to F if needed
+        if tempFormat == 'F':
+          temperatureString = str (9.0/5.0*float(temperatureString) + 32)   
+      except:
+        temperatureString = 'ERROR'
+        humidityString = 'ERROR'    
 
     if(apSensorOn):
       try:
         pressure = bmp.readAirPressure()
+        #convert to inchHg if needed
+        if airpressureFormat == 'inchHg':
+          pressure = str (0.0295300*pressure)
         airPressureString = str(pressure)
       except:
         airPressureString = 'ERROR'
@@ -128,6 +140,7 @@ if (thSensorOn):
     if (not(apSensorOn) or ('ERROR' in airPressureString)):
       DBairPressureString = "-999"
     else:
+      
       DBairPressureString = airPressureString
          
     if (not(thSensorOn) or ('ERROR' in temperatureString) or ('ERROR' in humidityString)):

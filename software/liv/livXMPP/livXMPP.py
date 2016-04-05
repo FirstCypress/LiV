@@ -169,13 +169,18 @@ if __name__ == '__main__':
   apiURLdata = config.get('API', 'url_raw_sensor_data')
   apiURLbase = config.get('API', 'url_base')
 
+  config.read("../livDB/livDB.config")
+  tempFormat = config.get('FORMAT','temperature') 
+  airPressureFormat = config.get('FORMAT','airpressure')
+
   emailMgr = emailManager(logger)
   
   twitterMgr = twitterManager(logger)
 
   jid=xmpp.protocol.JID(xmppFrom)
   client=xmpp.Client(jid.getDomain(),debug=[])
-  cm = commandManager(logger, apiURLdata, apiURLbase, './livXMPP.config')
+  
+  cm = commandManager(logger, apiURLdata, apiURLbase, './livXMPP.config', tempFormat, airPressureFormat)
   
 
   bot=xmppLiv(client, xmppFromPassword, xmppTo, emailMgr, twitterMgr, logger, cm)

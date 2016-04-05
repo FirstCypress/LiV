@@ -19,6 +19,12 @@ import matplotlib.pyplot as plt
 from pylab import *
 from optparse import OptionParser
 import StringIO
+import ConfigParser
+
+config = ConfigParser.ConfigParser()
+config.read("../livDB/livDB.config")
+tempFormat = config.get('FORMAT','temperature') 
+airPressureFormat = config.get('FORMAT','airpressure')
 
 
 app = Flask(__name__, instance_path='/home/pi/liv/livAPIs')
@@ -103,7 +109,7 @@ def newliv():
       ap = c["AirPressure"]
       ts = c["Timestamp"]
       co2 = c["CO2level"]
-      sData = { 'Temperature': t, 'Humidity': h, 'AirPressure': ap, 'Timestamp': ts, 'CO2level': co2} 
+      sData = { 'Temperature': str(t) + ' ' + tempFormat, 'Humidity': str(h) + ' %', 'AirPressure': str(ap) + ' ' + airPressureFormat, 'Timestamp': str(ts), 'CO2level': str(co2) + ' ppm'} 
       return render_template('livHomePage.html', sensorData=sData)
 
 @app.route('/liv')
@@ -195,7 +201,7 @@ def tFig(numberRecords):
     fig = plt.figure()
     ax = fig.add_subplot(111)
     ax.set_axis_bgcolor("#ffff00")
-    plt.ylabel("Temperature in C degrees")
+    plt.ylabel("Temperature in " + tempFormat + " degrees")
     plt.title("From: " + fromTS + "                            To: " + toTS)
     plt.xlabel('Number of measurement points ')
     ax.plot(x, m, color='#009900')
@@ -242,7 +248,7 @@ def apFig(numberRecords):
     ax.set_axis_bgcolor("#ffff00")
     ax.get_yaxis().get_major_formatter().set_scientific(False)
     ax.get_yaxis().get_major_formatter().set_useOffset(False)
-    plt.ylabel("Air Pressure in hPa")
+    plt.ylabel("Air Pressure in " + airPressureFormat)
     plt.title("From: " + fromTS + "                            To: " + toTS)
     plt.xlabel('Number of measurement points ')
     ax.plot(x, m, color='#009900')

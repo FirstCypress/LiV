@@ -30,9 +30,16 @@ displayClock = config.getboolean('LCD_DISPLAY', 'display_clock')
 logging.config.fileConfig('logging.ini')
 logger = logging.getLogger(__name__)
 
+#read software version
 config.read('../.livpi')
 version = config.get('LIV_SOFTWARE', 'version')
 supported_devices = config.get('LIV_SOFTWARE','supported_devices')
+
+#read format C/F, hPa/inchHg
+config.read('../livDB/livDB.config')
+tempFormat = config.get('FORMAT','temperature') 
+airpressureFormat = config.get('FORMAT','airpressure')
+
 
 logger.info('--------------------------------------------')
 logger.info('LIV LCD STARTED')
@@ -101,9 +108,8 @@ while(True):
   AP_ALARM = config.getfloat('ALARM_LEVELS', 'airPressure')
   alarmLevels = {'temperature':T_ALARM, 'humidity':H_ALARM, 'airpressure':AP_ALARM, 'co2':CO2_ALARM}
   alarmValues = {'temperature': False, 'humidity':False, 'airpressure':False, 'co2':False}
-  tempFormat = config.get('FORMAT','temperature') 
-  airpressureFormat = config.get('FORMAT','airpressure')
-  
+ 
+   
   #read last measurement directly from database, don't use local APIs so LCD display works even if 
   #LiV APIs process is down 
   dbData={}
@@ -137,12 +143,12 @@ while(True):
       #dbDisplayData = [dbData[0]+' C', dbData[1]+' %',dbData[2]+' ppm',dbData[3]+' hPa']
       
       if tempFormat == 'F':
-        formatTemp = str (9.0/5.0*float(dbData['temperature']) + 32) + ' F'
+        formatTemp = dbData['temperature'] + ' F'
       else:  
         formatTemp = dbData['temperature']+' C'
       
       if airpressureFormat == 'inchHg':
-        formatAirPressure = str (0.0295300*float(dbData['airpressure'])) + ' inHg'
+        formatAirPressure = dbData['airpressure'] + ' inHg'
       else:  
         formatAirPressure = dbData['airpressure']+ ' hPa'
       
