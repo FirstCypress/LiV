@@ -1,0 +1,12 @@
+Wed, 31 Aug 2016 14:55:36 - __main__ - INFO - ifttt.py - 18- --------------------------------------------
+Wed, 31 Aug 2016 14:55:36 - __main__ - INFO - ifttt.py - 19- IFTTT STARTED
+Wed, 31 Aug 2016 14:55:36 - __main__ - INFO - ifttt.py - 45- enter IFTTT loop 
+Wed, 31 Aug 2016 14:55:36 - __main__ - INFO - ifttt.py - 51- retrieved Measurements:   {
+  "AirPressure": "999.79", 
+  "CO2level": "1001", 
+  "Humidity": "68.7", 
+  "Temperature": "27.0", 
+  "Timestamp": "2016-08-31 14:55:20"
+}
+Wed, 31 Aug 2016 14:55:37 - __main__ - INFO - ifttt.py - 62- IFTT liv_twitter_event response: 200
+Wed, 31 Aug 2016 14:55:38 - __main__ - INFO - ifttt.py - 66- IFTT liv_email_event response: 200
