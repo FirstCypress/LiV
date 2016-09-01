@@ -101,9 +101,18 @@ if (thSensorOn):
     if(thSensorOn):
       try:  
         temperatureString, humidityString = ts.readTemperatureHumidity()
+        #fix for sensor reading errors
+        #test line humidityString ='3001'
+        h = float(humidityString)
+        while(h > 100):
+            time.sleep(20)
+            logger.error('humidity reading error ' + humidityString)
+            temperatureString, humidityString = ts.readTemperatureHumidity()
+            h = float(humidityString) 
+        
         #convert to F if needed
         if tempFormat == 'F':
-          temperatureString = str (9.0/5.0*float(temperatureString) + 32)   
+          temperatureString = str (9.0/5.0*float(temperatureString) + 32)  
       except:
         temperatureString = 'ERROR'
         humidityString = 'ERROR'    
